@@ -7,3 +7,4 @@ Aryan Das
 Contributors
 Sadena Rishindran
 Ben Lin
+Steven Berit
