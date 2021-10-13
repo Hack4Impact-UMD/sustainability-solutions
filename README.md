@@ -1,5 +1,6 @@
 # sustainability-solutions
 
-Contributors
 Sadena Rishindran
+Ethan Huegler
+Julie Yang
 Ben Lin
