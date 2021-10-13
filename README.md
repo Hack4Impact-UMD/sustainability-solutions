@@ -2,3 +2,5 @@
 
 Sadena Rishindran
 Vibhu Agrawal
+Ethan Huegler
+Julie Yang
