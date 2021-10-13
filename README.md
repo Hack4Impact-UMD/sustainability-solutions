@@ -2,3 +2,5 @@
 
 Sadena Rishindran
 Steven Berit
+Ethan Huegler
+Julie Yang
