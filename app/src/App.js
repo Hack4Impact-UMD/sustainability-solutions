@@ -1,4 +1,5 @@
-import logo from './logo.svg';
+import AboutBoardMembers from './Components/AboutBoardMembers/aboutBoardMembers';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import React from 'react';
 
@@ -6,8 +7,16 @@ import Landing from './Pages/Landing';
 
 function App() {
   return (
-    <div>
-      <Landing />
+    <div className="App">
+      <BrowserRouter>
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'/>
+      <div className="app">
+        <Switch>
+          <Route exact path="/aboutBoardMembers" component={AboutBoardMembers}/>
+        </Switch>
+      </div>
+      </BrowserRouter>
     </div>
   );
 }
