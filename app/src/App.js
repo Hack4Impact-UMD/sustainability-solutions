@@ -1,6 +1,9 @@
 import AboutBoardMembers from './Components/AboutBoardMembers/aboutBoardMembers';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
+import React from 'react';
+
+import Landing from './Pages/Landing';
 
 function App() {
   return (
@@ -13,7 +16,7 @@ function App() {
           <Route exact path="/aboutBoardMembers" component={AboutBoardMembers}/>
         </Switch>
       </div>
-    </BrowserRouter>
+      </BrowserRouter>
     </div>
   );
 }
