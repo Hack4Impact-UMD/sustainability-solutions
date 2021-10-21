@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: #E5E5E5;
+  padding: 10px;
+  color: #5E763F
+}
+
+.navbar nav {
+  display: flex;
+  align-items: center;;
+}
+
+.navbar nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: inherit;
+  margin: 0 15px;
+}
+
+.navbar .brand {
+  display: flex;
+  align-items: center;
+
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.navbar .brand img {
+  width: 50px;
+}
+
+.navbar .brand .title {
+  margin-left: 10px;
+}
