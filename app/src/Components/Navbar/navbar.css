@@ -17,7 +17,9 @@
 }
 
 .navbar nav a {
+  text-decoration: none;
   text-transform: uppercase;
+  color: inherit;
   margin: 0 15px;
 }
 
