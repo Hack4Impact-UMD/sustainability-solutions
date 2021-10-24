@@ -1,0 +1,14 @@
+.background1 {
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    padding: 90px;
+}
+
+.section2 {
+    background: #EFF0F0;
+}
