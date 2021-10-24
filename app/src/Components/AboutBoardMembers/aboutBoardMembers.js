@@ -18,35 +18,35 @@ function aboutBoardMembers() {
         </p>
         <div className="members-box">
           <figure>
-            <img src='headshot.jpeg' alt='headshot' />
+            <img src='/aboutBoardMembers/headshot.jpeg' alt='headshot' />
             <figcaption>Ben</figcaption>
           </figure>
           <figure>
-            <img src='headshot.jpeg' alt='headshot' />
+            <img src='/aboutBoardMembers/headshot.jpeg' alt='headshot' />
             <figcaption>Ethan</figcaption>
           </figure>
           <figure>
-            <img src='headshot.jpeg' alt='headshot' />
+            <img src='/aboutBoardMembers/headshot.jpeg' alt='headshot' />
             <figcaption>Sadena</figcaption>
           </figure>
           <figure>
-            <img src='headshot.jpeg' alt='headshot' />
+            <img src='/aboutBoardMembers/headshot.jpeg' alt='headshot' />
             <figcaption>Katherine</figcaption>
           </figure>
           <figure>
-            <img src='headshot.jpeg' alt='headshot' />
+            <img src='/aboutBoardMembers/headshot.jpeg' alt='headshot' />
             <figcaption>Vibhu</figcaption>
           </figure>
           <figure>
-            <img src='headshot.jpeg' alt='headshot' />
+            <img src='/aboutBoardMembers/headshot.jpeg' alt='headshot' />
             <figcaption>Priya</figcaption>
           </figure>
           <figure>
-            <img src='headshot.jpeg' alt='headshot' />
+            <img src='/aboutBoardMembers/headshot.jpeg' alt='headshot' />
             <figcaption>Julie</figcaption>
           </figure>
           <figure>
-            <img src='headshot.jpeg' alt='headshot' />
+            <img src='/aboutBoardMembers/headshot.jpeg' alt='headshot' />
             <figcaption>Steven</figcaption>
           </figure>
         </div>

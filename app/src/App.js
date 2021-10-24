@@ -14,7 +14,7 @@ function App() {
         <Navbar/>
         <Switch>
           <Route exact path="/" component={LandingPage}/>
-          <Route exact path="/aboutBoardMembers" component={AboutBoardMembers}/>
+          <Route exact path="/about" component={AboutBoardMembers}/>
         </Switch>
       </div>
       </BrowserRouter>
