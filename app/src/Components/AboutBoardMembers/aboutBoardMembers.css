@@ -2,4 +2,26 @@
     text-align: center;
     padding: 10px;
     font-size: 16px;
+    margin: 20px;
+}
+
+.members-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.donation-btn {
+    font-size: 24px;
+    border: none;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    padding: 5px;
+    transition: all ease 0.5s;
+}
+
+.donation-btn:hover {
+    cursor: pointer;
+    transform: scale(1.2);
 }
