@@ -12,10 +12,11 @@ function Navbar() {
             </div>
             <nav>
                 <Link to="/">Home</Link>
-                <Link to="/">Our Team</Link>
+                <Link to="/aboutBoardMembers">Our Team</Link>
+                <Link to="/">Mission</Link>
                 <Link to="/">Contact Us</Link>
                 <Link to="/">News</Link>
-                <Link to="/aboutBoardMembers">About Board Members</Link>
+                <Link to="/">Donations</Link>
             </nav>
         </header>
     )
