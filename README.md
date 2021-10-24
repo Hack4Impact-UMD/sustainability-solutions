@@ -1,11 +1,10 @@
 # sustainability-solutions
 
-Sadena Rishindran
-Ethan Huegler
-Julie Yang
-Aryan Das
 Contributors
 Sadena Rishindran
-Ben Lin
 Steven Berit
+Ethan Huegler
+Julie Yang
+Ben Lin
+Aryan Das
 Vibhu Agrawal
