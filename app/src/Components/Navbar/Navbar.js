@@ -14,11 +14,11 @@ function Navbar() {
             </Link>
             <nav>
                 <Link to="/">Home</Link>
-                <Link to="/aboutBoardMembers">Our Team</Link>
-                <Link to="/">Mission</Link>
-                <Link to="/">Contact Us</Link>
-                <Link to="/">News</Link>
-                <Link to="/">Donations</Link>
+                <Link to="/about">Our Team</Link>
+                <Link to="/mission">Mission</Link>
+                <Link to="/contactus">Contact Us</Link>
+                <Link to="/news">News</Link>
+                <Link to="/donations">Donations</Link>
             </nav>
         </header>
     )
