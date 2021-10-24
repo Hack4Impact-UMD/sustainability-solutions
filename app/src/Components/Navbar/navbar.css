@@ -6,15 +6,18 @@
   color: #5E763F
 }
 
+.navbar a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .navbar nav {
   display: flex;
   align-items: center;;
 }
 
 .navbar nav a {
-  text-decoration: none;
   text-transform: uppercase;
-  color: inherit;
   margin: 0 15px;
 }
 

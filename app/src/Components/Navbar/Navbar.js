@@ -6,10 +6,12 @@ import logo from './draft-logo.png'
 function Navbar() {
     return (
         <header className="navbar">
-            <div className="brand">
-                <img src={logo} alt="logo"></img>
-                <div className="title">SSI</div>
-            </div>
+            <Link to="/">
+                <div className="brand">
+                    <img src={logo} alt="logo"></img>
+                    <div className="title">SSI</div>
+                </div>
+            </Link>
             <nav>
                 <Link to="/">Home</Link>
                 <Link to="/aboutBoardMembers">Our Team</Link>
