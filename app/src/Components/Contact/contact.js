@@ -5,7 +5,7 @@ import IntroImage from "./IntroImage.png";
 
 function contact() {
   return (
-    <div>
+    <div className="image">
       <Image
         className={styles.image}
         src={IntroImage}
