@@ -1,0 +1,24 @@
+.footer-container {
+    background: rgba(239, 240, 240, 0.84);
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo-col {
+    padding-left: 20%;
+    padding-right: 20%;
+    max-width: 45%;
+    justify-content: center;
+}
+
+.links-col {
+    padding-right: 10%;
+    justify-content: left;
+}
+
+.icon-col {
+    padding-right: 20%;
+    justify-content: left;
+}

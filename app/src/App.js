@@ -9,6 +9,7 @@ import Mission from './Components/Mission/Mission';
 import Projects from './Components/Projects/Projects';
 import News from './Components/News/News';
 import Donations from './Components/Donations/Donations';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route exact path="/contactus" component={Contact}/>
           <Route exact path="/donations" component={Donations}/>
         </Switch>
+        <Footer/>
       </div>
       </BrowserRouter>
     </div>
