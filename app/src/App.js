@@ -4,6 +4,11 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import AboutBoardMembers from './Components/AboutBoardMembers/aboutBoardMembers';
 import LandingPage from './Components/LandingPage/Landing';
 import Navbar from './Components/Navbar/Navbar';
+import Contact from './Components/Contact/Contact';
+import Mission from './Components/Mission/Mission';
+import Projects from './Components/Projects/Projects';
+import News from './Components/News/News';
+import Donations from './Components/Donations/Donations';
 
 function App() {
   return (
@@ -14,7 +19,12 @@ function App() {
         <Navbar/>
         <Switch>
           <Route exact path="/" component={LandingPage}/>
-          <Route exact path="/aboutBoardMembers" component={AboutBoardMembers}/>
+          <Route exact path="/about" component={AboutBoardMembers}/>
+          <Route exact path="/mission" component={Mission}/>
+          <Route exact path="/projects" component={Projects}/>
+          <Route exact path="/news" component={News}/>
+          <Route exact path="/contactus" component={Contact}/>
+          <Route exact path="/donations" component={Donations}/>
         </Switch>
       </div>
       </BrowserRouter>
