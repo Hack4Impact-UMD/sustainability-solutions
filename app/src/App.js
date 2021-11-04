@@ -1,6 +1,7 @@
 import AboutBoardMembers from "./Components/AboutBoardMembers/aboutBoardMembers";
 import Contact from "./Components/Contact/contact.js";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 
 function App() {
