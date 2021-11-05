@@ -16,9 +16,14 @@
   align-items: center;;
 }
 
-.navbar nav a {
+.navbar nav ul {
+  list-style: none;
+}
+
+.navbar nav ul > li {
+  display: inline;
   text-transform: uppercase;
-  margin: 0 15px;
+  margin: 0px 10px;
 }
 
 .navbar .brand {
@@ -35,4 +40,46 @@
 
 .navbar .brand .title {
   margin-left: 10px;
+}
+
+.burger {
+  margin-top: auto;
+  margin-bottom: auto;
+  display: none;
+}
+
+.burger .line {
+  background-color: #5E763F;
+  margin: 5px 0px;
+  height: 3px;
+  width: 25px;
+}
+
+@media only screen and (max-width: 776px) {
+  .burger {
+    display: block;
+  }
+
+  .navbar nav {
+    position: absolute;
+    right: 0px;
+    top: 70px;
+
+    background-color: inherit;
+  }
+
+  .navbar nav.hidden {
+    display: none;
+  }
+
+  .navbar nav ul {
+    text-align: right;
+  }
+
+  .navbar nav ul > li {
+    display: block;
+    text-transform: uppercase;
+    margin: 0px 10px;
+  }
+
 }
