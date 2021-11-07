@@ -14,3 +14,12 @@
 .image {
   width: 100%;
 }
+
+.form {
+  padding: 20px;
+  min-width: 200px;
+}
+
+.message {
+  padding: 20px;
+}
