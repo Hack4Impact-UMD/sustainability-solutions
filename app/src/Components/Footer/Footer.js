@@ -14,7 +14,7 @@ function Footer() {
                 <p>
                     Sutainability <br/>
                     Solutions <br/>
-                    Institute
+                    Group
                 </p>
                 <Link to="/contactus">
                     <button> CONTACT US </button>
