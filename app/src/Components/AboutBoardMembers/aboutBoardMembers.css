@@ -1,8 +1,6 @@
 .board-members {
     text-align: center;
-    padding: 10px;
     font-size: 16px;
-    margin: 20px;
 }
 
 .members-box {
@@ -23,4 +21,61 @@ figure > img {
 
 figcaption {
     font-size: 20px;
+}
+
+.header-border {
+    background-color: orange;
+    height: 420px;
+    margin-bottom: 50px;
+    clip-path: 
+        polygon(
+            0% 0%,     /* top left */
+            0% 0%,     /* top left */
+            100% 0%,    /* top right */
+            100% 0%,   /* top right */
+            100% 75%,  /* bottom right */
+            50% 100%,  /* bottom right */
+            50% 100%,   /* bottom left */
+            0 75%      /* bottom left */
+        );
+}
+
+.header {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    height: 300px;
+}
+
+.header > img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    clip-path: 
+        polygon(
+            0% 0%,     /* top left */
+            0% 0%,     /* top left */
+            100% 0%,    /* top right */
+            100% 0%,   /* top right */
+            100% 75%,  /* bottom right */
+            50% 100%,  /* bottom right */
+            50% 100%,   /* bottom left */
+            0 75%      /* bottom left */
+        );
+}
+
+.header-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.underline {
+    width: 350px;
+    height: 7px;
+    background-color: orange;
+    top: 75%;
+    border-radius: 10px;
 }
