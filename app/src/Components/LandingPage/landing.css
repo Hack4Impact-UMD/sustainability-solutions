@@ -19,6 +19,28 @@
 
 .section2 {
     height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+}
+
+.missions-icon {
+    margin: 100px 250px 50px 250px;
+    background: #F9AC3D;
+    height: 150px;
+}
+
+.teams-icon {
+    margin: 100px 250px 50px 250px;
+    background: #2D758C;
+    height: 150px;
+}
+
+.news-icon {
+    margin: 100px 250px 50px 250px;
+    background: #758C33;
+    height: 150px;
 }
 
 .news-sec {
@@ -47,3 +69,4 @@
 .news-slides p {
     padding: 10px 50px;
 }
+

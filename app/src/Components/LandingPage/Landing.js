@@ -1,9 +1,13 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 import './landing.css';
 
 import NewsImage from './NewsImage.png';
+import MissionIcon from './MissionIcon.png';
+import TeamsIcon from './TeamsIcon.png';
+import NewsIcon from './NewsIcon.png';
 
 function Landing () {
     return (
@@ -17,7 +21,15 @@ function Landing () {
                 <p className="intro-cap">embrace pathways of sustainability</p>
             </div>
             <div className="section2">
-                <p>Hello</p>
+                <Link to="/mission">
+                    <img className="missions-icon" src={MissionIcon} />
+                </Link>
+                <Link to="/about">
+                    <img className="teams-icon" src={TeamsIcon} />
+                </Link>
+                <Link to="/news">
+                    <img className="news-icon" src={NewsIcon} />
+                </Link>
             </div>
             <div className="news-sec">
                 <h1>Current News</h1>
