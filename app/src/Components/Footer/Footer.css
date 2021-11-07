@@ -1,24 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
 .footer-container {
     background: rgba(239, 240, 240, 0.84);
     display: flex;
     flex-direction: row;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    justify-content: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #174950;
+    font: "Nunito";
 }
 
 .logo-col {
-    padding-left: 20%;
-    padding-right: 20%;
+    margin-left: 33%;
+    margin-right: 13%;
     max-width: 45%;
-    justify-content: center;
+}
+
+.logo-col p {
+    font-size: 19px;
+    font-weight: 700;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-container button {
+    background-color: #174950;
+    color: white;
+    width: 125px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+.white-bar {
+    background-color: white;
+    width: 5px;
+    height: 130px;
+    margin: 0px 10px;
 }
 
 .links-col {
-    padding-right: 10%;
-    justify-content: left;
+    color: #174950;
+    margin-right: 7%;
+}
+
+.links-col p {
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.links-col a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #174950;
 }
 
 .icon-col {
-    padding-right: 20%;
+    padding-right: 15%;
     justify-content: left;
+}
+
+.icons {
+    color: #174950;
+    width: 30px;
 }

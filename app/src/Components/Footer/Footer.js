@@ -16,19 +16,23 @@ function Footer() {
                     Solutions <br/>
                     Institute
                 </p>
-                <Link to="/contactus"><button> CONTACT US </button></Link>
+                <Link to="/contactus">
+                    <button> CONTACT US </button>
+                </Link>
             </div>
+            <div className="white-bar" />
             <div className="links-col">
-                <Link to="/">Home</Link> <br/>
-                <Link to="/about">Team</Link> <br/>
-                <Link to="/mission">Mission</Link> <br/>
-                <Link to="/news">News</Link> <br/>
-                <Link to="/donations">Donations</Link>
+                <Link to="/"><p>Home</p></Link>
+                <Link to="/about"><p>Team</p></Link>
+                <Link to="/mission"><p>Mission</p></Link>
+                <Link to="/news"><p>News</p></Link>
+                <Link to="/donations"><p>Donations</p></Link>
             </div>
+            <div className="white-bar" />
             <div className="icon-col">
-                <a><img src={InstagramIcon}></img></a>
-                <a><img src={FacebookIcon}></img></a>
-                <a><img src={TwitterIcon}></img></a>
+                <a herf="#"><img className="icons" src={InstagramIcon}></img></a> <br/>
+                <a herf="#"><img className="icons" src={FacebookIcon}></img></a> <br/>
+                <a herf="#"><img className="icons" src={TwitterIcon}></img></a>
             </div>
         </div>
     )
