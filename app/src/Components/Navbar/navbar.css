@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
 .navbar {
   display: flex;
   justify-content: space-between;
   background: rgba(239, 240, 240, 0.84);
-  padding: 10px;
-  color: #5E763F
+  padding: 10px 30px;
+  color: #174950;
+  font: "Nunito";
 }
 
 .navbar a {
@@ -13,7 +16,7 @@
 
 .navbar nav {
   display: flex;
-  align-items: center;;
+  align-items: center;
 }
 
 .navbar nav ul {

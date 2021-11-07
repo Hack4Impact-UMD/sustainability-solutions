@@ -11,7 +11,7 @@ function Navbar() {
     }
 
     return (
-        <header className="navbar">
+        <div className="navbar">
             <Link to="/">
                 <div className="brand">
                     <img src={logo} alt="logo"></img>
@@ -33,7 +33,7 @@ function Navbar() {
                 <div className="line"></div>
                 <div className="line"></div>
             </div>
-        </header>
+        </div>
     )
 }
 
