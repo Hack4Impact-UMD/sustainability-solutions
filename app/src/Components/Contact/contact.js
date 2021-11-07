@@ -8,7 +8,6 @@ import {
   FloatingLabel,
   Button,
 } from "react-bootstrap";
-import { render } from "react-dom";
 import IntroImage from "./IntroImage.png";
 
 function contact() {
@@ -39,24 +38,23 @@ function contact() {
                     </Form.Group>
                   </Row>
 
-                  <Form.Group as={Col} controlId="formGridEmail">
-                    <Form.Label>Email</Form.Label>
-                    <Form.Control type="email" placeholder="Enter email" />
-                  </Form.Group>
+                  <Row className="mb-3">
+                    <Form.Group as={Col} controlId="formGridEmail">
+                      <Form.Control type="email" placeholder="Enter email" />
+                    </Form.Group>
+                  </Row>
 
-                  <Form.Group as={Col} className="message">
-                    <FloatingLabel controlId="messagearea" label="Message">
-                      <Form.Control
-                        as="textarea"
-                        placeholder="Leave your message here"
-                        style={{ height: "100px" }}
-                      />
-                    </FloatingLabel>
-                  </Form.Group>
-
-                  <Form.Group as={Col} className="mb-3" id="formGridCheckbox">
-                    <Form.Check type="checkbox" label="Check this box" />
-                  </Form.Group>
+                  <Row className="mb-3">
+                    <Form.Group as={Col} className="message">
+                      <FloatingLabel controlId="messagearea" label="Message">
+                        <Form.Control
+                          as="textarea"
+                          placeholder="Leave your message here"
+                          style={{ height: "100px" }}
+                        />
+                      </FloatingLabel>
+                    </Form.Group>
+                  </Row>
 
                   <Button variant="primary" type="submit">
                     Submit
