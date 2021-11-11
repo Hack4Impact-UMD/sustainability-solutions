@@ -10,13 +10,68 @@
     flex-wrap: wrap;
 }
 
-figure > img {
+.shadow {
+    background-color: #CF4917;
     border-radius: 50%;
-    height: 200px;
-    width: 200px;
+    height: 220px;
+    width: 220px;
+    margin: 10px;
+    position: relative;
+}
+
+.learn-more {
+    text-decoration: underline;
+    color: white;
+    font-size: 18px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    width: inherit;
+    height: inherit;
+    line-height: 220px;
+    border-radius: 50%;
+    transform: translate(0%, -50%);
+    visibility: hidden;
+    opacity: 0;
+    transition: all .4s ease-in-out;
+    background-color: rgba(207, 73, 23, 0.4);
+}
+
+.shadow:hover .learn-more{
+    visibility: visible;
+    opacity: 1;
+    cursor: pointer;
+}
+
+figure > div > img {
+    border-radius: 50%;
+    height: 220px;
+    width: 220px;
     object-fit: cover;
     object-position: 50% 0%;
-    margin: 10px;
+    opacity: 1;
+    transition: all .4s ease-in-out;
+}
+
+figure > div > img:hover {
+    opacity: 0.6;
+}
+
+.popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 50px;
+}
+
+.popup-headshot {
+    margin-top: 50px;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    object-position: 50% 0%;
 }
 
 figcaption {
@@ -24,7 +79,7 @@ figcaption {
 }
 
 .header-border {
-    background-color: orange;
+    background-color: #CF4917;
     height: 420px;
     margin-bottom: 50px;
     clip-path: 
@@ -75,7 +130,23 @@ figcaption {
 .underline {
     width: 350px;
     height: 7px;
-    background-color: orange;
+    background-color: #CF4917;
     top: 75%;
     border-radius: 10px;
+}
+
+.underline-popup {
+    width: 200px;
+    height: 8px;
+    background-color: #CF4917;
+    top: 75%;
+    border-radius: 10px;
+}
+
+.close {
+    color: #CF4917;
+    font-size: 70px;
+    position: absolute;
+    right: 30px;
+    top: 0;
 }
