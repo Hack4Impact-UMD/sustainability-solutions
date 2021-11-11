@@ -8,9 +8,10 @@
 }
 
 .learn-more {
+    font-family: 'Times New Roman', Times, serif;
     text-decoration: underline;
     color: white;
-    font-size: 18px;
+    font-size: 22px;
     margin: 0;
     position: absolute;
     top: 50%;
@@ -45,6 +46,14 @@
     opacity: 0.6;
 }
 
+.popup-content {
+    max-height: 90%;
+    max-width: 80%;
+    width: 700px;
+    overflow-y: auto;
+    background-color: #E5E5E5;
+}
+
 .popup {
     display: flex;
     justify-content: center;
@@ -62,8 +71,25 @@
     object-position: 50% 0%;
 }
 
-figcaption {
-    font-size: 20px;
+.popup p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #333333;
+}
+
+.position {
+    font-weight: 600;
+}
+
+figcaption.name {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+figcaption.position {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
 }
 
 .close {
@@ -72,6 +98,7 @@ figcaption {
     position: absolute;
     right: 30px;
     top: 0;
+    cursor: pointer;
 }
 
 .underline-popup {
