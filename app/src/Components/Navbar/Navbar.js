@@ -29,9 +29,7 @@ function Navbar() {
                 </ul>
             </nav>
             <div className="burger" onClick={toggleNav}>
-                <div className="line"></div>
-                <div className="line"></div>
-                <div className="line"></div>
+                <i className={navHidden ? "fas fa-bars" : "fas fa-times"}></i>
             </div>
         </div>
     )
