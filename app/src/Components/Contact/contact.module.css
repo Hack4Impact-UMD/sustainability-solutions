@@ -13,6 +13,7 @@
 
 .image {
   width: 100%;
+  display: flex;
 }
 
 .welcometext {
@@ -27,12 +28,32 @@
   margin: 0% 18% 20% 18%; /*  */
   text-align: left;
   color: white;
+  border-radius: 5px;
+  justify-content: space-between;
+  box-shadow: 0px 4px 5px rgba(0,0,0,.2)
 }
 
+.fields{
+  box-shadow: 0px 6px 5px rgba(0,0,0,.2)
+}
+
+.formEmail{
+  padding-top: 10px;
+}
+.formNumber {
+  padding-top: 10px;
+}
+.formSubject {
+  padding-top: 10px;
+}
+.formMessage{
+  padding-top: 10px;
+}
 .message {
   padding: 20px;
+  display: flex
 }
 
-.Button {
-  background-color: yellow;
+.button {
+  margin: 5% 0% 5% 45%
 }

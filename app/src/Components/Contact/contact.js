@@ -34,40 +34,41 @@ function contact() {
                   <Row className="formName">
                     <Form.Group as={Col} controlId="formGridFirstName">
                       <Form.Label>First Name*</Form.Label>
-                      <Form.Control type="fname" placeholder="John" />
+                      <Form.Control className={styles.fields} type="fname" placeholder="John" />
                     </Form.Group>
 
                     <Form.Group as={Col} controlId="formGridLastName">
                       <Form.Label>Last Name*</Form.Label>
-                      <Form.Control type="lname" placeholder="Smith" />
+                      <Form.Control className={styles.fields} type="lname" placeholder="Smith" />
                     </Form.Group>
                   </Row>
 
-                  <Row className="formEmail">
+                  <Row className={styles.formEmail}>
                     <Form.Group as={Col} controlId="formGridEmail">
                       <Form.Label className="heading">Email*</Form.Label>
-                      <Form.Control type="email" placeholder="Enter email" />
+                      <Form.Control className={styles.fields} type="email" placeholder="Enter email" />
                     </Form.Group>
                   </Row>
 
-                  <Row className="formPhoneNumber">
+                  <Row className={styles.formNumber}>
                     <Form.Group as={Col} controlId="formGridNumber">
                       <Form.Label className="heading">Phone Number</Form.Label>
-                      <Form.Control type="phonenumber" placeholder="(###)-(###)-(####)" />
+                      <Form.Control className={styles.fields} type="phonenumber" placeholder="(###)-(###)-(####)" />
                     </Form.Group>
                   </Row>
 
-                  <Row className="formSubject">
+                  <Row className={styles.formSubject}>
                     <Form.Group as={Col} controlId="formGridSubject">
                       <Form.Label className="heading">Subject*</Form.Label>
-                      <Form.Control type="subject" placeholder="Enter subject" />
+                      <Form.Control className={styles.fields} type="subject" placeholder="Enter subject" />
                     </Form.Group>
                   </Row>
 
-                  <Row className="formMessage">
+                  <Row className={styles.formMessage}>
                     <Form.Group as={Col} className="message">
                       <Form.Label className="heading">Message*</Form.Label>
                       <Form.Control
+                        className={styles.fields}
                         as="textarea"
                         placeholder="Leave your message here"
                         style={{ height: "100px" }}
@@ -75,7 +76,7 @@ function contact() {
                     </Form.Group>
                   </Row>
 
-                  <Button className="button" variant="primary" type="submit">
+                  <Button className={styles.button} variant="primary" type="submit">
                     Submit
                   </Button>
                 </Form>
