@@ -1,5 +1,5 @@
 .main {
-  background-color: #3354bd;
+  background-color: #EFF0F0;
 }
 
 .imageDiv {
@@ -15,11 +15,24 @@
   width: 100%;
 }
 
+.welcometext {
+  margin-top: 10%;
+  font-weight: bold;
+  font-size: 42px;
+}
+
 .form {
-  padding: 20px;
-  min-width: 200px;
+  background-color: #5E763F;
+  padding: 50px 75px 50px 75px;
+  margin: 0% 18% 20% 18%; /*  */
+  text-align: left;
+  color: white;
 }
 
 .message {
   padding: 20px;
+}
+
+.Button {
+  background-color: yellow;
 }
