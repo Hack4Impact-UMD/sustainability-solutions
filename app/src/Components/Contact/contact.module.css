@@ -1,3 +1,4 @@
+
 .main {
   background-color: #EFF0F0;
 }
@@ -18,8 +19,9 @@
 
 .welcometext {
   margin-top: 10%;
+  padding: 10px;
   font-weight: bold;
-  font-size: 42px;
+  font-size: 36px;
 }
 
 .form {
@@ -30,30 +32,33 @@
   color: white;
   border-radius: 5px;
   justify-content: space-between;
-  box-shadow: 0px 4px 5px rgba(0,0,0,.2)
+  box-shadow: 0px 4px 5px rgba(0,0,0,.2);
 }
 
 .fields{
   box-shadow: 0px 6px 5px rgba(0,0,0,.2)
 }
 
-.formEmail{
+.formLabels{
   padding-top: 10px;
 }
-.formNumber {
-  padding-top: 10px;
-}
-.formSubject {
-  padding-top: 10px;
-}
-.formMessage{
-  padding-top: 10px;
-}
+
 .message {
   padding: 20px;
   display: flex
 }
 
-.button {
-  margin: 5% 0% 5% 45%
+.button {  
+  background-color: #ffd027;
+  border-color: #ffd027; 
+  margin: 5% 0% 5% 39%;
+  width: 160px;
+  height: 70px;
+  font-size: 24px;
 }
+
+.button:hover{
+  background-color: #94C2EC;
+  border-color: #94C2EC;
+}
+

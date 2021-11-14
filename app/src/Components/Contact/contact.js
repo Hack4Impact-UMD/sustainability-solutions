@@ -43,28 +43,28 @@ function contact() {
                     </Form.Group>
                   </Row>
 
-                  <Row className={styles.formEmail}>
+                  <Row className={styles.formLabels}>
                     <Form.Group as={Col} controlId="formGridEmail">
                       <Form.Label className="heading">Email*</Form.Label>
                       <Form.Control className={styles.fields} type="email" placeholder="Enter email" />
                     </Form.Group>
                   </Row>
 
-                  <Row className={styles.formNumber}>
+                  <Row className={styles.formLabels}>
                     <Form.Group as={Col} controlId="formGridNumber">
                       <Form.Label className="heading">Phone Number</Form.Label>
                       <Form.Control className={styles.fields} type="phonenumber" placeholder="(###)-(###)-(####)" />
                     </Form.Group>
                   </Row>
 
-                  <Row className={styles.formSubject}>
+                  <Row className={styles.formLabels}>
                     <Form.Group as={Col} controlId="formGridSubject">
                       <Form.Label className="heading">Subject*</Form.Label>
                       <Form.Control className={styles.fields} type="subject" placeholder="Enter subject" />
                     </Form.Group>
                   </Row>
 
-                  <Row className={styles.formMessage}>
+                  <Row className={styles.formLabels}>
                     <Form.Group as={Col} className="message">
                       <Form.Label className="heading">Message*</Form.Label>
                       <Form.Control
@@ -77,7 +77,7 @@ function contact() {
                   </Row>
 
                   <Button className={styles.button} variant="primary" type="submit">
-                    Submit
+                    SUBMIT
                   </Button>
                 </Form>
               </div>
