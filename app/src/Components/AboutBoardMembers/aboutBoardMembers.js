@@ -1,24 +1,35 @@
 import React from "react";
-import "./aboutBoardMembers";
-import styles from "./aboutBoardMembers.css";
+import 'reactjs-popup/dist/index.css';
+import "./aboutBoardMembers.css";
+import TeamMember from './teamMember';
 
-function aboutBoardMembers() {
+const team = [
+  {img: '/aboutBoardMembers/headshot.jpeg', name: "Ben Lin", position: "Position"},
+  {img: '/aboutBoardMembers/headshot.jpeg', name: "Ethan", position: "Position"},
+  {img: '/aboutBoardMembers/headshot.jpeg', name: "Sadena", position: "Position"},
+  {img: '/aboutBoardMembers/headshot.jpeg', name: "Katherine", position: "Position"},
+  {img: '/aboutBoardMembers/headshot.jpeg', name: "Vibhu", position: "Position"},
+  {img: '/aboutBoardMembers/headshot.jpeg', name: "Priya", position: "Position"},
+  {img: '/aboutBoardMembers/headshot.jpeg', name: "Julie", position: "Position"},
+]
+
+function AboutBoardMembers() {
   return (
     <div className="board-members">
-      <div className={styles.boardMember}>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <img src="professional.jpeg"></img>
+      <div className="header-border">
+        <div className="header">
+          <img src='/aboutBoardMembers/meet_the_board_header.jpg' alt='wave'/>
+          <h1 class="header-title">MEET THE BOARD</h1>
+          <div class="header-title underline"></div>
+        </div>
+      </div>
+      <div className="members-box">
+        {team.map(member => 
+          <TeamMember member={member}/>
+        )}
       </div>
     </div>
   );
 }
 
-export default aboutBoardMembers;
+export default AboutBoardMembers;
