@@ -1,14 +1,11 @@
-import AboutBoardMembers from "./Components/AboutBoardMembers/aboutBoardMembers";
-import Contact from "./Components/Contact/contact.js";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import AboutBoardMembers from './Components/AboutBoardMembers/aboutBoardMembers';
 import LandingPage from './Components/LandingPage/Landing';
+import Contact from "./Components/Contact/contact.js";
 import Navbar from './Components/Navbar/Navbar';
-import Contact from './Components/Contact/Contact';
 import Mission from './Components/Mission/Mission';
 import Projects from './Components/Projects/Projects';
 import News from './Components/News/News';
