@@ -4,9 +4,9 @@ import Carousel from 'react-bootstrap/Carousel';
 import { Link } from 'react-router-dom';
 import './landing.css';
 import NewsImage from './NewsImage.png';
-import MissionIcon from './MissionIcon.png';
-import TeamsIcon from './TeamsIcon.png';
-import NewsIcon from './NewsIcon.png';
+import MissionBtn from './MissionBtn.png';
+import TeamBtn from './TeamBtn.png';
+import NewsBtn from './NewsBtn.png';
 
 function Landing () {
     return (
@@ -21,13 +21,13 @@ function Landing () {
             </div>
             <div className="section2">
                 <Link to="/mission">
-                    <img className="missions-icon" src={MissionIcon} />
+                    <img src={MissionBtn} />
                 </Link>
                 <Link to="/about">
-                    <img className="teams-icon" src={TeamsIcon} />
+                    <img src={TeamBtn} />
                 </Link>
                 <Link to="/news">
-                    <img className="news-icon" src={NewsIcon} />
+                    <img src={NewsBtn} />
                 </Link>
             </div>
             <div className="news-sec">
