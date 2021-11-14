@@ -49,14 +49,9 @@
   margin-top: auto;
   margin-bottom: auto;
   display: none;
+  cursor: pointer;
 }
 
-.burger .line {
-  background-color: #5E763F;
-  margin: 5px 0px;
-  height: 3px;
-  width: 25px;
-}
 
 @media only screen and (max-width: 776px) {
   .burger {
@@ -69,6 +64,7 @@
     top: 70px;
 
     background-color: inherit;
+    z-index: 1;
   }
 
   .navbar nav.hidden {

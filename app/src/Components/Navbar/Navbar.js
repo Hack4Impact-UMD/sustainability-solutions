@@ -20,18 +20,16 @@ function Navbar() {
             </Link>
             <nav className={navHidden ? "hidden" : ""}>
                 <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/about">Our Team</Link></li>
-                    <li><Link to="/mission">Mission</Link></li>
-                    <li><Link to="/contactus">Contact Us</Link></li>
-                    <li><Link to="/news">News</Link></li>
-                    <li><Link to="/donations">Donations</Link></li>
+                    <li onClick={toggleNav}><Link to="/">Home</Link></li>
+                    <li onClick={toggleNav}><Link to="/about">Our Team</Link></li>
+                    <li onClick={toggleNav}><Link to="/mission">Mission</Link></li>
+                    <li onClick={toggleNav}><Link to="/contactus">Contact Us</Link></li>
+                    <li onClick={toggleNav}><Link to="/news">News</Link></li>
+                    <li onClick={toggleNav}><Link to="/donations">Donations</Link></li>
                 </ul>
             </nav>
             <div className="burger" onClick={toggleNav}>
-                <div className="line"></div>
-                <div className="line"></div>
-                <div className="line"></div>
+                <i className={navHidden ? "fas fa-bars" : "fas fa-times"}></i>
             </div>
         </div>
     )
