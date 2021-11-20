@@ -11,6 +11,7 @@ import {
 import React, { useRef } from "react";
 import IntroImage from "./IntroImage.png";
 import emailjs from "emailjs-com";
+import ReCAPTCHA from "react-google-recaptcha";
 
 const Contact = (props) => {
   const form = useRef();
@@ -35,6 +36,9 @@ const Contact = (props) => {
       );
   };
 
+  function onChange(value) {
+    console.log("Captcha value:", value);
+  }
   return (
     <div className={styles.main}>
       <div className={styles.headerBorder}>
@@ -60,6 +64,7 @@ const Contact = (props) => {
                         className={styles.fields}
                         type="fname"
                         placeholder="John"
+                        name="first_name"
                       />
                     </Form.Group>
 
@@ -117,7 +122,12 @@ const Contact = (props) => {
                       />
                     </Form.Group>
                   </Row>
-
+                  <div className="recap">
+                    <ReCAPTCHA
+                      sitekey="6LfBBkodAAAAAMbquiTN34opmljr5vUbnKqwHsdc"
+                      onChange={onChange}
+                    />
+                  </div>
                   <Button
                     className={styles.button}
                     variant="primary"
