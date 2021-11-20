@@ -1,7 +1,6 @@
 import styles from "./contact.module.css";
 import {
     Container,
-    Image,
     Form,
     Row,
     Col,
@@ -10,15 +9,15 @@ import {
 } from "react-bootstrap";
 import React from 'react';
 import IntroImage from "./IntroImage.png";
-const Contact = (props) => {
+const Contact = () => {
     return (
         <div className={styles.main}>
-            <div className={styles.imageDiv}>
-                <Image
-                    className={styles.image}
-                    src={IntroImage}
-                    alt={"Contact us image"}
-                />
+            <div className={styles.headerBorder}>
+                <div className={styles.header2}>
+                    <img src={IntroImage} alt='contact image'/>
+                    <h1 class={styles.headerTitle}>CONTACT US</h1>
+                    <div class={styles.underline2}></div>
+                </div>
             </div>
             <div className={styles.welcometext}>
                 <p>
