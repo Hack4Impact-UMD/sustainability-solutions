@@ -1,14 +1,16 @@
-import './App.css';
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "./App.css";
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import AboutBoardMembers from './Components/AboutBoardMembers/aboutBoardMembers';
 import LandingPage from './Components/LandingPage/Landing';
+import Contact from "./Components/Contact/contact.js";
 import Navbar from './Components/Navbar/Navbar';
-import Contact from './Components/Contact/Contact';
 import Mission from './Components/Mission/Mission';
 import Projects from './Components/Projects/Projects';
 import News from './Components/News/News';
 import Donations from './Components/Donations/Donations';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -26,6 +28,7 @@ function App() {
           <Route exact path="/contactus" component={Contact}/>
           <Route exact path="/donations" component={Donations}/>
         </Switch>
+        <Footer/>
       </div>
       </BrowserRouter>
     </div>
