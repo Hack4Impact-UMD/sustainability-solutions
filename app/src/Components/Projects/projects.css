@@ -1,0 +1,71 @@
+.project-header-border {
+    background-color: #D0B285;
+    height: 420px;
+    margin-bottom: 50px;
+    clip-path: 
+        polygon(
+            0% 0%,     /* top left */
+            0% 0%,     /* top left */
+            100% 0%,    /* top right */
+            100% 0%,   /* top right */
+            100% 75%,  /* bottom right */
+            50% 100%,  /* bottom right */
+            50% 100%,   /* bottom left */
+            0 75%      /* bottom left */
+        );
+}
+
+.project-header {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    height: 300px;
+}
+
+.project-header > img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    clip-path: 
+        polygon(
+            0% 0%,     /* top left */
+            0% 0%,     /* top left */
+            100% 0%,    /* top right */
+            100% 0%,   /* top right */
+            100% 75%,  /* bottom right */
+            50% 100%,  /* bottom right */
+            50% 100%,   /* bottom left */
+            0 75%      /* bottom left */
+        );
+}
+
+.project-header-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.project-underline {
+    width: 350px;
+    height: 7px;
+    background-color: #D0B285;
+    top: 70%;
+    border-radius: 10px;
+}
+
+.projects {
+    background-color: blue;
+}
+
+.proj {
+    width: 200px;
+    height: 200px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
