@@ -19,7 +19,7 @@ function TeamMember(props) {
                     <img className="popup-headshot" src='/aboutBoardMembers/headshot.jpeg' alt='headshot'/>
                     <h1>{member.name}</h1>
                     <div class="underline-popup"></div>
-                    <h2>{member.position}</h2>
+                    <h2 className="position">{member.position}</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                         incididunt ut labore et dolore magna aliqua. Ut sem nulla pharetra diam sit amet nisl.
@@ -32,8 +32,8 @@ function TeamMember(props) {
                     </div>
                 </Popup>
                 </div>
-                <figcaption>{member.name}</figcaption>
-                <figcaption>{member.position}</figcaption>
+                <figcaption className="name">{member.name}</figcaption>
+                <figcaption className="position">{member.position}</figcaption>
             </figure>
         </div>
     )
