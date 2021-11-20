@@ -11,7 +11,6 @@ import {
 import React, { useRef } from "react";
 import IntroImage from "./IntroImage.png";
 import emailjs from "emailjs-com";
-import { init } from "emailjs-com";
 
 const Contact = (props) => {
   const form = useRef();
@@ -38,12 +37,12 @@ const Contact = (props) => {
 
   return (
     <div className={styles.main}>
-      <div className={styles.imageDiv}>
-        <Image
-          className={styles.image}
-          src={IntroImage}
-          alt={"Contact us image"}
-        />
+      <div className={styles.headerBorder}>
+        <div className={styles.header2}>
+          <img src={IntroImage} alt="contact image" />
+          <h1 class={styles.headerTitle}>CONTACT US</h1>
+          <div class={styles.underline2}></div>
+        </div>
       </div>
       <div className={styles.welcometext}>
         <p>Have questions? Send us a message!</p>
