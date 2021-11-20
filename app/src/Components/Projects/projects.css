@@ -56,16 +56,54 @@
 }
 
 .projects {
-    background-color: blue;
+    padding: 20px;
+    margin: 20px 0px;
 }
 
-.proj {
+.project-img {
     width: 200px;
     height: 200px;
+    box-shadow: -10px -10px #D0B285;
+    margin: 20px 0px;
 }
 
 .item {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    margin: 15px 40px;
+}
+
+figcaption.project-name {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+figcaption.month {
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.carousel-indicators button {
+    background-color: #2D758C;
+    border: none;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    transition: all .3s ease-in-out; 
+    margin: 10px;
+}
+
+.carousel-indicators button:hover {
+    transform: scale(1.15); 
+}
+
+.carousel-indicators button:focus {
+    background-color: #F9AC3D;
 }
