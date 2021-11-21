@@ -61,8 +61,8 @@
 }
 
 .project-img {
-    width: 200px;
-    height: 200px;
+    width: 260px;
+    height: 260px;
     box-shadow: -10px -10px #D0B285;
     margin: 20px 0px;
 }
@@ -79,6 +79,7 @@
 }
 
 figcaption.project-name {
+    font-family: Nunito;
     font-size: 20px;
     font-weight: 600;
 }
@@ -107,3 +108,30 @@ figcaption.month {
 .carousel-indicators button:focus {
     background-color: #F9AC3D;
 }
+
+h2 {
+    font-family: Nunito;
+    font-weight: 1000;
+}
+
+/* .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: 'x';
+  font-size: 55px;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+} */
