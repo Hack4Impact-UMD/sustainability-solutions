@@ -53,8 +53,8 @@
 
 .donation-form {
     background-color: #FCE1BA;
-    padding: 50px 75px 50px 75px;
-    margin: 0% 18% 20% 18%;
+    padding: 3.5vw 5vw 3.5vw 5vw;
+    margin: 0% 18% 15% 18%;
     text-align: left;
     color: #174950;
     border-radius: 5px;
@@ -68,20 +68,40 @@
 
 .form-fields{
     box-shadow: 0px 6px 5px rgba(0,0,0,.2);
+    height: 60px;
 }
 
 .donate-button {  
     background-color: #174950;
-    border-color: #174950; 
-    margin-left: 19.5vw;
-    margin-top: 2.5vw;
-    width: 12.5vw;
-    height: 3.5vw;
+    border-color: #174950;
+    margin-top: 3vw;
+    margin-left: 38.5%;
+    width: 13vw;
+    height: 4.5vw;
     font-size: 1.5vw;
   }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800px) {
     .header-title {
-        width: 200px;
+        width: 225px;
+    }
+
+    .donation-form {
+        margin: 0% 5% 15% 5%;
+    }
+
+    .donate-button {
+        margin-top: 5vw;
+        width: 17vw;
+        height: 8vw;
+        font-size: 2.75vw;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .donate-button {
+        width: 23vw;
+        height: 14vw;
+        font-size: 4vw;
     }
 }
