@@ -1,10 +1,20 @@
 import React from 'react';
+import './Donations.css';
+import HeadingImg from './HeadingImg.png';
 
-const Donations = (props) => {
+function Donations() {
 
     return (
         <div>
-            <p>Hello, This is the donations Page</p>
+            <div className="header-border">
+                <div className="header">
+                    <img src={HeadingImg}/>
+                    <div className="header-title">
+                        <h1>DONATE</h1>
+                        <div className="donate-underline" />
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }
