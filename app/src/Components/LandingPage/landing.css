@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+.landing-container{
+    background: #EFF0F0;
+}
+
+.intro {
+    font-weight: 700;
+    font-size: 4.75vw;
+    font: 'Nunito';
+    color: #174950;
+}
+
+.intro-cap {
+    font-weight: bold;
+    font-size: 2.70vw;
+    color: #174950;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3.4vw;
+    margin-bottom: 5vw;
+}
+
+.section2 img {
+    width: 100%;
+}
+
+.section2 img:hover {
+    opacity: 0.5;
+}
+
+.news-sec {
+    background: #2D758C;
+    padding: 1.35vw 6.75vw 6vw 6.75vw;
+}
+
+.news-sec h1 {
+    font: 'Nunito';
+    font-weight: 700;
+    font-size: 2.3vw;
+    color: #EFF0F0;
+}
+
+.news-slides {
+    padding-top: 1.5vw;
+}
+
+.news-caption {
+    padding: 1.5vw 2vw 2.5vw 2vw;
+    margin: 0 1vw;
+    background: white;
+    color: black;
+}
+
