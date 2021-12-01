@@ -26,12 +26,12 @@ function Navbar() {
                     </div>
                     <Navigation.Collapse id="basic-navbar-nav" className="justify-content-end" onClick={toggleNav}>
                         <Nav className="">
-                            <Link to="/about" className="nav-link">Our Team</Link>
-                            <Link to="/" className="nav-link">About</Link>
-                            <Link to="/" className="nav-link">Projects</Link>
-                            <Link to="/" className="nav-link">News</Link>
-                            <Link to="/" className="nav-link">Contact Us</Link>
-                            <Link to="/" className="nav-link">Donate</Link>
+                            <Link to="/ourteam" className="nav-link">Our Team</Link>
+                            <Link to="/about" className="nav-link">About</Link>
+                            <Link to="/projects" className="nav-link">Projects</Link>
+                            <Link to="/news" className="nav-link">News</Link>
+                            <Link to="/contactus" className="nav-link">Contact Us</Link>
+                            <Link to="/donations" className="nav-link">Donate</Link>
                         </Nav>
                     </Navigation.Collapse>
                 </Container>
