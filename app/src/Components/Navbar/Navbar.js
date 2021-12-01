@@ -8,7 +8,9 @@ function Navbar() {
     const [navActive, setNavActive] = useState(false)
 
     const toggleNav = () => {
-        setNavActive(!navActive)
+        if (window.innerWidth < 992) {
+            setNavActive(!navActive)
+        }
     }
 
     return (
