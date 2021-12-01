@@ -1,37 +1,42 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { Navbar as Navigation, Nav, Container } from 'react-bootstrap';
 import './navbar.css'
 import logo from './draft-logo.png'
 
 function Navbar() {
-    const [navHidden, setHidden] = useState(true)
+    const [navActive, setNavActive] = useState(false)
 
-    function toggleNav() {
-        setHidden(!navHidden)
+    const toggleNav = () => {
+        setNavActive(!navActive)
     }
 
     return (
-        <div className="navbar">
-            <Link to="/">
-                <div className="brand">
-                    <img src={logo} alt="logo"></img>
-                    <div className="title">SSG</div>
-                </div>
-            </Link>
-            <nav className={navHidden ? "hidden" : ""}>
-                <ul>
-                    <li onClick={toggleNav}><Link to="/">Home</Link></li>
-                    <li onClick={toggleNav}><Link to="/about">Our Team</Link></li>
-                    <li onClick={toggleNav}><Link to="/mission">Mission</Link></li>
-                    <li onClick={toggleNav}><Link to="/contactus">Contact Us</Link></li>
-                    <li onClick={toggleNav}><Link to="/news">News</Link></li>
-                    <li onClick={toggleNav}><Link to="/donations">Donations</Link></li>
-                </ul>
-            </nav>
-            <div className="burger" onClick={toggleNav}>
-                <i className={navHidden ? "fas fa-bars" : "fas fa-times"}></i>
-            </div>
-        </div>
+        <>
+            <Navigation expand="lg" expanded={navActive}>
+                <Container>
+                    <Navigation.Brand>
+                        <Link className="nav-brand" to="/" onClick={toggleNav}>
+                            <img src={logo} alt="logo"></img>
+                            <div>SSG</div>
+                        </Link>
+                    </Navigation.Brand>
+                    <div className={navActive ? "menu-toggle active" : "menu-toggle"} onClick={toggleNav}>
+                        <i className={navActive ? "fas fa-times" : "fas fa-bars"}></i>
+                    </div>
+                    <Navigation.Collapse id="basic-navbar-nav" className="justify-content-end" onClick={toggleNav}>
+                        <Nav className="">
+                            <Link to="/about" className="nav-link">Our Team</Link>
+                            <Link to="/" className="nav-link">About</Link>
+                            <Link to="/" className="nav-link">Projects</Link>
+                            <Link to="/" className="nav-link">News</Link>
+                            <Link to="/" className="nav-link">Contact Us</Link>
+                            <Link to="/" className="nav-link">Donate</Link>
+                        </Nav>
+                    </Navigation.Collapse>
+                </Container>
+            </Navigation>
+        </>
     )
 }
 
