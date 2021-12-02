@@ -45,6 +45,34 @@ function Donations() {
                 </div>
             </div>
             <p className="form-titles"> Select an Amount </p>
+            <Container fluid>
+                <Row> 
+                    <Col className="amount-select"> 
+                        <p>$10</p>
+                        <p>$20</p>
+                        <p>$50</p>
+                        <p>$100</p>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col className="amount-enter">
+                        <Form>
+                        <Row>
+                            <Form.Group as={Row} controlId="formGridAmount">
+                                <Form.Label column sm="4">Other:$</Form.Label>
+                                <Col>
+                                    <Form.Control
+                                        className="form-fields"
+                                        type="amount"
+                                        placeholder="0.00"
+                                    />
+                                </Col>
+                            </Form.Group>
+                        </Row>
+                        </Form>
+                    </Col>
+                </Row>
+            </Container>
             <p className="form-titles"> Personal Information </p>
             <Container fluid>
                 <Row>
@@ -93,7 +121,7 @@ function Donations() {
                         </Row>
 
                         <Row className="form-labels">
-                            <Form.Group as={Col} controlId="formGridSubject">
+                            <Form.Group as={Col} controlId="formGridCard">
                             <Form.Label className="heading">Credit Card*</Form.Label>
                             <Form.Control
                                 className="form-fields"
@@ -104,7 +132,7 @@ function Donations() {
                         </Row>
 
                         <Row className="form-labels">
-                            <Form.Group as={Col} controlId="formGridSubject">
+                            <Form.Group as={Col} controlId="formGridAddress1">
                             <Form.Label className="heading">Billing Address*</Form.Label>
                             <Form.Control
                                 className="form-fields"
@@ -115,7 +143,7 @@ function Donations() {
                         </Row>
 
                         <Row className="form-labels">
-                            <Form.Group as={Col} controlId="formGridSubject">
+                            <Form.Group as={Col} controlId="formGridAddress2">
                             <Form.Control
                                 className="form-fields"
                                 type="addressline2"
@@ -125,7 +153,7 @@ function Donations() {
                         </Row>
 
                         <Row className="form-labels">
-                            <Form.Group as={Col} controlId="formGridSubject">
+                            <Form.Group as={Col} controlId="formGridCity">
                             <Form.Control
                                 className="form-fields"
                                 type="city"
@@ -133,7 +161,7 @@ function Donations() {
                             />
                             </Form.Group>
 
-                            <Form.Group as={Col} controlId="formGridSubject">
+                            <Form.Group as={Col} controlId="formGridState">
                             <Form.Control
                                 className="form-fields"
                                 type="state"
@@ -143,15 +171,15 @@ function Donations() {
                         </Row>
 
                         <Row className="form-labels">
-                            <Form.Group as={Col} controlId="formGridSubject">
+                            <Form.Group as={Col} controlId="formGridZipCode">
                             <Form.Control
                                 className="form-fields"
-                                type="cipcode"
+                                type="zipcode"
                                 placeholder="Zip Code*"
                             />
                             </Form.Group>
 
-                            <Form.Group as={Col} controlId="formGridSubject">
+                            <Form.Group as={Col} controlId="formGridCountry">
                             <Form.Control
                                 className="form-fields"
                                 type="country"

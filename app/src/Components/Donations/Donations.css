@@ -60,6 +60,34 @@
     color: #174950;
 }
 
+.amount-select {
+    color: #174950;
+    font-size: 3vw;
+    font-weight: 600;
+    font-family: "Nunito";
+    display: flex;
+    flex-direction: row;
+    margin: 0% 18% 3% 16%;
+}
+
+.amount-select p {
+    padding: 2vw 4vw 2vw 4vw;
+    background-color: #FCE1BA;
+    margin-right: 20px;
+}
+
+.amount-enter {
+    color: #174950;
+    background-color: #FCE1BA;
+    font-size: 3vw;
+    font-weight: 600;
+    font-family: "Nunito";
+    display: flex;
+    flex-direction: row;
+    margin: 0% 18% 7% 18%;
+    padding: 2vw 5vw 2vw 5vw;
+}
+
 .donation-form {
     background-color: #FCE1BA;
     padding: 3.5vw 5vw 3.5vw 5vw;
