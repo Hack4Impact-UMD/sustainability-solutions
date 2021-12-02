@@ -44,6 +44,8 @@ function Donations() {
                     </div>
                 </div>
             </div>
+            <p className="form-titles"> Select an Amount </p>
+            <p className="form-titles"> Personal Information </p>
             <Container fluid>
                 <Row>
                     <Col className="donation-form">
@@ -92,23 +94,68 @@ function Donations() {
 
                         <Row className="form-labels">
                             <Form.Group as={Col} controlId="formGridSubject">
-                            <Form.Label className="heading">Subject*</Form.Label>
+                            <Form.Label className="heading">Credit Card*</Form.Label>
                             <Form.Control
                                 className="form-fields"
-                                type="subject"
-                                placeholder="Enter subject"
+                                type="cardnumber"
+                                placeholder="Card Number"
                             />
                             </Form.Group>
                         </Row>
 
                         <Row className="form-labels">
-                            <Form.Group as={Col} className="message">
-                            <Form.Label className="heading">Message*</Form.Label>
+                            <Form.Group as={Col} controlId="formGridSubject">
+                            <Form.Label className="heading">Billing Address*</Form.Label>
                             <Form.Control
                                 className="form-fields"
-                                as="textarea"
-                                placeholder="Leave your message here"
-                                style={{ height: "100px" }}
+                                type="addressline1"
+                                placeholder="Address 1*"
+                            />
+                            </Form.Group>
+                        </Row>
+
+                        <Row className="form-labels">
+                            <Form.Group as={Col} controlId="formGridSubject">
+                            <Form.Control
+                                className="form-fields"
+                                type="addressline2"
+                                placeholder="Address 2(Apt #, Suite, Floor, Etc.)"
+                            />
+                            </Form.Group>
+                        </Row>
+
+                        <Row className="form-labels">
+                            <Form.Group as={Col} controlId="formGridSubject">
+                            <Form.Control
+                                className="form-fields"
+                                type="city"
+                                placeholder="City*"
+                            />
+                            </Form.Group>
+
+                            <Form.Group as={Col} controlId="formGridSubject">
+                            <Form.Control
+                                className="form-fields"
+                                type="state"
+                                placeholder="State/Province/Region*"
+                            />
+                            </Form.Group>
+                        </Row>
+
+                        <Row className="form-labels">
+                            <Form.Group as={Col} controlId="formGridSubject">
+                            <Form.Control
+                                className="form-fields"
+                                type="cipcode"
+                                placeholder="Zip Code*"
+                            />
+                            </Form.Group>
+
+                            <Form.Group as={Col} controlId="formGridSubject">
+                            <Form.Control
+                                className="form-fields"
+                                type="country"
+                                placeholder="Country*"
                             />
                             </Form.Group>
                         </Row>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
 .header-border {
     background-color: #F9AC3D;
     height: 420px;
@@ -51,6 +53,13 @@
     margin-top: 20px;
 }
 
+.form-titles {
+    font-size: 4vw;
+    font-weight: 700;
+    font-family: "Nunito";
+    color: #174950;
+}
+
 .donation-form {
     background-color: #FCE1BA;
     padding: 3.5vw 5vw 3.5vw 5vw;
@@ -68,7 +77,7 @@
 
 .form-fields{
     box-shadow: 0px 6px 5px rgba(0,0,0,.2);
-    height: 60px;
+    height: 50px;
 }
 
 .donate-button {  
