@@ -42,12 +42,12 @@ nav.navbar {
   transition: all ease 0.1s;
 }
 
-.fas {
+nav.navbar .fas {
   color: #174950;
   font-size: 20px;
 }
 
-.fas:hover {
+nav.navbar .fas:hover {
   color: #00161D;
 }
 
