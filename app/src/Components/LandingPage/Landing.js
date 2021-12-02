@@ -15,7 +15,7 @@ function Landing () {
                 <p className="intro">
                     SUSTAINABILITY <br />
                     SOLUTIONS <br />
-                    INSTITUTE
+                    GROUP
                 </p>
                 <p className="intro-cap">embrace pathways of sustainability</p>
             </div>
