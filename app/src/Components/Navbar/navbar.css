@@ -5,6 +5,7 @@ nav.navbar {
   z-index: 1;
   left: 0;
   right: 0;
+  font-family: 'Nunito', sans-serif;
 }
 
 .menu-toggle {
@@ -22,8 +23,8 @@ nav.navbar {
 }
 
 .nav-brand div {
-  font-weight: 600;
-  font-size: 26px;
+  font-weight: 700;
+  font-size: 32px;
   color: #174950;
   margin-left: 10px;
 }
@@ -31,8 +32,9 @@ nav.navbar {
 .nav-link {
   color: #174950 !important;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 22px;
   text-transform: uppercase;
+  margin-left: 15px;
 }
 
 .nav-link:hover {
