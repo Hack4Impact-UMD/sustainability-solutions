@@ -1,0 +1,115 @@
+.news-header-border {
+    background-color: #D0B285;
+    height: 420px;
+    margin-bottom: 50px;
+    clip-path: 
+        polygon(
+            0% 0%,     /* top left */
+            0% 0%,     /* top left */
+            100% 0%,    /* top right */
+            100% 0%,   /* top right */
+            100% 75%,  /* bottom right */
+            50% 100%,  /* bottom right */
+            50% 100%,   /* bottom left */
+            0 75%      /* bottom left */
+        );
+}
+
+.news-header {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    height: 300px;
+}
+
+.news-header > img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    clip-path: 
+        polygon(
+            0% 0%,     /* top left */
+            0% 0%,     /* top left */
+            100% 0%,    /* top right */
+            100% 0%,   /* top right */
+            100% 75%,  /* bottom right */
+            50% 100%,  /* bottom right */
+            50% 100%,   /* bottom left */
+            0 75%      /* bottom left */
+        );
+}
+
+.news-header-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.news-underline {
+    width: 350px;
+    height: 7px;
+    background-color: #D0B285;
+    top: 70%;
+    border-radius: 10px;
+}
+
+.news {
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+.news-img {
+    width: 260px;
+    height: 260px;
+    box-shadow: -10px -10px #D0B285;
+    margin: 20px 0px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.news {
+    margin: 15px 40px;
+}
+
+.figcaption-news-name {
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+figcaption.month {
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.carousel-indicators button {
+    background-color: #2D758C;
+    border: none;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    transition: all .3s ease-in-out; 
+    margin: 10px;
+}
+
+.carousel-indicators button:hover {
+    transform: scale(1.15); 
+}
+
+.carousel-indicators button:focus {
+    background-color: #F9AC3D;
+}
+
+h2 {
+    font-family: Nunito;
+    font-weight: 1000;
+}
