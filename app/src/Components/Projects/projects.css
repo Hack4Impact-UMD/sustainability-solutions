@@ -1,0 +1,137 @@
+.project-header-border {
+    background-color: #D0B285;
+    height: 420px;
+    margin-bottom: 50px;
+    clip-path: 
+        polygon(
+            0% 0%,     /* top left */
+            0% 0%,     /* top left */
+            100% 0%,    /* top right */
+            100% 0%,   /* top right */
+            100% 75%,  /* bottom right */
+            50% 100%,  /* bottom right */
+            50% 100%,   /* bottom left */
+            0 75%      /* bottom left */
+        );
+}
+
+.project-header {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    height: 300px;
+}
+
+.project-header > img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    clip-path: 
+        polygon(
+            0% 0%,     /* top left */
+            0% 0%,     /* top left */
+            100% 0%,    /* top right */
+            100% 0%,   /* top right */
+            100% 75%,  /* bottom right */
+            50% 100%,  /* bottom right */
+            50% 100%,   /* bottom left */
+            0 75%      /* bottom left */
+        );
+}
+
+.project-header-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.project-underline {
+    width: 350px;
+    height: 7px;
+    background-color: #D0B285;
+    top: 70%;
+    border-radius: 10px;
+}
+
+.projects {
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+.project-img {
+    width: 260px;
+    height: 260px;
+    box-shadow: -10px -10px #D0B285;
+    margin: 20px 0px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    margin: 15px 40px;
+}
+
+figcaption.project-name {
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+figcaption.month {
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.carousel-indicators button {
+    background-color: #2D758C;
+    border: none;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    transition: all .3s ease-in-out; 
+    margin: 10px;
+}
+
+.carousel-indicators button:hover {
+    transform: scale(1.15); 
+}
+
+.carousel-indicators button:focus {
+    background-color: #F9AC3D;
+}
+
+h2 {
+    font-family: Nunito;
+    font-weight: 1000;
+}
+
+/* .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: 'x';
+  font-size: 55px;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+} */
