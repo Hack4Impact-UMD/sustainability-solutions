@@ -91,21 +91,25 @@ figcaption.month {
     margin-bottom: 15px;
 }
 
-.carousel-indicators button {
+.projects .carousel.slide .carousel-indicators button {
     background-color: #2D758C;
     border: none;
-    width: 13px;
-    height: 13px;
+    width: 13px !important;
+    height: 13px !important;
     border-radius: 50%;
     transition: all .3s ease-in-out; 
     margin: 10px;
 }
 
-.carousel-indicators button:hover {
+.projects .carousel.slide .carousel-indicators button:hover {
     transform: scale(1.15); 
 }
 
-.carousel-indicators button:focus {
+.projects .carousel.slide .carousel-indicators button:focus {
+    background-color: #F9AC3D;
+}
+
+.projects .carousel.slide .carousel .carousel-indicators .active {
     background-color: #F9AC3D;
 }
 
@@ -113,25 +117,3 @@ h2 {
     font-family: Nunito;
     font-weight: 1000;
 }
-
-/* .carousel-control-prev-icon,
-.carousel-control-next-icon {
-  height: 100px;
-  width: 100px;
-  outline: black;
-  background-size: 100%, 100%;
-  border-radius: 50%;
-  border: 1px solid black;
-  background-image: none;
-}
-
-.carousel-control-next-icon:after
-{
-  content: 'x';
-  font-size: 55px;
-}
-
-.carousel-control-prev-icon:after {
-  content: '<';
-  font-size: 55px;
-} */
