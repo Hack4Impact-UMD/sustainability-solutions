@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Navbar as Navigation, Nav, Container } from 'react-bootstrap';
 import './navbar.css'
-import logo from './draft-logo.png'
+import logo from './sustainability-solutions-group.png'
 
 function Navbar() {
     const [navActive, setNavActive] = useState(false)
