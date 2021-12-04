@@ -19,7 +19,7 @@ function About() {
           <Row>
             <Col>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque blandit pretium posuere. Ut ligula purus, dignissim at ipsum iaculis, laoreet ornare felis. Fusce elit lorem, malesuada vel orci nec, congue accumsan odio. Nulla facilisi. Fusce placerat, felis in suscipit sollicitudin, purus augue porta ex, id mollis metus nisl sed lacus. Suspendisse dictum vitae lorem eget condimentum. Sed a nisl iaculis, sodales sapien vitae, placerat lectus. Sed rutrum lacus magna. Ut ut mi vel elit cursus lobortis. Nulla lacus est, auctor et suscipit ut, luctus id dolor. 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque blandit pretium posuere. Ut ligula purus, dignissim at ipsum iaculis, laoreet ornare felis. Fusce elit lorem, malesuada vel orci nec, congue accumsan odio. Nulla facilisi. Fusce placerat, felis in suscipit sollicitudin, purus augue porta ex, id mollis metus nisl sed lacus. Suspendisse dictum vitae lorem eget condimentum. Sed a nisl iaculis, sodales sapien vitae, placerat lectus. Sed rutrum lacus magna. Ut ut mi vel elit cursus lobortis. Nulla lacus est, auctor et suscipit ut, luctus id dolor.
               </p>
             </Col>
             <Col>
@@ -39,42 +39,56 @@ function About() {
             <Carousel.Item>
               <Row>
                 <Col>
+                  <i class="fas fa-search"></i>
+                  <br />
+                  <h4>Analysis</h4>
+                </Col>
+                <Col>
+                  <i class="fas fa-palette"></i>
+                  <br />
+                  <h4>Design</h4>
+                </Col>
+                <Col>
                   <i class="fas fa-signal"></i>
                   <br />
                   <h4>Research</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, nesciunt quod atque aspernatur quos aut cumque, cupiditate distinctio quasi dicta sunt modi debitis ipsum laudantium harum eaque enim velit similique!</p>
-                </Col>
-                <Col>
-                  <i class="fas fa-search"></i>
-                  <br />
-                  <h4>Evaluation Analysis</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, nesciunt quod atque aspernatur quos aut cumque, cupiditate distinctio quasi dicta sunt modi debitis ipsum laudantium harum eaque enim velit similique!</p>
                 </Col>
                 <Col>
                   <i class="fas fa-file-alt"></i>
                   <br />
                   <h4>Assessment</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, nesciunt quod atque aspernatur quos aut cumque, cupiditate distinctio quasi dicta sunt modi debitis ipsum laudantium harum eaque enim velit similique!</p>
                 </Col>
               </Row>
             </Carousel.Item>
             <Carousel.Item>
-              slide 2
-            </Carousel.Item>
-            <Carousel.Item>
-              slide 3
-            </Carousel.Item>
-            <Carousel.Item>
-              slide 4
-            </Carousel.Item>
-            <Carousel.Item>
-              slide 5
+              <Row>
+                <Col>
+                  <i class="fas fa-clipboard-list"></i>
+                  <br />
+                  <h4>Planning</h4>
+                </Col>
+                <Col>
+                  <i class="fas fa-clipboard-check"></i>
+                  <br />
+                  <h4>Licensing and Permiting</h4>
+                </Col>
+                <Col>
+                  <i class="fas fa-hard-hat"></i>
+                  <br />
+                  <h4>Engineering</h4>
+                </Col>
+                <Col>
+                  <i class="fas fa-file-alt"></i>
+                  <br />
+                  <h4>Evaluation</h4>
+                </Col>
+              </Row>
             </Carousel.Item>
           </Carousel>
         </Container>
 
       </section>
-      
+
       <section className="organization">
         <Container>
           <h1>Organization of SSG</h1>
