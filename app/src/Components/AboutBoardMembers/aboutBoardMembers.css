@@ -11,7 +11,7 @@
     margin: 20px;
 }
 
-.header-border {
+.board-members .header-border {
     background-color: #CF4917;
     height: 420px;
     margin-bottom: 50px;
@@ -60,7 +60,7 @@
     transform: translate(-50%, -50%);
 }
 
-.underline {
+.board-members .underline {
     width: 350px;
     height: 7px;
     background-color: #CF4917;
