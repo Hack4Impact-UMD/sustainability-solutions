@@ -1,7 +1,6 @@
 import styles from "./contact.module.css";
 import {
   Container,
-  Image,
   Form,
   Row,
   Col,
@@ -46,11 +45,12 @@ const Contact = (props) => {
         <div className={styles.header2}>
           <img src={IntroImage} alt="contact image" />
           <h1 class={styles.headerTitle}>CONTACT US</h1>
-          <div class={styles.underline2}></div>
+          <div class={styles.contactUnderline}></div>
         </div>
       </div>
       <div className={styles.welcometext}>
-        <p>Have questions? Send us a message!</p>
+        <p>Interested in working with us? Have any questions?</p>
+        <p>Send us a message!</p>
       </div>
       <div className={styles.container}>
         <Container fluid>
