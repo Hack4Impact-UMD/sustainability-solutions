@@ -1,6 +1,7 @@
 .board-members {
     text-align: center;
     font-size: 16px;
+    font-family: 'Nunito', sans-serif;
 }
 
 .members-box {
@@ -58,6 +59,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: 700;
 }
 
 .underline {

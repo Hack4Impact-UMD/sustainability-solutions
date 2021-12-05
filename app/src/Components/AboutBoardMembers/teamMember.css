@@ -88,8 +88,8 @@ figcaption.name {
 
 figcaption.position {
     font-size: 18px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 500;
+    font-family: 'Lora', serif;
+    font-weight: 400;
 }
 
 .close {
@@ -107,4 +107,8 @@ figcaption.position {
     background-color: #CF4917;
     top: 75%;
     border-radius: 10px;
+}
+
+.team-member {
+    margin: 30px;
 }

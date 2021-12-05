@@ -1,9 +1,9 @@
-.project-page {
+.news-page {
     font-family: 'Nunito', sans-serif;
 }
 
-.project-header-border {
-    background-color: #D0B285;
+.news-header-border {
+    background-color: #2D758C;
     height: 420px;
     margin-bottom: 50px;
     clip-path: 
@@ -19,7 +19,7 @@
         );
 }
 
-.project-header {
+.news-header {
     position: relative;
     text-align: center;
     color: white;
@@ -27,7 +27,7 @@
     height: 300px;
 }
 
-.project-header > img {
+.news-header > img {
     height: 400px;
     width: 100%;
     object-fit: cover;
@@ -44,7 +44,7 @@
         );
 }
 
-.project-header-title {
+.news-header-title {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -53,23 +53,23 @@
     font-weight: 700;
 }
 
-.project-underline {
+.news-underline {
     width: 300px;
     height: 7px;
-    background-color: #D0B285;
+    background-color: #2D758C;
     top: 65%;
     border-radius: 10px;
 }
 
-.projects {
+.news {
     padding: 20px;
-    margin: 20px 0px;
+    margin: 40px 0px;
 }
 
-.project-img {
+.news-img {
     width: 260px;
     height: 260px;
-    box-shadow: -10px -10px #D0B285;
+    box-shadow: -10px -10px #2D758C;
     margin: 20px 0px;
 }
 
@@ -80,11 +80,11 @@
     flex-wrap: wrap;
 }
 
-.project {
+.news-item {
     margin: 0px 40px;
 }
 
-figcaption.project-name {
+figcaption.news-name {
     font-family: Nunito;
     font-size: 34px;
     font-weight: 700;
@@ -98,7 +98,7 @@ figcaption.month {
     font-family: 'Lora', serif;
 }
 
-.projects .carousel.slide .carousel-indicators button {
+.news .carousel.slide .carousel-indicators button {
     background-color: #2D758C;
     border: none;
     width: 15px !important;
@@ -108,11 +108,11 @@ figcaption.month {
     margin: 10px;
 }
 
-.projects .carousel.slide .carousel-indicators button:hover {
+.news .carousel.slide .carousel-indicators button:hover {
     transform: scale(1.15); 
 }
 
-.projects .carousel.slide .carousel-indicators .active {
+.news .carousel.slide .carousel-indicators .active {
     background-color: #F9AC3D;
 }
 
@@ -121,4 +121,8 @@ figcaption.month {
     margin-bottom: -30px;
     color: #174950;
     font-size: 34px;
+}
+
+.category1 {
+    background-color: #C2CF9B;
 }
