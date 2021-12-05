@@ -71,7 +71,7 @@
     border-radius: 10px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 864px) {
     .about-team-underline {
         top: 80%;
     }
