@@ -18,7 +18,7 @@ const Projects = () => {
                 </div>
             </div>
             <div className="projects">
-                <h1>Current Projects</h1>
+                <h1 className="carousel-title">Current Projects</h1>
                 <Carousel prevLabel={null} nextLabel={null} prevIcon={prev} nextIcon={next}>
                     <Carousel.Item>
                         <div className="item">
@@ -80,7 +80,7 @@ const Projects = () => {
                 </Carousel>
             </div>
             <div className="projects">
-                <h1>Past Projects</h1>
+                <h1 className="carousel-title">Past Projects</h1>
                 <Carousel prevLabel={null} nextLabel={null} prevIcon={prev} nextIcon={next}>
                     <Carousel.Item>
                         <div className="item">

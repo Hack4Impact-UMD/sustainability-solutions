@@ -19,7 +19,7 @@ function AboutBoardMembers() {
       <div className="header-border">
         <div className="header">
           <img src='/aboutBoardMembers/meet_the_board_header.jpg' alt='wave'/>
-          <h1 class="header-title">MEET THE BOARD</h1>
+          <h1 class="header-title">MEET THE ADVISORY BOARD</h1>
           <div class="header-title underline"></div>
         </div>
       </div>
