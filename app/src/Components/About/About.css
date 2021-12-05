@@ -5,22 +5,48 @@
     font-family: 'Nunito', sans-serif;
 }
 
-section.organization {
+.headshot {
+    border-radius: 50%;
+    height: 220px;
+    width: 220px;
+    object-fit: cover;
+    object-position: 50% 0%;
+    opacity: 1;
+    transition: all .4s ease-in-out;
+}
+
+.diagram {
+    width: 100%;
+    margin: 40px 0;
+}
+
+.about-page section {
     padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.about-page h1 {
+    font-weight: 700;
+    font-size: 34px;
 }
 
 .our-mission {
     padding: 0 0 60px 0;
+    margin-bottom: 40px;
 }
 
-.our-mission p {
+.about-page p {
     text-align: left;
     font-family: 'Lora', serif;
 }
 
-.our-mission h1 {
-    margin-bottom: 40px;
-    font-weight: 600;
+
+.about-page h2 {
+    color: #2d758c;
+    font-weight: 800;
+    font-size: 34px;
+    margin-bottom: 30px;
 }
 
 section.carousel {
