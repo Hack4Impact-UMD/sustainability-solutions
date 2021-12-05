@@ -1,5 +1,9 @@
+.news-page {
+    font-family: 'Nunito', sans-serif;
+}
+
 .news-header-border {
-    background-color: #D0B285;
+    background-color: #2D758C;
     height: 420px;
     margin-bottom: 50px;
     clip-path: 
@@ -45,25 +49,27 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: 700;
 }
 
 .news-underline {
-    width: 350px;
+    width: 300px;
     height: 7px;
-    background-color: #D0B285;
-    top: 70%;
+    background-color: #2D758C;
+    top: 65%;
     border-radius: 10px;
 }
 
-.news-box {
+.news {
     padding: 20px;
-    margin: 20px 0px;
+    margin: 40px 0px;
 }
 
 .news-img {
     width: 260px;
     height: 260px;
-    box-shadow: -10px -10px #D0B285;
+    box-shadow: -10px -10px #2D758C;
     margin: 20px 0px;
 }
 
@@ -74,14 +80,14 @@
     flex-wrap: wrap;
 }
 
-.news {
-    margin: 15px 40px;
+.news-item {
+    margin: 0px 40px;
 }
 
-.figcaption-news-name {
+figcaption.news-name {
     font-family: Nunito;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 34px;
+    font-weight: 700;
 }
 
 figcaption.month {
@@ -89,27 +95,34 @@ figcaption.month {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
     margin-bottom: 15px;
+    font-family: 'Lora', serif;
 }
 
 .news .carousel.slide .carousel-indicators button {
     background-color: #2D758C;
     border: none;
-    width: 13px;
-    height: 13px;
+    width: 15px !important;
+    height: 15px !important;
     border-radius: 50%;
     transition: all .3s ease-in-out; 
     margin: 10px;
 }
 
-.carousel-indicators button:hover {
+.news .carousel.slide .carousel-indicators button:hover {
     transform: scale(1.15); 
 }
 
-.carousel.slide .carousel .carousel-indicators .active {
+.news .carousel.slide .carousel-indicators .active {
     background-color: #F9AC3D;
 }
 
-h2 {
-    font-family: Nunito;
-    font-weight: 1000;
+.carousel-title {
+    font-weight: 700;
+    margin-bottom: -30px;
+    color: #174950;
+    font-size: 34px;
+}
+
+.category1 {
+    background-color: #C2CF9B;
 }
