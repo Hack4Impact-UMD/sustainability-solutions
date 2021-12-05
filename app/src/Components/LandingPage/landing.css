@@ -2,6 +2,8 @@
 
 .landing-container{
     background: #EFF0F0;
+    padding-top: 100px;
+    font-family: 'Nunito', sans-serif;
 }
 
 .intro {
@@ -15,6 +17,8 @@
     font-weight: bold;
     font-size: 2.70vw;
     color: #174950;
+    font-family: 'Lora', serif;
+
 }
 
 .section2 {
