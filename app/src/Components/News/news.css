@@ -55,7 +55,7 @@
     border-radius: 10px;
 }
 
-.news {
+.news-box {
     padding: 20px;
     margin: 20px 0px;
 }
@@ -91,7 +91,7 @@ figcaption.month {
     margin-bottom: 15px;
 }
 
-.carousel-indicators button {
+.news .carousel.slide .carousel-indicators button {
     background-color: #2D758C;
     border: none;
     width: 13px;
@@ -105,7 +105,7 @@ figcaption.month {
     transform: scale(1.15); 
 }
 
-.carousel-indicators button:focus {
+.carousel.slide .carousel .carousel-indicators .active {
     background-color: #F9AC3D;
 }
 

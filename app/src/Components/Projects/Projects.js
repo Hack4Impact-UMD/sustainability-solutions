@@ -1,7 +1,7 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import "./projects.css";
-import NewsImage from "./meet_the_board_header.jpg"
+import NewsImage from "./ClimateActionNowImage.jpg"
 import { GrFormNext, GrFormPrevious } from 'react-icons/gr';
 
 const Projects = () => {
@@ -9,31 +9,31 @@ const Projects = () => {
     const next = <GrFormNext size={70}/>
 
     return (
-        <div>
+        <div className="project-page">
             <div className="project-header-border">
                 <div className="project-header">
-                    <img src='/aboutBoardMembers/meet_the_board_header.jpg' alt='wave'/>
-                    <h1 class="project-header-title">PROJECTS</h1>
+                    <img src={NewsImage} alt='climate action'/>
+                    <p class="project-header-title">PROJECTS</p>
                     <div class="project-header-title project-underline"></div>
                 </div>
             </div>
             <div className="projects">
-                <h2>Current Projects</h2>
+                <h1>Current Projects</h1>
                 <Carousel prevLabel={null} nextLabel={null} prevIcon={prev} nextIcon={next}>
                     <Carousel.Item>
                         <div className="item">
                             <figure className="project">
-                                <img src={NewsImage} className="project-img"/>
+                                <img src={NewsImage} className="project-img" alt="project"/>
                                 <figcaption className="project-name">Description 1</figcaption>
                                 <figcaption className="month">Month 00, 0000</figcaption>
                             </figure>
                             <figure className="project">
-                                <img src={NewsImage} className="project-img"/>
+                                <img src={NewsImage} className="project-img" alt="project"/>
                                 <figcaption className="project-name">Description 1</figcaption>
                                 <figcaption className="month">Month 00, 0000</figcaption>
                             </figure>
                             <figure className="project">
-                                <img src={NewsImage} className="project-img"/>
+                                <img src={NewsImage} className="project-img" alt="project"/>
                                 <figcaption className="project-name">Description 1</figcaption>
                                 <figcaption className="month">Month 00, 0000</figcaption>
                             </figure>
@@ -42,17 +42,17 @@ const Projects = () => {
                     <Carousel.Item>
                         <div className="item">
                             <figure className="project">
-                                <img src={NewsImage} className="project-img"/>
+                                <img src={NewsImage} className="project-img" alt="project"/>
                                 <figcaption className="project-name">Description 2</figcaption>
                                 <figcaption className="month">Month 00, 0000</figcaption>
                             </figure>
                             <figure className="project">
-                                <img src={NewsImage} className="project-img"/>
+                                <img src={NewsImage} className="project-img" alt="project"/>
                                 <figcaption className="project-name">Description 2</figcaption>
                                 <figcaption className="month">Month 00, 0000</figcaption>
                             </figure>
                             <figure className="project">
-                                <img src={NewsImage} className="project-img"/>
+                                <img src={NewsImage} className="project-img" alt="project"/>
                                 <figcaption className="project-name">Description 2</figcaption>
                                 <figcaption className="month">Month 00, 0000</figcaption>
                             </figure>
@@ -61,17 +61,17 @@ const Projects = () => {
                     <Carousel.Item>
                         <div className="item">
                             <figure className="project">
-                                <img src={NewsImage} className="project-img"/>
+                                <img src={NewsImage} className="project-img" alt="project"/>
                                 <figcaption className="project-name">Description 3</figcaption>
                                 <figcaption className="month">Month 00, 0000</figcaption>
                             </figure>
                             <figure className="project">
-                                <img src={NewsImage} className="project-img"/>
+                                <img src={NewsImage} className="project-img" alt="project"/>
                                 <figcaption className="project-name">Description 3</figcaption>
                                 <figcaption className="month">Month 00, 0000</figcaption>
                             </figure>
                             <figure className="project">
-                                <img src={NewsImage} className="project-img"/>
+                                <img src={NewsImage} className="project-img" alt="project"/>
                                 <figcaption className="project-name">Description 3</figcaption>
                                 <figcaption className="month">Month 00, 0000</figcaption>
                             </figure>
@@ -80,22 +80,22 @@ const Projects = () => {
                 </Carousel>
             </div>
             <div className="projects">
-                <h2>Past Projects</h2>
+                <h1>Past Projects</h1>
                 <Carousel prevLabel={null} nextLabel={null} prevIcon={prev} nextIcon={next}>
                     <Carousel.Item>
                         <div className="item">
                             <figure className="project">
-                                <img src={NewsImage} className="project-img"/>
+                                <img src={NewsImage} className="project-img" alt="project"/>
                                 <figcaption className="project-name">Description 1</figcaption>
                                 <figcaption className="month">Month 00, 0000</figcaption>
                             </figure>
                             <figure className="project">
-                                <img src={NewsImage} className="project-img"/>
+                                <img src={NewsImage} className="project-img" alt="project"/>
                                 <figcaption className="project-name">Description 1</figcaption>
                                 <figcaption className="month">Month 00, 0000</figcaption>
                             </figure>
                             <figure className="project">
-                                <img src={NewsImage} className="project-img"/>
+                                <img src={NewsImage} className="project-img" alt="project"/>
                                 <figcaption className="project-name">Description 1</figcaption>
                                 <figcaption className="month">Month 00, 0000</figcaption>
                             </figure>
@@ -104,17 +104,17 @@ const Projects = () => {
                     <Carousel.Item>
                         <div className="item">
                             <figure className="project">
-                                <img src={NewsImage} className="project-img"/>
+                                <img src={NewsImage} className="project-img" alt="project"/>
                                 <figcaption className="project-name">Description 2</figcaption>
                                 <figcaption className="month">Month 00, 0000</figcaption>
                             </figure>
                             <figure className="project">
-                                <img src={NewsImage} className="project-img"/>
+                                <img src={NewsImage} className="project-img" alt="project"/>
                                 <figcaption className="project-name">Description 2</figcaption>
                                 <figcaption className="month">Month 00, 0000</figcaption>
                             </figure>
                             <figure className="project">
-                                <img src={NewsImage} className="project-img"/>
+                                <img src={NewsImage} className="project-img" alt="project"/>
                                 <figcaption className="project-name">Description 2</figcaption>
                                 <figcaption className="month">Month 00, 0000</figcaption>
                             </figure>
@@ -123,17 +123,17 @@ const Projects = () => {
                     <Carousel.Item>
                         <div className="item">
                             <figure className="project">
-                                <img src={NewsImage} className="project-img"/>
+                                <img src={NewsImage} className="project-img" alt="project"/>
                                 <figcaption className="project-name">Description 3</figcaption>
                                 <figcaption className="month">Month 00, 0000</figcaption>
                             </figure>
                             <figure className="project">
-                                <img src={NewsImage} className="project-img"/>
+                                <img src={NewsImage} className="project-img" alt="project"/>
                                 <figcaption className="project-name">Description 3</figcaption>
                                 <figcaption className="month">Month 00, 0000</figcaption>
                             </figure>
                             <figure className="project">
-                                <img src={NewsImage} className="project-img"/>
+                                <img src={NewsImage} className="project-img" alt="project"/>
                                 <figcaption className="project-name">Description 3</figcaption>
                                 <figcaption className="month">Month 00, 0000</figcaption>
                             </figure>

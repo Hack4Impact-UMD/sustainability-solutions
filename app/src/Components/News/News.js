@@ -17,7 +17,7 @@ const News = () => {
                     <div class="news-header-title project-underline"></div>
                 </div>
             </div>
-            <div className="news">
+            <div className="news-box">
                 <h2>Latest</h2>
                 <Carousel prevLabel={null} nextLabel={null} prevIcon={prev} nextIcon={next}>
                     <Carousel.Item>
