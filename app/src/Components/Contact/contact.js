@@ -122,7 +122,7 @@ const Contact = (props) => {
                       />
                     </Form.Group>
                   </Row>
-                  <div className="recap">
+                  <div className={styles.recap}>
                     <ReCAPTCHA
                       sitekey="6LfBBkodAAAAAMbquiTN34opmljr5vUbnKqwHsdc"
                       onChange={onChange}
