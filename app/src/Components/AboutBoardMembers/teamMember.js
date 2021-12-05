@@ -9,7 +9,7 @@ function TeamMember(props) {
 
     return (
         <div>
-            <figure>
+            <figure className="team-member">
                 <div className="shadow">
                 <img className="headshot" src={member.img} alt='headshot'/>
                 <p className="learn-more" onClick={() => setOpen(o => !o)}>Learn more</p>

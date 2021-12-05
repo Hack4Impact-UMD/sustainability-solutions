@@ -16,11 +16,11 @@ const team = [
 function AboutBoardMembers() {
   return (
     <div className="board-members">
-      <div className="header-border">
+      <div className="about-team-header-border">
         <div className="header">
           <img src='/aboutBoardMembers/meet_the_board_header.jpg' alt='wave'/>
-          <h1 class="header-title">MEET THE BOARD</h1>
-          <div class="header-title underline"></div>
+          <h1 class="about-team-header-title">MEET THE ADVISORY BOARD</h1>
+          <div class="about-team-header-title about-team-underline"></div>
         </div>
       </div>
       <div className="members-box">

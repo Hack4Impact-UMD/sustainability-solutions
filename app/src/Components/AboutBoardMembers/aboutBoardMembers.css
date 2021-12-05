@@ -1,6 +1,7 @@
 .board-members {
     text-align: center;
     font-size: 16px;
+    font-family: 'Nunito', sans-serif;
 }
 
 .members-box {
@@ -11,7 +12,7 @@
     margin: 20px;
 }
 
-.header-border {
+.about-team-header-border {
     background-color: #CF4917;
     height: 420px;
     margin-bottom: 50px;
@@ -53,17 +54,25 @@
         );
 }
 
-.header-title {
+.about-team-header-title {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: 700;
 }
 
-.underline {
+.about-team-underline {
     width: 350px;
     height: 7px;
     background-color: #CF4917;
     top: 70%;
     border-radius: 10px;
 }
+
+@media screen and (max-width: 864px) {
+    .about-team-underline {
+        top: 80%;
+    }
+  }

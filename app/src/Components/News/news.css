@@ -1,0 +1,128 @@
+.news-page {
+    font-family: 'Nunito', sans-serif;
+}
+
+.news-header-border {
+    background-color: #2D758C;
+    height: 420px;
+    margin-bottom: 50px;
+    clip-path: 
+        polygon(
+            0% 0%,     /* top left */
+            0% 0%,     /* top left */
+            100% 0%,    /* top right */
+            100% 0%,   /* top right */
+            100% 75%,  /* bottom right */
+            50% 100%,  /* bottom right */
+            50% 100%,   /* bottom left */
+            0 75%      /* bottom left */
+        );
+}
+
+.news-header {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    height: 300px;
+}
+
+.news-header > img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    clip-path: 
+        polygon(
+            0% 0%,     /* top left */
+            0% 0%,     /* top left */
+            100% 0%,    /* top right */
+            100% 0%,   /* top right */
+            100% 75%,  /* bottom right */
+            50% 100%,  /* bottom right */
+            50% 100%,   /* bottom left */
+            0 75%      /* bottom left */
+        );
+}
+
+.news-header-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.news-underline {
+    width: 300px;
+    height: 7px;
+    background-color: #2D758C;
+    top: 65%;
+    border-radius: 10px;
+}
+
+.news {
+    padding: 20px;
+    margin: 40px 0px;
+}
+
+.news-img {
+    width: 260px;
+    height: 260px;
+    box-shadow: -10px -10px #2D758C;
+    margin: 20px 0px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.news-item {
+    margin: 0px 40px;
+}
+
+figcaption.news-name {
+    font-family: Nunito;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+figcaption.month {
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-family: 'Lora', serif;
+}
+
+.news .carousel.slide .carousel-indicators button {
+    background-color: #2D758C;
+    border: none;
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50%;
+    transition: all .3s ease-in-out; 
+    margin: 10px;
+}
+
+.news .carousel.slide .carousel-indicators button:hover {
+    transform: scale(1.15); 
+}
+
+.news .carousel.slide .carousel-indicators .active {
+    background-color: #F9AC3D;
+}
+
+.carousel-title {
+    font-weight: 700;
+    margin-bottom: -30px;
+    color: #174950;
+    font-size: 34px;
+}
+
+.category1 {
+    background-color: #C2CF9B;
+}
