@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import InstagramIcon from './instagram-brands.svg';
 import FacebookIcon from './facebook-square-brands.svg';
 import TwitterIcon from './twitter-brands.svg';
+import logo from './logo.png';
 
 import './Footer.css';
 
@@ -11,13 +12,9 @@ function Footer() {
     return (
         <div className="footer-container">
             <div className="logo-col">
-                <p>
-                    Sutainability <br/>
-                    Solutions <br/>
-                    Group
-                </p>
+                <img src={logo} /> <br/>
                 <Link to="/contactus">
-                    <button> CONTACT US </button>
+                    <button>CONTACT US</button>
                 </Link>
             </div>
             <div className="white-bar" />
