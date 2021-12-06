@@ -14,7 +14,7 @@ function Footer() {
             <div className="logo-col">
                 <img src={logo} /> <br/>
                 <Link to="/contactus">
-                    <button> CONTACT US </button>
+                    <button>CONTACT US</button>
                 </Link>
             </div>
             <div className="white-bar" />
