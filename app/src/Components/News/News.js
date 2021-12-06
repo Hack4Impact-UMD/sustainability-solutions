@@ -1,7 +1,7 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import "./news.css";
-import NewsImage from "./meet_the_board_header.jpg"
+import NewsImage from "./news.png"
 import { GrFormNext, GrFormPrevious } from 'react-icons/gr';
 
 const Projects = () => {

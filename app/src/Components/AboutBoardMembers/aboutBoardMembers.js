@@ -2,15 +2,17 @@ import React from "react";
 import 'reactjs-popup/dist/index.css';
 import "./aboutBoardMembers.css";
 import TeamMember from './teamMember';
+import headshot from './headshot.jpeg'
+import headerImage from './our team.png';
 
 const team = [
-  {img: '/aboutBoardMembers/headshot.jpeg', name: "Ben Lin", position: "Position"},
-  {img: '/aboutBoardMembers/headshot.jpeg', name: "Ethan", position: "Position"},
-  {img: '/aboutBoardMembers/headshot.jpeg', name: "Sadena", position: "Position"},
-  {img: '/aboutBoardMembers/headshot.jpeg', name: "Katherine", position: "Position"},
-  {img: '/aboutBoardMembers/headshot.jpeg', name: "Vibhu", position: "Position"},
-  {img: '/aboutBoardMembers/headshot.jpeg', name: "Priya", position: "Position"},
-  {img: '/aboutBoardMembers/headshot.jpeg', name: "Julie", position: "Position"},
+  {img: headshot, name: "Karen Campblin", position: "Chair"},
+  {img: headshot, name: "Eric Harris", position: "Secretary"},
+  {img: headshot, name: "Sarah Williams", position: "Board Member"},
+  {img: headshot, name: "Tonya Eddy", position: "Board Member"},
+  {img: headshot, name: "Eilleen Woll", position: "Board Member"},
+  {img: headshot, name: "Jill Gambill", position: "Board Member"},
+  {img: headshot, name: "William Harris", position: "Board Member"},
 ]
 
 function AboutBoardMembers() {
@@ -18,7 +20,7 @@ function AboutBoardMembers() {
     <div className="board-members">
       <div className="about-team-header-border">
         <div className="header">
-          <img src='/aboutBoardMembers/meet_the_board_header.jpg' alt='wave'/>
+          <img src={headerImage} alt='our team'/>
           <h1 class="about-team-header-title">MEET THE ADVISORY BOARD</h1>
           <div class="about-team-header-title about-team-underline"></div>
         </div>

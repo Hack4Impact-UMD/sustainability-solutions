@@ -8,7 +8,7 @@ import {
   Button,
 } from "react-bootstrap";
 import React, { useRef } from "react";
-import IntroImage from "./IntroImage.png";
+import HeaderImage from "./contact us.png";
 import emailjs from "emailjs-com";
 import ReCAPTCHA from "react-google-recaptcha";
 
@@ -39,11 +39,12 @@ const Contact = (props) => {
   function onChange(value) {
     console.log("Captcha value:", value);
   }
+
   return (
     <div className={styles.main}>
       <div className={styles.headerBorder}>
-        <div className={styles.header2}>
-          <img src={IntroImage} alt="contact image" />
+        <div className={styles.contactHeader}>
+          <img src={HeaderImage} alt="contact image" />
           <h1 class={styles.headerTitle}>CONTACT US</h1>
           <div class={styles.contactUnderline}></div>
         </div>
