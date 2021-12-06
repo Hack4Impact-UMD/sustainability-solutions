@@ -106,7 +106,7 @@ figcaption.month {
     height: 15px !important;
     border-radius: 50%;
     transition: all .3s ease-in-out; 
-    margin: 10px;
+    margin: 10px 20px;
 }
 
 .projects .carousel.slide .carousel-indicators button:hover {
@@ -115,6 +115,14 @@ figcaption.month {
 
 .projects .carousel.slide .carousel-indicators .active {
     background-color: #F9AC3D;
+}
+
+.projects .carousel.slide .carousel-control-prev {
+    opacity: 1;
+}
+
+.projects .carousel.slide .carousel-control-next {
+    opacity: 1;
 }
 
 .carousel-title {

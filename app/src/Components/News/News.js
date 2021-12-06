@@ -21,7 +21,7 @@ const Projects = () => {
                 <h1 className="carousel-title">Latest</h1>
                 <Carousel prevLabel={null} nextLabel={null} prevIcon={prev} nextIcon={next}>
                     <Carousel.Item>
-                        <div className="item">
+                        <div className="news-page-item">
                             <figure className="news-item">
                                 <img src={NewsImage} className="news-img" alt="project"/>
                                 <figcaption className="news-name">Description 1</figcaption>
@@ -40,7 +40,7 @@ const Projects = () => {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className="item">
+                        <div className="news-page-item">
                             <figure className="news-item">
                                 <img src={NewsImage} className="news-img" alt="project"/>
                                 <figcaption className="news-name">Description 2</figcaption>
@@ -59,7 +59,7 @@ const Projects = () => {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className="item">
+                        <div className="news-page-item">
                             <figure className="news-item">
                                 <img src={NewsImage} className="news-img" alt="project"/>
                                 <figcaption className="news-name">Description 3</figcaption>
@@ -83,7 +83,7 @@ const Projects = () => {
                 <h1 className="carousel-title">Category 1</h1>
                 <Carousel prevLabel={null} nextLabel={null} prevIcon={prev} nextIcon={next}>
                     <Carousel.Item>
-                        <div className="item">
+                        <div className="news-page-item">
                             <figure className="news-item">
                                 <img src={NewsImage} className="news-img" alt="project"/>
                                 <figcaption className="news-name">Description 1</figcaption>
@@ -102,7 +102,7 @@ const Projects = () => {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className="item">
+                        <div className="news-page-item">
                             <figure className="news-item">
                                 <img src={NewsImage} className="news-img" alt="project"/>
                                 <figcaption className="news-name">Description 2</figcaption>
@@ -121,7 +121,7 @@ const Projects = () => {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className="item">
+                        <div className="news-page-item">
                             <figure className="news-item">
                                 <img src={NewsImage} className="news-img" alt="project"/>
                                 <figcaption className="news-name">Description 3</figcaption>
@@ -145,7 +145,7 @@ const Projects = () => {
                 <h1 className="carousel-title">Category 2</h1>
                 <Carousel prevLabel={null} nextLabel={null} prevIcon={prev} nextIcon={next}>
                     <Carousel.Item>
-                        <div className="item">
+                        <div className="news-page-item">
                             <figure className="news-item">
                                 <img src={NewsImage} className="news-img" alt="project"/>
                                 <figcaption className="news-name">Description 1</figcaption>
@@ -164,7 +164,7 @@ const Projects = () => {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className="item">
+                        <div className="news-page-item">
                             <figure className="news-item">
                                 <img src={NewsImage} className="news-img" alt="project"/>
                                 <figcaption className="news-name">Description 2</figcaption>
@@ -183,7 +183,7 @@ const Projects = () => {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className="item">
+                        <div className="news-page-item">
                             <figure className="news-item">
                                 <img src={NewsImage} className="news-img" alt="project"/>
                                 <figcaption className="news-name">Description 3</figcaption>
