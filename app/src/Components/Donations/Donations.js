@@ -57,18 +57,18 @@ function Donations() {
                 <Row>
                     <Col className="amount-enter">
                         <Form>
-                        <Row>
-                            <Form.Group as={Row} controlId="formGridAmount">
-                                <Form.Label column sm="4">Other:$</Form.Label>
-                                <Col>
-                                    <Form.Control
-                                        className="amount-field"
-                                        type="amount"
-                                        placeholder="0.00"
-                                    />
-                                </Col>
-                            </Form.Group>
-                        </Row>
+                            <Row>
+                                <Form.Group as={Row} controlId="formGridAmount">
+                                    <Form.Label column sm="4" className="other">Other: $</Form.Label>
+                                    <Col>
+                                        <Form.Control
+                                            className="amount-field"
+                                            type="amount"
+                                            placeholder="0.00"
+                                        />
+                                    </Col>
+                                </Form.Group>
+                            </Row>
                         </Form>
                     </Col>
                 </Row>
@@ -193,7 +193,7 @@ function Donations() {
                             variant="primary"
                             type="submit"
                         >
-                            SUBMIT
+                            DONATE
                         </Button>
                         </Form>
                     </Col>
