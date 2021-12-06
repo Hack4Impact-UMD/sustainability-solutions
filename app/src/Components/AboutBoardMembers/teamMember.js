@@ -16,7 +16,7 @@ function TeamMember(props) {
                 <Popup modal open={open} onClose={closeModal}>
                     <div className="popup">
                     <a className="close" onClick={closeModal}>&times;</a>
-                    <img className="popup-headshot" src='/aboutBoardMembers/headshot.jpeg' alt='headshot'/>
+                    <img className="popup-headshot" src={member.img} alt='headshot'/>
                     <h1 className="name-popup">{member.name}</h1>
                     <div class="underline-popup"></div>
                     <h2 className="position-popup">{member.position}</h2>
