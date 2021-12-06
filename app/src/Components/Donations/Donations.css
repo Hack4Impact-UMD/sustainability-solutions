@@ -67,13 +67,14 @@
     font-family: "Nunito";
     display: flex;
     flex-direction: row;
-    margin: 0% 18% 3% 16%;
+    margin: 0% 18% 3% 18%;
 }
 
-.amount-select p {
+.amount-select button {
     padding: 2vw 4vw 2vw 4vw;
     background-color: #FCE1BA;
     margin-right: 20px;
+    border-color: #FCE1BA;
 }
 
 .amount-enter {
@@ -82,10 +83,15 @@
     font-size: 3vw;
     font-weight: 600;
     font-family: "Nunito";
-    display: flex;
-    flex-direction: row;
     margin: 0% 18% 7% 18%;
-    padding: 2vw 5vw 2vw 5vw;
+    padding: 2vw 0vw 2vw 5vw;
+}
+
+.amount-field{
+    box-shadow: 0px 6px 5px rgba(0,0,0,.2);
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 10px;
 }
 
 .donation-form {

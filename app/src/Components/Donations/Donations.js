@@ -48,10 +48,10 @@ function Donations() {
             <Container fluid>
                 <Row> 
                     <Col className="amount-select"> 
-                        <p>$10</p>
-                        <p>$20</p>
-                        <p>$50</p>
-                        <p>$100</p>
+                        <button>$10</button>
+                        <button>$20</button>
+                        <button>$50</button>
+                        <button>$100</button>
                     </Col>
                 </Row>
                 <Row>
@@ -62,7 +62,7 @@ function Donations() {
                                 <Form.Label column sm="4">Other:$</Form.Label>
                                 <Col>
                                     <Form.Control
-                                        className="form-fields"
+                                        className="amount-field"
                                         type="amount"
                                         placeholder="0.00"
                                     />
