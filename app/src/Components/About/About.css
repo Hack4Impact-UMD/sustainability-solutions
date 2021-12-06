@@ -1,0 +1,150 @@
+.about-page {
+    text-align: center;
+    font-size: 16px;
+    background-color: #E5E5E5;
+    font-family: 'Nunito', sans-serif;
+}
+
+.headshot {
+    border-radius: 50%;
+    height: 220px;
+    width: 220px;
+    object-fit: cover;
+    object-position: 50% 0%;
+    opacity: 1;
+    transition: all .4s ease-in-out;
+}
+
+.diagram {
+    width: 100%;
+    margin: 40px 0;
+}
+
+.about-page section {
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.about-page h1 {
+    font-weight: 700;
+    font-size: 34px;
+}
+
+.our-mission {
+    padding: 0 0 60px 0;
+    margin-bottom: 40px;
+}
+
+.about-page p {
+    text-align: left;
+    font-family: 'Lora', serif;
+}
+
+
+.about-page h2 {
+    color: #2d758c;
+    font-weight: 800;
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+
+section.carousel {
+    background-color: #2d758c;
+    color: white;
+}
+
+.carousel {
+    padding: 40px 0;
+}
+
+.carousel i {
+    font-size: 69px;
+    margin-bottom: 20px;
+}
+
+.carousel p {
+    font-size: 0.8rem;
+    font-family: 'Lora', serif;
+}
+
+.about-page .carousel h4 {
+    font-size: 1.2rem;
+}
+
+.carousel .slide {
+    min-height: 269px;
+}
+
+.carousel .row {
+    padding: 0px 15%;
+}
+
+.carousel-indicators button {
+    margin: 0 20px;
+    background-color: #EFF0F0;
+    border-radius: 50%;
+    border: none;
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.carousel-indicators button.active {
+    background-color: #174950;
+}
+
+.header-border {
+    background-color: #d0b285;
+    height: 420px;
+    margin-bottom: 50px;
+    clip-path: polygon(
+        0% 0%,
+        /* top left */ 0% 0%,
+        /* top left */ 100% 0%,
+        /* top right */ 100% 0%,
+        /* top right */ 100% 75%,
+        /* bottom right */ 50% 100%,
+        /* bottom right */ 50% 100%,
+        /* bottom left */ 0 75% /* bottom left */
+    );
+}
+
+.header {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    height: 300px;
+}
+
+.header > img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    clip-path: polygon(
+        0% 0%,
+        /* top left */ 0% 0%,
+        /* top left */ 100% 0%,
+        /* top right */ 100% 0%,
+        /* top right */ 100% 75%,
+        /* bottom right */ 50% 100%,
+        /* bottom right */ 50% 100%,
+        /* bottom left */ 0 75% /* bottom left */
+    );
+}
+
+.header-title {
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+}
+
+.underline {
+    width: 220px;
+    height: 7px;
+    background-color: #d0b285;
+    top: 75%;
+    border-radius: 10px;
+}

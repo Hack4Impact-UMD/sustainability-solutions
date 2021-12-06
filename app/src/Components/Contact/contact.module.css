@@ -1,0 +1,141 @@
+
+.main {
+  background-color: #E5E5E5;
+  font-family: 'Nunito', sans-serif;
+}
+
+.imageDiv {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  width: 100%;
+  display: flex;
+}
+
+.welcometext {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+}
+
+.welcometext > p {
+  margin-bottom: 0;
+}
+
+.form {
+  background-color: #758C33;
+  padding: 50px 75px 50px 75px;
+  margin: 0% 18% 20% 18%; /*  */
+  text-align: left;
+  color: white;
+  border-radius: 5px;
+  justify-content: space-between;
+  box-shadow: 0px 4px 5px rgba(0,0,0,.2);
+}
+
+.recap {
+  margin: 2% 30% 2% 30%; /*  */
+  box-shadow: 0px 6px 5px rgba(0,0,0,.2)
+}
+
+.fields {
+  box-shadow: 0px 6px 5px rgba(0,0,0,.2)
+}
+
+.formLabels {
+  padding-top: 10px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.message {
+  padding: 20px;
+  display: flex
+}
+
+.button {  
+  background-color: #D0B285;
+  border: 3px solid #D0B285;
+  margin: 3% 0% 0% 39%;
+  width: 184px;
+  height: 44px;
+  font-size: 24px;
+  padding-bottom: 40px;
+  border-radius: 5px;
+}
+
+.button:hover{
+  background-color: #94C2EC;
+  border-color: #94C2EC;
+}
+
+.headerBorder {
+  background-color: #758C33;
+  height: 420px;
+  margin-bottom: 50px;
+  clip-path: 
+      polygon(
+          0% 0%,     /* top left */
+          0% 0%,     /* top left */
+          100% 0%,    /* top right */
+          100% 0%,   /* top right */
+          100% 75%,  /* bottom right */
+          50% 100%,  /* bottom right */
+          50% 100%,   /* bottom left */
+          0 75%      /* bottom left */
+      );
+}
+
+.contactHeader {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  height: 300px;
+}
+
+.contactHeader > img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  clip-path: 
+      polygon(
+          0% 0%,     /* top left */
+          0% 0%,     /* top left */
+          100% 0%,    /* top right */
+          100% 0%,   /* top right */
+          100% 75%,  /* bottom right */
+          50% 100%,  /* bottom right */
+          50% 100%,   /* bottom left */
+          0 75%      /* bottom left */
+      );
+}
+
+.headerTitle {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.contactUnderline {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 7px;
+  background-color: #758C33;
+  top: 75%;
+  border-radius: 10px;
+}

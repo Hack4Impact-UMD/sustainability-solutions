@@ -1,38 +1,58 @@
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  background: rgba(239, 240, 240, 0.84);
-  padding: 10px;
-  color: #5E763F
+nav.navbar {
+  background-color: rgba(239, 240, 240, 0.9);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  font-family: 'Nunito', sans-serif;
 }
 
-.navbar a {
-  color: inherit;
-  text-decoration: none;
+.menu-toggle {
+  display: none;
 }
 
-.navbar nav {
-  display: flex;
-  align-items: center;;
-}
-
-.navbar nav a {
-  text-transform: uppercase;
-  margin: 0 15px;
-}
-
-.navbar .brand {
+.nav-brand {
   display: flex;
   align-items: center;
-
-  font-weight: 600;
-  font-size: 30px;
+  text-decoration: none !important;
 }
 
-.navbar .brand img {
-  width: 50px;
+.nav-brand img {
+  height: 40px;
 }
 
-.navbar .brand .title {
+.nav-brand div {
+  font-weight: 700;
+  font-size: 32px;
+  color: #174950;
   margin-left: 10px;
+}
+
+.nav-link {
+  color: #174950 !important;
+  font-weight: 600;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-left: 15px;
+}
+
+.nav-link:hover {
+  color: #00161D !important;
+  transition: all ease 0.1s;
+}
+
+nav.navbar .fas {
+  color: #174950;
+  font-size: 20px;
+}
+
+nav.navbar .fas:hover {
+  color: #00161D;
+}
+
+@media screen and (max-width: 991px) {
+  .menu-toggle {
+    display: block;
+  }
 }

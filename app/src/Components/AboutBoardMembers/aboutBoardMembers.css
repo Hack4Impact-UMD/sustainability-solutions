@@ -1,8 +1,9 @@
 .board-members {
     text-align: center;
-    padding: 10px;
     font-size: 16px;
-    margin: 20px;
+    font-family: 'Nunito', sans-serif;
+    background-color: #E5E5E5;
+    margin-bottom: -20px;
 }
 
 .members-box {
@@ -10,18 +11,70 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin: 20px;
 }
 
-.donation-btn {
-    font-size: 24px;
-    border: none;
-    background-color: cornflowerblue;
+.about-team-header-border {
+    background-color: #CF4917;
+    height: 420px;
+    margin-bottom: 50px;
+    clip-path: 
+        polygon(
+            0% 0%,     /* top left */
+            0% 0%,     /* top left */
+            100% 0%,    /* top right */
+            100% 0%,   /* top right */
+            100% 75%,  /* bottom right */
+            50% 100%,  /* bottom right */
+            50% 100%,   /* bottom left */
+            0 75%      /* bottom left */
+        );
+}
+
+.header {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    height: 300px;
+}
+
+.header > img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    clip-path: 
+        polygon(
+            0% 0%,     /* top left */
+            0% 0%,     /* top left */
+            100% 0%,    /* top right */
+            100% 0%,   /* top right */
+            100% 75%,  /* bottom right */
+            50% 100%,  /* bottom right */
+            50% 100%,   /* bottom left */
+            0 75%      /* bottom left */
+        );
+}
+
+.about-team-header-title {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.about-team-underline {
+    width: 350px;
+    height: 7px;
+    background-color: #CF4917;
+    top: 80%;
     border-radius: 10px;
-    padding: 5px;
-    transition: all ease 0.5s;
 }
 
-.donation-btn:hover {
-    cursor: pointer;
-    transform: scale(1.2);
-}
+@media screen and (max-width: 864px) {
+    .about-team-underline {
+        top: 90%;
+    }
+  }
