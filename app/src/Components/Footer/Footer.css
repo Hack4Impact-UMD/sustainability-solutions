@@ -12,32 +12,32 @@
 }
 
 .logo-col {
-    margin-left: 33%;
+    padding-left: 25%;
     margin-right: 13%;
     max-width: 45%;
 }
 
-.logo-col p {
-    font-size: 19px;
-    font-weight: 700;
-    text-align: left;
-    margin: 0px;
-    padding: 0px;
+.logo-col img {
+    width: 200px;
+    padding-bottom: 5px;
 }
 
 .footer-container button {
     background-color: #174950;
     color: white;
-    width: 125px;
-    height: 30px;
+    width: 160px;
+    height: 40px;
     margin-top: 15px;
+    border-radius: 8px;
+    font-size: 20px;
 }
 
 .white-bar {
     background-color: white;
-    width: 5px;
+    width: 10px;
     height: 130px;
     margin: 0px 10px;
+    border-radius: 8px;
 }
 
 .links-col {
@@ -67,4 +67,17 @@
 .icons {
     color: #174950;
     width: 30px;
+}
+
+@media only screen and (max-width: 900px) {
+    .logo-col {
+        padding-left: 15%;
+        margin-right: 12%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .icon-col {
+        padding-right: 5%;
+    }
 }
