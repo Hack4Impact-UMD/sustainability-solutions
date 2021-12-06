@@ -1,6 +1,7 @@
 
 .main {
-  background-color: #EFF0F0;
+  background-color: #E5E5E5;
+  font-family: 'Nunito', sans-serif;
 }
 
 .imageDiv {
@@ -18,14 +19,19 @@
 }
 
 .welcometext {
-  margin-top: 10%;
+  margin-bottom: 10px;
   padding: 10px;
-  font-weight: bold;
-  font-size: 36px;
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+}
+
+.welcometext > p {
+  margin-bottom: 0;
 }
 
 .form {
-  background-color: #5E763F;
+  background-color: #758C33;
   padding: 50px 75px 50px 75px;
   margin: 0% 18% 20% 18%; /*  */
   text-align: left;
@@ -35,12 +41,19 @@
   box-shadow: 0px 4px 5px rgba(0,0,0,.2);
 }
 
-.fields{
+.recap {
+  margin: 2% 30% 2% 30%; /*  */
   box-shadow: 0px 6px 5px rgba(0,0,0,.2)
 }
 
-.formLabels{
+.fields {
+  box-shadow: 0px 6px 5px rgba(0,0,0,.2)
+}
+
+.formLabels {
   padding-top: 10px;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .message {
@@ -49,12 +62,14 @@
 }
 
 .button {  
-  background-color: #ffd027;
-  border-color: #ffd027; 
-  margin: 5% 0% 5% 39%;
-  width: 160px;
-  height: 70px;
+  background-color: #D0B285;
+  border: 3px solid #D0B285;
+  margin: 3% 0% 0% 39%;
+  width: 184px;
+  height: 44px;
   font-size: 24px;
+  padding-bottom: 40px;
+  border-radius: 5px;
 }
 
 .button:hover{
@@ -79,7 +94,7 @@
       );
 }
 
-.header2 {
+.contactHeader {
   position: relative;
   text-align: center;
   color: white;
@@ -87,7 +102,7 @@
   height: 300px;
 }
 
-.header2 > img {
+.contactHeader > img {
   height: 400px;
   width: 100%;
   object-fit: cover;
@@ -106,19 +121,21 @@
 
 .headerTitle {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-weight: 700;
 }
 
-.underline2 {
+.contactUnderline {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 350px;
+  width: 300px;
   height: 7px;
   background-color: #758C33;
-  top: 70%;
+  top: 75%;
   border-radius: 10px;
 }

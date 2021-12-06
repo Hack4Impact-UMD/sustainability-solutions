@@ -9,17 +9,17 @@ function TeamMember(props) {
 
     return (
         <div>
-            <figure>
+            <figure className="team-member">
                 <div className="shadow">
                 <img className="headshot" src={member.img} alt='headshot'/>
                 <p className="learn-more" onClick={() => setOpen(o => !o)}>Learn more</p>
                 <Popup modal open={open} onClose={closeModal}>
                     <div className="popup">
                     <a className="close" onClick={closeModal}>&times;</a>
-                    <img className="popup-headshot" src='/aboutBoardMembers/headshot.jpeg' alt='headshot'/>
-                    <h1>{member.name}</h1>
+                    <img className="popup-headshot" src={member.img} alt='headshot'/>
+                    <h1 className="name-popup">{member.name}</h1>
                     <div class="underline-popup"></div>
-                    <h2 className="position">{member.position}</h2>
+                    <h2 className="position-popup">{member.position}</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                         incididunt ut labore et dolore magna aliqua. Ut sem nulla pharetra diam sit amet nisl.

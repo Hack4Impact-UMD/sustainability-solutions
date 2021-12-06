@@ -8,7 +8,7 @@
 }
 
 .learn-more {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Lora', serif;
     text-decoration: underline;
     color: white;
     font-size: 22px;
@@ -69,16 +69,26 @@
     width: 200px;
     object-fit: cover;
     object-position: 50% 0%;
+    margin-bottom: 15px;
 }
 
 .popup p {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Lora', serif;
     font-size: 18px;
     color: #333333;
 }
 
-.position {
+.name-popup {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+}
+
+.position-popup {
+    font-family: 'Nunito', sans-serif;
     font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 15px;
 }
 
 figcaption.name {
@@ -88,8 +98,8 @@ figcaption.name {
 
 figcaption.position {
     font-size: 18px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 500;
+    font-family: 'Lora', serif;
+    font-weight: 400;
 }
 
 .close {
@@ -101,10 +111,19 @@ figcaption.position {
     cursor: pointer;
 }
 
+.close:hover{
+    color: #CF4917;
+}
+
 .underline-popup {
     width: 200px;
-    height: 8px;
+    height: 7px;
     background-color: #CF4917;
     top: 75%;
     border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.team-member {
+    margin: 30px;
 }
