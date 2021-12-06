@@ -1,10 +1,14 @@
 import React from "react";
 import diagram from "./ssg_diagram.png"
-import headshot from "./headshot.jpeg"
+import garry from "./garry harris.jpg"
 import "./About.css";
 import { Container, Col, Row, Carousel } from "react-bootstrap";
+import { FiArrowLeftCircle, FiArrowRightCircle } from 'react-icons/fi';
 
 function About() {
+  const prev = <FiArrowLeftCircle size={42}/>
+  const next = <FiArrowRightCircle size={42}/>
+
   return (
     <div className="about-page">
       <div className="header-border">
@@ -38,7 +42,7 @@ function About() {
       <section className="founder">
         <Container>
           <h1>Meet Our Founder</h1>
-          <img src={headshot} alt="Garry Harris - SSG Founder" className="headshot" />
+          <img src={garry} alt="Garry Harris - SSG Founder" className="garry" />
           <h2>Garry Harris</h2>
           <Row>
             <Col>
@@ -58,8 +62,8 @@ function About() {
 
       <section className="carousel">
         <Container slide={false} interval={9000}>
-          <h1>How Can We Help?</h1>
-          <Carousel nextLabel="" prevLabel="">
+          <h1>Our Services</h1>
+          <Carousel prevLabel={null} nextLabel={null} prevIcon={prev} nextIcon={next}>
             <Carousel.Item>
               <Row>
                 <Col>
