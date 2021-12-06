@@ -1,7 +1,7 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import "./projects.css";
-import NewsImage from "./ClimateActionNowImage.jpg"
+import NewsImage from "./projects.png"
 import { GrFormNext, GrFormPrevious } from 'react-icons/gr';
 
 const Projects = () => {
