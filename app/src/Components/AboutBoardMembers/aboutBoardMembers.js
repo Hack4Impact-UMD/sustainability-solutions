@@ -2,17 +2,24 @@ import React from "react";
 import 'reactjs-popup/dist/index.css';
 import "./aboutBoardMembers.css";
 import TeamMember from './teamMember';
-import headshot from './headshot.jpeg'
-import headerImage from './our team.png';
+import Eilleen from "./Images/Eilleen Woll.jpg"
+import Eric from "./Images/Eric Harris.jpg"
+import Jill from "./Images/Jill Gambill.jpg"
+import Karen from "./Images/Karen Campblin.jpg"
+import Sarah from "./Images/Sarah Williams.jpg"
+import William from "./Images/William Harris.jpg"
+
+import headshot from './Images/headshot.jpeg'
+import headerImage from './Images/our team.png';
 
 const team = [
-  {img: headshot, name: "Karen Campblin", position: "Chair"},
-  {img: headshot, name: "Eric Harris", position: "Secretary"},
-  {img: headshot, name: "Sarah Williams", position: "Board Member"},
+  {img: Karen, name: "Karen Campblin", position: "Chair"},
+  {img: Eric, name: "Eric Harris", position: "Secretary"},
+  {img: Sarah, name: "Sarah Williams", position: "Board Member"},
   {img: headshot, name: "Tonya Eddy", position: "Board Member"},
-  {img: headshot, name: "Eilleen Woll", position: "Board Member"},
-  {img: headshot, name: "Jill Gambill", position: "Board Member"},
-  {img: headshot, name: "William Harris", position: "Board Member"},
+  {img: Eilleen, name: "Eilleen Woll", position: "Board Member"},
+  {img: Jill, name: "Jill Gambill", position: "Board Member"},
+  {img: William, name: "William Harris", position: "Board Member"},
 ]
 
 function AboutBoardMembers() {

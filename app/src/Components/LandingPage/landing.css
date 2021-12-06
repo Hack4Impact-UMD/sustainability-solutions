@@ -9,7 +9,7 @@
 .intro {
     font-weight: 700;
     font-size: 4.75vw;
-    font: 'Nunito';
+    font: 'Nunito', sans-serif;
     color: #174950;
 }
 
@@ -18,7 +18,6 @@
     font-size: 2.70vw;
     color: #174950;
     font-family: 'Lora', serif;
-
 }
 
 .section2 {
@@ -43,20 +42,66 @@
 }
 
 .news-sec h1 {
-    font: 'Nunito';
+    font: 'Nunito', sans-serif;
     font-weight: 700;
-    font-size: 2.3vw;
+    font-size: 2.5vw;
     color: #EFF0F0;
 }
 
-.news-slides {
-    padding-top: 1.5vw;
+.news-sec .carousel.slide {
+    background: white;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+}
+
+.landing-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .news-caption {
-    padding: 1.5vw 2vw 2.5vw 2vw;
-    margin: 0 1vw;
-    background: white;
-    color: black;
+    width: 100%;
+    padding: 20px 10px 10px 135px;
+    color: #174950;
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    font-weight: 400;
 }
 
+.landing-item > img {
+    width: 100%;
+}
+
+.news-sec .carousel.slide .carousel-indicators button {
+    background-color: #2D758C;
+    border: none;
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50%;
+    transition: all .3s ease-in-out; 
+    margin: 25px 20px;
+}
+
+.news-sec .carousel.slide .carousel-indicators button:hover {
+    transform: scale(1.15); 
+}
+
+.news-sec .carousel.slide .carousel-indicators .active {
+    background-color: #F9AC3D;
+}
+
+.news-sec .carousel.slide .carousel-control-prev {
+    opacity: 1;
+}
+
+.news-sec .carousel.slide .carousel-control-next {
+    opacity: 1;
+}
+
+.news-sec .carousel.slide .carousel-control-prev {
+    color: white;
+}
