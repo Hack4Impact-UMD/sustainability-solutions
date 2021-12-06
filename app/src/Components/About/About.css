@@ -5,14 +5,12 @@
     font-family: 'Nunito', sans-serif;
 }
 
-.headshot {
+.garry {
     border-radius: 50%;
     height: 220px;
     width: 220px;
     object-fit: cover;
     object-position: 50% 0%;
-    opacity: 1;
-    transition: all .4s ease-in-out;
 }
 
 .diagram {
@@ -59,7 +57,7 @@ section.carousel {
 }
 
 .carousel i {
-    font-size: 69px;
+    font-size: 85px;
     margin-bottom: 20px;
 }
 
@@ -69,28 +67,40 @@ section.carousel {
 }
 
 .about-page .carousel h4 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 .carousel .slide {
-    min-height: 269px;
+    min-height: 280px;
+}
+
+.carousel .carousel-inner {
+    padding-top: 20px;
 }
 
 .carousel .row {
     padding: 0px 15%;
 }
 
-.carousel-indicators button {
-    margin: 0 20px;
+.carousel .carousel-indicators button {
+    margin: 0px 20px;
     background-color: #EFF0F0;
     border-radius: 50%;
     border: none;
-    width: 8px !important;
-    height: 8px !important;
+    width: 15px !important;
+    height: 15px !important;
 }
 
 .carousel-indicators button.active {
     background-color: #174950;
+}
+
+.carousel .carousel.slide .carousel-control-prev {
+    opacity: 1;
+}
+
+.carousel .carousel.slide .carousel-control-next {
+    opacity: 1;
 }
 
 .header-border {
@@ -142,7 +152,7 @@ section.carousel {
 }
 
 .underline {
-    width: 220px;
+    width: 300px;
     height: 7px;
     background-color: #d0b285;
     top: 75%;
