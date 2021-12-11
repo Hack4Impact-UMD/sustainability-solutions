@@ -1,8 +1,10 @@
 .footer-container {
-    background: rgba(239, 240, 240, 0.84);
+    background: #EFF0F0;
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     padding-top: 50px;
     padding-bottom: 50px;
     color: #174950;
@@ -10,9 +12,17 @@
 }
 
 .logo-col {
-    margin-left: 25%;
-    margin-right: 13%;
     max-width: 45%;
+    padding-right: 250px;
+    margin-top: 20px;
+}
+
+.second-col {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 30px;
 }
 
 .logo-col img {
@@ -36,21 +46,21 @@
 
 .white-bar {
     background-color: white;
-    width: 10px;
-    height: 130px;
+    width: 8px;
+    height: 140px;
     margin: 0px 10px;
     border-radius: 8px;
 }
 
 .links-col {
     color: #174950;
-    margin-right: 7%;
+    padding-right: 30px;
 }
 
 .links-col p {
     text-align: left;
     margin: 0px;
-    padding: 0px;
+    padding-left: 5px;
     font-size: 18px;
     font-weight: 700;
 }
@@ -62,24 +72,19 @@
 }
 
 .icon-col {
-    padding-right: 15%;
     justify-content: left;
+    padding-left: 5px;
 }
 
 .icons {
     filter: invert(20%) sepia(48%) saturate(658%) hue-rotate(139deg) brightness(95%) contrast(89%);
     width: 40px;
+    padding: 5px 0px;
 }
 
 @media only screen and (max-width: 900px) {
     .logo-col {
         padding-left: 15%;
         margin-right: 12%;
-    }
-}
-
-@media only screen and (max-width: 750px) {
-    .icon-col {
-        padding-right: 5%;
     }
 }
