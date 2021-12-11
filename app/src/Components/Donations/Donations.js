@@ -34,14 +34,12 @@ function Donations() {
     };
 
     return (
-        <div>
-            <div className="header-border">
-                <div className="header">
-                    <img src={HeadingImg}/>
-                    <div className="header-title">
-                        <h1>DONATE</h1>
-                        <div className="donate-underline" />
-                    </div>
+        <div className="donations-page">
+            <div className="header-border-donate">
+                <div className="header-donate">
+                    <img src={HeadingImg} alt='donate'/>
+                    <p class="header-title-donate">DONATE</p>
+                    <div class="header-title-donate underline-donate"></div>
                 </div>
             </div>
             <p className="form-titles"> Select an Amount </p>
