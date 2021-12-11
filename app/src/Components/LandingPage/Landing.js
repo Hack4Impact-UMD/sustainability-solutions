@@ -34,7 +34,7 @@ function Landing () {
                 </Link>
             </div>
             <div className="news-sec">
-                <h1>News Highlight</h1>
+                <h1>News Highlights</h1>
                 <Carousel prevLabel={null} nextLabel={null} prevIcon={prev} nextIcon={next}>
                     <Carousel.Item>
                         <div className="landing-item">
