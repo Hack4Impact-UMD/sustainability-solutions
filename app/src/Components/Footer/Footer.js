@@ -17,19 +17,22 @@ function Footer() {
                     <button>CONTACT US</button>
                 </Link>
             </div>
-            <div className="white-bar" />
-            <div className="links-col">
-                <Link to="/"><p>Home</p></Link>
-                <Link to="/about"><p>Team</p></Link>
-                <Link to="/mission"><p>Mission</p></Link>
-                <Link to="/news"><p>News</p></Link>
-                <Link to="/donations"><p>Donations</p></Link>
-            </div>
-            <div className="white-bar" />
-            <div className="icon-col">
-                <a herf="#"><img className="icons" src={InstagramIcon}></img></a> <br/>
-                <a herf="#"><img className="icons" src={FacebookIcon}></img></a> <br/>
-                <a herf="#"><img className="icons" src={TwitterIcon}></img></a>
+            <div className="second-col">
+                <div className="white-bar" />
+                <div className="links-col">
+                    <Link to="/"><p>Home</p></Link>
+                    <Link to="/ourteam"><p>Our Team</p></Link>
+                    <Link to="/about"><p>About</p></Link>
+                    <Link to="/projects"><p>Projects</p></Link>
+                    <Link to="/news"><p>News</p></Link>
+                    <Link to="/donations"><p>Donations</p></Link>
+                </div>
+                <div className="white-bar" />
+                <div className="icon-col">
+                    <a herf="#"><img className="icons" src={InstagramIcon}></img></a> <br/>
+                    <a herf="#"><img className="icons" src={FacebookIcon}></img></a> <br/>
+                    <a herf="#"><img className="icons" src={TwitterIcon}></img></a>
+                </div>
             </div>
         </div>
     )
