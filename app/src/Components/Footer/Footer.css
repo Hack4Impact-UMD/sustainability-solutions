@@ -1,54 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
-
 .footer-container {
-    background: rgba(239, 240, 240, 0.84);
+    background: #EFF0F0;
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     padding-top: 50px;
     padding-bottom: 50px;
     color: #174950;
-    font: "Nunito";
+    font-family: 'Nunito', sans-serif;
 }
 
 .logo-col {
-    margin-left: 33%;
-    margin-right: 13%;
     max-width: 45%;
+    padding-right: 250px;
+    margin-top: 20px;
 }
 
-.logo-col p {
-    font-size: 19px;
-    font-weight: 700;
-    text-align: left;
-    margin: 0px;
-    padding: 0px;
+.second-col {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.logo-col img {
+    width: 200px;
+    padding-bottom: 5px;
 }
 
 .footer-container button {
     background-color: #174950;
     color: white;
-    width: 125px;
-    height: 30px;
+    width: 160px;
+    height: 40px;
     margin-top: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    border: none;
+    padding-top: 3px;
+    margin-left: 0px;
+    float: left;
 }
 
 .white-bar {
     background-color: white;
-    width: 5px;
-    height: 130px;
+    width: 8px;
+    height: 140px;
     margin: 0px 10px;
+    border-radius: 8px;
 }
 
 .links-col {
     color: #174950;
-    margin-right: 7%;
+    padding-right: 30px;
 }
 
 .links-col p {
     text-align: left;
     margin: 0px;
-    padding: 0px;
+    padding-left: 5px;
     font-size: 18px;
     font-weight: 700;
 }
@@ -60,11 +72,19 @@
 }
 
 .icon-col {
-    padding-right: 15%;
     justify-content: left;
+    padding-left: 5px;
 }
 
 .icons {
-    color: #174950;
-    width: 30px;
+    filter: invert(20%) sepia(48%) saturate(658%) hue-rotate(139deg) brightness(95%) contrast(89%);
+    width: 40px;
+    padding: 5px 0px;
+}
+
+@media only screen and (max-width: 900px) {
+    .logo-col {
+        padding-left: 15%;
+        margin-right: 12%;
+    }
 }

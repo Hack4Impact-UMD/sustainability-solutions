@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
-.landing-container{
+.landing-container {
     background: #EFF0F0;
     padding-top: 100px;
     font-family: 'Nunito', sans-serif;
@@ -74,6 +74,7 @@
 
 .landing-item > img {
     width: 100%;
+    margin-top: -20px;
 }
 
 .news-sec .carousel.slide .carousel-indicators button {

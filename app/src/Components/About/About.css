@@ -5,14 +5,12 @@
     font-family: 'Nunito', sans-serif;
 }
 
-.headshot {
+.garry {
     border-radius: 50%;
     height: 220px;
     width: 220px;
     object-fit: cover;
     object-position: 50% 0%;
-    opacity: 1;
-    transition: all .4s ease-in-out;
 }
 
 .diagram {
@@ -26,7 +24,7 @@
     justify-content: center;
 }
 
-.about-page h1 {
+.about-titles {
     font-weight: 700;
     font-size: 34px;
 }
@@ -59,7 +57,7 @@ section.carousel {
 }
 
 .carousel i {
-    font-size: 69px;
+    font-size: 85px;
     margin-bottom: 20px;
 }
 
@@ -69,31 +67,43 @@ section.carousel {
 }
 
 .about-page .carousel h4 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 .carousel .slide {
-    min-height: 269px;
+    min-height: 280px;
+}
+
+.carousel .carousel-inner {
+    padding-top: 20px;
 }
 
 .carousel .row {
     padding: 0px 15%;
 }
 
-.carousel-indicators button {
-    margin: 0 20px;
+.carousel .carousel-indicators button {
+    margin: 0px 20px;
     background-color: #EFF0F0;
     border-radius: 50%;
     border: none;
-    width: 8px !important;
-    height: 8px !important;
+    width: 15px !important;
+    height: 15px !important;
 }
 
 .carousel-indicators button.active {
     background-color: #174950;
 }
 
-.header-border {
+.carousel .carousel.slide .carousel-control-prev {
+    opacity: 1;
+}
+
+.carousel .carousel.slide .carousel-control-next {
+    opacity: 1;
+}
+
+.header-border-about {
     background-color: #d0b285;
     height: 420px;
     margin-bottom: 50px;
@@ -109,7 +119,7 @@ section.carousel {
     );
 }
 
-.header {
+.header-about {
     position: relative;
     text-align: center;
     color: white;
@@ -117,7 +127,7 @@ section.carousel {
     height: 300px;
 }
 
-.header > img {
+.header-about > img {
     height: 400px;
     width: 100%;
     object-fit: cover;
@@ -133,18 +143,25 @@ section.carousel {
     );
 }
 
-.header-title {
+.header-title-about {
     position: absolute;
     top: 63%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 50px;
 }
 
-.underline {
-    width: 220px;
+.underline-about {
+    width: 300px;
     height: 7px;
     background-color: #d0b285;
     top: 75%;
     border-radius: 10px;
+}
+
+@media screen and (max-width: 521px) {
+    .underline-about {
+        margin-top: 25px;
+    }
 }
