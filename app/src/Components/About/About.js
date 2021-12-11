@@ -11,17 +11,17 @@ function About() {
 
   return (
     <div className="about-page">
-      <div className="header-border">
-        <div className="header">
+      <div className="header-border-about">
+        <div className="header-about">
           <img src='/About/our_mission_header.png' alt='About SSG' />
-          <h1 class="header-title">ABOUT SSG</h1>
-          <div class="header-title underline"></div>
+          <h1 class="header-title-about">ABOUT US</h1>
+          <div class="header-title-about underline-about"></div>
         </div>
       </div>
 
       <section className="our-mission">
         <Container >
-          <h1>Who Are We?</h1>
+          <h1 className="about-titles">Who Are We?</h1>
           <h2>Creating a more just, sustainable, resilient and equitable world for all.</h2>
           <Row>
             <Col>
@@ -41,7 +41,7 @@ function About() {
 
       <section className="founder">
         <Container>
-          <h1>Meet Our Founder</h1>
+          <h1 className="about-titles">Meet Our Founder</h1>
           <img src={garry} alt="Garry Harris - SSG Founder" className="garry" />
           <h2>Garry Harris</h2>
           <Row>
@@ -62,7 +62,7 @@ function About() {
 
       <section className="carousel">
         <Container slide={false} interval={9000}>
-          <h1>Our Services</h1>
+          <h1 className="about-titles">Our Services</h1>
           <Carousel prevLabel={null} nextLabel={null} prevIcon={prev} nextIcon={next}>
             <Carousel.Item>
               <Row>
@@ -119,7 +119,7 @@ function About() {
 
       <section className="organization">
         <Container>
-          <h1>Organization of SSG</h1>
+          <h1 className="about-titles">Organization of SSG</h1>
           <img src={diagram} alt="SSG Organization Diagram" className="diagram" />
         </Container>
       </section>

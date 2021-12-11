@@ -69,12 +69,18 @@
     width: 350px;
     height: 7px;
     background-color: #CF4917;
-    top: 80%;
+    top: 75%;
     border-radius: 10px;
 }
 
-@media screen and (max-width: 864px) {
+@media screen and (max-width: 1432px) {
     .about-team-underline {
-        top: 90%;
+        margin-top: 20px;
     }
-  }
+}
+
+@media screen and (max-width: 911px) {
+    .about-team-underline {
+        margin-top: 45px;
+    }
+}
