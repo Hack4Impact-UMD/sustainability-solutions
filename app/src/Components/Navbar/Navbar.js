@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { Navbar as Navigation, Nav, Container } from 'react-bootstrap';
 import './navbar.css'
 import logo from './sustainability-solutions-group.png'
@@ -12,6 +12,17 @@ function Navbar() {
             setNavActive(!navActive)
         }
     }
+
+    // Array of links to be displayed in navbar
+    const links = [
+        { name: 'Our Team', path: '/ourteam', color: '#CF4917' }, 
+        { name: 'About', path: '/about', color: '#985914' }, 
+        { name: 'Projects', path: '/projects', color: '#D0B285' }, 
+        { name: 'News', path: '/news', color: '#2D758C' }, 
+        { name: 'Contact Us', path: '/contactus', color: '#758C33' }, 
+        { name: 'Donations', path: '/donations', color: '#F9AC3D' },
+    ];
+    const path = useLocation().pathname;
 
     return (
         <>
@@ -28,12 +39,9 @@ function Navbar() {
                     </div>
                     <Navigation.Collapse id="basic-navbar-nav" className="justify-content-end" onClick={toggleNav}>
                         <Nav className="">
-                            <Link to="/ourteam" className="nav-link">Our Team</Link>
-                            <Link to="/about" className="nav-link">About</Link>
-                            <Link to="/projects" className="nav-link">Projects</Link>
-                            <Link to="/news" className="nav-link">News</Link>
-                            <Link to="/contactus" className="nav-link">Contact Us</Link>
-                            <Link to="/donations" className="nav-link">Donate</Link>
+                            {links.map(link =>
+                                <Link to={link.path} className="nav-link" style={path === link.path ? { color: link.color } : {}}>{link.name}</Link>
+                            )}
                         </Nav>
                     </Navigation.Collapse>
                 </Container>
