@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Carousel } from 'react-bootstrap';
 import Carousel from 'react-bootstrap/Carousel';
 import { Link } from 'react-router-dom';
 import './landing.css';
@@ -7,8 +6,12 @@ import NewsImage from './NewsImage.png';
 import MissionBtn from './MissionBtn.png';
 import TeamBtn from './TeamBtn.png';
 import NewsBtn from './NewsBtn.png';
+import { FiArrowLeftCircle, FiArrowRightCircle } from 'react-icons/fi';
 
 function Landing () {
+    const prev = <FiArrowLeftCircle size={42}/>
+    const next = <FiArrowRightCircle size={42}/>
+
     return (
         <div className="landing-container">
             <div>
@@ -31,12 +34,12 @@ function Landing () {
                 </Link>
             </div>
             <div className="news-sec">
-                <h1>News Highlight</h1>
-                <Carousel className="news-slides">
+                <h1>News Highlights</h1>
+                <Carousel prevLabel={null} nextLabel={null} prevIcon={prev} nextIcon={next}>
                     <Carousel.Item>
-                        <img src={NewsImage} />
-                        <div className="news-caption">
-                            <p>
+                        <div className="landing-item">
+                            <img src={NewsImage} />
+                            <p className="news-caption">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit  
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                                 Ut enim ad minim veniam, quis nostrud exercitation ullamco 
@@ -47,9 +50,9 @@ function Landing () {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img src={NewsImage} />
-                        <div className="news-caption">
-                            <p>
+                        <div className="landing-item">
+                            <img src={NewsImage} />
+                            <p className="news-caption">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit  
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                                 Ut enim ad minim veniam, quis nostrud exercitation ullamco 
@@ -60,9 +63,9 @@ function Landing () {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img src={NewsImage} />
-                        <div className="news-caption">
-                            <p>
+                        <div className="landing-item">
+                            <img src={NewsImage} />
+                            <p className="news-caption">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit  
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                                 Ut enim ad minim veniam, quis nostrud exercitation ullamco 

@@ -139,3 +139,9 @@
   top: 75%;
   border-radius: 10px;
 }
+
+@media screen and (max-width: 639px) {
+  .contactUnderline {
+      margin-top: 25px;
+  }
+}
