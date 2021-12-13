@@ -60,7 +60,7 @@ const Contact = (props) => {
               <div className={styles.form}>
                 <Form ref={form} onSubmit={sendEmail}>
                   <Row className="formName">
-                    <Form.Group
+                    <Form.Group className={styles.formLabels}
                       as={Col}
                       controlId="formGridFirstName"
                       name="first_name"
@@ -74,7 +74,7 @@ const Contact = (props) => {
                       />
                     </Form.Group>
 
-                    <Form.Group
+                    <Form.Group className={styles.formLabels}
                       as={Col}
                       controlId="formGridLastName"
                       name="last_name"
