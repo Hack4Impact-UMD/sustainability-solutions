@@ -29,17 +29,17 @@ nav.navbar {
   margin-left: 10px;
 }
 
-.nav-link {
-  color: #174950 !important;
+#basic-navbar-nav .nav-link {
+  color: #174950;
   font-weight: 600;
   font-size: 22px;
   text-transform: uppercase;
   margin-left: 15px;
+  transition: ease .1s;
 }
 
-.nav-link:hover {
-  color: #00161D !important;
-  transition: all ease 0.1s;
+#basic-navbar-nav .nav-link:hover {
+  color: #00161D;
 }
 
 nav.navbar .fas {
