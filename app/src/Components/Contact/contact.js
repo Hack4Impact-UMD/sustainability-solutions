@@ -46,7 +46,8 @@ const Contact = (props) => {
         <div className={styles.contactHeader}>
           <img src={HeaderImage} alt="contact image" />
           <h1 class={styles.headerTitle}>CONTACT US</h1>
-          <div class={styles.contactUnderline}></div>
+          <div class={styles.contactUnderline}>
+          </div>
         </div>
       </div>
       <div className={styles.welcometext}>
@@ -145,19 +146,21 @@ const Contact = (props) => {
                       />
                     </Form.Group>
                   </Row>
-                  <div className={styles.recap}>
-                    <ReCAPTCHA
-                      sitekey="6LfBBkodAAAAAMbquiTN34opmljr5vUbnKqwHsdc"
-                      onChange={onChange}
-                    />
-                  </div>
-                  <Button
-                    className={styles.button}
-                    variant="primary"
-                    type="submit"
-                  >
-                    SUBMIT
+                  <div className={styles.buttonTeam}>
+                    <div className={styles.recap}>
+                      <ReCAPTCHA
+                        sitekey="6LfBBkodAAAAAMbquiTN34opmljr5vUbnKqwHsdc"
+                        onChange={onChange}
+                      />
+                    </div>
+                    <Button
+                      className={styles.button}
+                      variant="primary"
+                      type="submit"
+                    >
+                      SUBMIT
                   </Button>
+                  </div>
                 </Form>
               </div>
             </Col>

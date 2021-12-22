@@ -24,6 +24,7 @@
   font-weight: 700;
   font-size: 34px;
   text-align: center;
+  color:#174950;
 }
 
 .welcometext > p {
@@ -41,10 +42,9 @@
   box-shadow: 0px 4px 5px rgba(0,0,0,.2);
 }
 
-.recap {
-  margin: 2% 30% 2% 30%; /*  */
-  box-shadow: 0px 6px 5px rgba(0,0,0,.2)
-}
+ .recap {
+  margin: 2% 3% 2% 31.5%; 
+} 
 
 .fields {
   box-shadow: 0px 6px 5px rgba(0,0,0,.2)
@@ -52,8 +52,8 @@
 
 .formLabels {
   padding-top: 10px;
-  font-size: 24px;
-  font-weight: 600;
+  /* font-size: 24px; */
+  font-weight: 60000;
 }
 
 .message {
@@ -70,11 +70,12 @@
   font-size: 24px;
   padding-bottom: 40px;
   border-radius: 5px;
+  text-align: center;
 }
 
 .button:hover{
-  background-color: #94C2EC;
-  border-color: #94C2EC;
+  background-color: #2D758C;
+  border-color: #2D758C;
 }
 
 .headerBorder {
@@ -140,8 +141,37 @@
   border-radius: 10px;
 }
 
-@media screen and (max-width: 639px) {
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+/* .buttonTeam{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+} */
+
+@media screen and (max-width: 693px) {
   .contactUnderline {
       margin-top: 25px;
+  }
+  .button{
+    margin-left: 0%;
+  }
+   .recap {
+    margin-left: 0%; 
+  }
+}
+
+@media screen and (max-width: 900px) and (min-width: 693px){
+  .contactUnderline {
+      margin-top: 25px;
+  }
+  .button{
+    margin-left: 15%;
+  }
+   .recap {
+    margin-left: 10%; 
   }
 }
