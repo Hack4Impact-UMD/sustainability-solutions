@@ -1,7 +1,5 @@
-
 .main {
-  background-color: #E5E5E5;
-  font-family: 'Nunito', sans-serif;
+  background-color: #eff0f0;
 }
 
 .imageDiv {
@@ -31,23 +29,32 @@
 }
 
 .form {
-  background-color: #758C33;
+  background-color: #758c33;
+  font-weight: bold;
+  font-size: 36px;
+  color: #174950;
+}
+
+.form {
+  background-color: #5e763f;
   padding: 50px 75px 50px 75px;
   margin: 0% 18% 20% 18%; /*  */
   text-align: left;
   color: white;
   border-radius: 5px;
   justify-content: space-between;
-  box-shadow: 0px 4px 5px rgba(0,0,0,.2);
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
 }
 
 .recap {
   margin: 2% 30% 2% 30%; /*  */
-  box-shadow: 0px 6px 5px rgba(0,0,0,.2)
 }
 
 .fields {
-  box-shadow: 0px 6px 5px rgba(0,0,0,.2)
+  box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.2);
+}
+.fields {
+  box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.2);
 }
 
 .formLabels {
@@ -58,40 +65,39 @@
 
 .message {
   padding: 20px;
-  display: flex
+  display: flex;
 }
 
-.button {  
-  background-color: #D0B285;
-  border: 3px solid #D0B285;
-  margin: 3% 0% 0% 39%;
-  width: 184px;
-  height: 44px;
+.button {
+  background-color: #ffd027;
+  border-color: #ffd027;
+  margin: 1% 0% 5% 39%;
+  width: 160px;
+  height: 70px;
   font-size: 24px;
   padding-bottom: 40px;
   border-radius: 5px;
 }
 
-.button:hover{
-  background-color: #94C2EC;
-  border-color: #94C2EC;
+.button:hover {
+  background-color: #2d758c;
+  border-color: #2d758c;
 }
 
 .headerBorder {
-  background-color: #758C33;
+  background-color: #758c33;
   height: 420px;
   margin-bottom: 50px;
-  clip-path: 
-      polygon(
-          0% 0%,     /* top left */
-          0% 0%,     /* top left */
-          100% 0%,    /* top right */
-          100% 0%,   /* top right */
-          100% 75%,  /* bottom right */
-          50% 100%,  /* bottom right */
-          50% 100%,   /* bottom left */
-          0 75%      /* bottom left */
-      );
+  clip-path: polygon(
+    0% 0%,
+    /* top left */ 0% 0%,
+    /* top left */ 100% 0%,
+    /* top right */ 100% 0%,
+    /* top right */ 100% 75%,
+    /* bottom right */ 50% 100%,
+    /* bottom right */ 50% 100%,
+    /* bottom left */ 0 75% /* bottom left */
+  );
 }
 
 .contactHeader {
@@ -106,17 +112,16 @@
   height: 400px;
   width: 100%;
   object-fit: cover;
-  clip-path: 
-      polygon(
-          0% 0%,     /* top left */
-          0% 0%,     /* top left */
-          100% 0%,    /* top right */
-          100% 0%,   /* top right */
-          100% 75%,  /* bottom right */
-          50% 100%,  /* bottom right */
-          50% 100%,   /* bottom left */
-          0 75%      /* bottom left */
-      );
+  clip-path: polygon(
+    0% 0%,
+    /* top left */ 0% 0%,
+    /* top left */ 100% 0%,
+    /* top right */ 100% 0%,
+    /* top right */ 100% 75%,
+    /* bottom right */ 50% 100%,
+    /* bottom right */ 50% 100%,
+    /* bottom left */ 0 75% /* bottom left */
+  );
 }
 
 .headerTitle {
@@ -135,13 +140,13 @@
   transform: translate(-50%, -50%);
   width: 300px;
   height: 7px;
-  background-color: #758C33;
+  background-color: #758c33;
   top: 75%;
   border-radius: 10px;
 }
 
 @media screen and (max-width: 639px) {
   .contactUnderline {
-      margin-top: 25px;
+    margin-top: 25px;
   }
 }
