@@ -1,5 +1,6 @@
 .main {
-  background-color: #eff0f0;
+  background-color: #E5E5E5;
+  font-family: 'Nunito', sans-serif;
 }
 
 .imageDiv {
@@ -30,30 +31,20 @@
 }
 
 .form {
-  background-color: #758c33;
-  font-weight: bold;
-  font-size: 36px;
-  color: #174950;
-}
-
-.form {
-  background-color: #5e763f;
+  background-color: #758C33;
   padding: 50px 75px 50px 75px;
   margin: 0% 18% 20% 18%; /*  */
   text-align: left;
   color: white;
   border-radius: 5px;
   justify-content: space-between;
-  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 5px rgba(0,0,0,.2);
 }
 
  .recap {
-  margin: 2% 3% 2% 31.5%; 
+  margin: 3% 3% 1% 31.5%; 
 } 
 
-.fields {
-  box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.2);
-}
 .fields {
   box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.2);
 }
@@ -69,16 +60,15 @@
   display: flex;
 }
 
-.button {
-  background-color: #ffd027;
-  border-color: #ffd027;
-  margin: 1% 0% 5% 39%;
-  width: 160px;
-  height: 70px;
+.button {  
+  background-color: #D0B285;
+  border: 3px solid #D0B285;
+  margin: 2% 0% 0% 39%;
+  width: 184px;
+  height: 44px;
   font-size: 24px;
   padding-bottom: 40px;
   border-radius: 5px;
-  text-align: center;
 }
 
 .button:hover{
@@ -87,20 +77,22 @@
 }
 
 .headerBorder {
-  background-color: #758c33;
+  background-color: #758C33;
   height: 420px;
   margin-bottom: 50px;
-  clip-path: polygon(
-    0% 0%,
-    /* top left */ 0% 0%,
-    /* top left */ 100% 0%,
-    /* top right */ 100% 0%,
-    /* top right */ 100% 75%,
-    /* bottom right */ 50% 100%,
-    /* bottom right */ 50% 100%,
-    /* bottom left */ 0 75% /* bottom left */
-  );
+  clip-path: 
+      polygon(
+          0% 0%,     /* top left */
+          0% 0%,     /* top left */
+          100% 0%,    /* top right */
+          100% 0%,   /* top right */
+          100% 75%,  /* bottom right */
+          50% 100%,  /* bottom right */
+          50% 100%,   /* bottom left */
+          0 75%      /* bottom left */
+      );
 }
+
 
 .contactHeader {
   position: relative;
