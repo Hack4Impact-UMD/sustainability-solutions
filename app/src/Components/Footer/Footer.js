@@ -27,12 +27,12 @@ function Footer() {
                     <Link to="/news"><p>News</p></Link>
                     <Link to="/donations"><p>Donations</p></Link>
                 </div>
-                <div className="white-bar" />
+                {/* <div className="white-bar" />
                 <div className="icon-col">
                     <a herf="#"><img className="icons" src={InstagramIcon}></img></a> <br/>
                     <a herf="#"><img className="icons" src={FacebookIcon}></img></a> <br/>
                     <a herf="#"><img className="icons" src={TwitterIcon}></img></a>
-                </div>
+                </div> */}
             </div>
         </div>
     )
