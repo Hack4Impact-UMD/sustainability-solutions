@@ -2,7 +2,6 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import { Link } from 'react-router-dom';
 import './landing.css';
-import NewsImage from './NewsImage.png';
 import MissionBtn from './MissionBtn.png';
 import TeamBtn from './TeamBtn.png';
 import NewsBtn from './NewsBtn.png';
@@ -38,40 +37,25 @@ function Landing () {
                 <Carousel prevLabel={null} nextLabel={null} prevIcon={prev} nextIcon={next}>
                     <Carousel.Item>
                         <div className="landing-item">
-                            <img src={NewsImage} />
+                            <img src="/News/Offshore Wind.jpg"/>
                             <p className="news-caption">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit  
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
-                                irure dolor in reprehenderit in voluptate velit esse cillum 
-                                dolore eu fugiat nulla pariatur. 
+                                US energy company Dominion Energy is filing plans with the Virginia State Corporation Commission for approval to construct the 2.6 GW Coastal Virginia Offshore Wind (CVOW) commercial project.
                             </p>
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
                         <div className="landing-item">
-                            <img src={NewsImage} />
+                            <img src="/News/CovidDoctor.jpg"/>
                             <p className="news-caption">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit  
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
-                                irure dolor in reprehenderit in voluptate velit esse cillum 
-                                dolore eu fugiat nulla pariatur. 
+                                New Omicron variant has the world on edge. Travel restrictions are imposed over new Covid-19 variant. 
                             </p>
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
                         <div className="landing-item">
-                            <img src={NewsImage} />
+                            <img src="/News/Turbines.jpg"/>
                             <p className="news-caption">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit  
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
-                                irure dolor in reprehenderit in voluptate velit esse cillum 
-                                dolore eu fugiat nulla pariatur. 
+                                Department of Energy (DOE) announces $13.5 Million for sustainable development of offshore wind.
                             </p>
                         </div>
                     </Carousel.Item>

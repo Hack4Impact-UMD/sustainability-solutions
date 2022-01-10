@@ -65,7 +65,7 @@
 
 .news-caption {
     width: 100%;
-    padding: 20px 10px 10px 135px;
+    padding: 20px 130px 10px 130px;
     color: #174950;
     font-family: 'Lora', serif;
     font-size: 18px;
@@ -75,6 +75,9 @@
 .landing-item > img {
     width: 100%;
     margin-top: -20px;
+    height: 550px;
+    object-fit: cover;
+    object-position: 50% 70%;
 }
 
 .news-sec .carousel.slide .carousel-indicators button {
