@@ -24,18 +24,15 @@ const Projects = () => {
                         <div className="item">
                             <figure className="project">
                                 <img src={NewsImage} className="project-img" alt="project"/>
-                                <figcaption className="project-name">Description 1</figcaption>
-                                <figcaption className="month">Month 00, 0000</figcaption>
+                                <figcaption className="project-name">Advanced Atmospheric Research Monitoring Station</figcaption>
                             </figure>
                             <figure className="project">
                                 <img src={NewsImage} className="project-img" alt="project"/>
-                                <figcaption className="project-name">Description 1</figcaption>
-                                <figcaption className="month">Month 00, 0000</figcaption>
+                                <figcaption className="project-name">Building a Weather Ready Nation for ALL</figcaption>
                             </figure>
                             <figure className="project">
                                 <img src={NewsImage} className="project-img" alt="project"/>
-                                <figcaption className="project-name">Description 1</figcaption>
-                                <figcaption className="month">Month 00, 0000</figcaption>
+                                <figcaption className="project-name">Center for Energy, Infrastructure and Renewable Technology</figcaption>
                             </figure>
                         </div>
                     </Carousel.Item>
@@ -43,18 +40,15 @@ const Projects = () => {
                         <div className="item">
                             <figure className="project">
                                 <img src={NewsImage} className="project-img" alt="project"/>
-                                <figcaption className="project-name">Description 2</figcaption>
-                                <figcaption className="month">Month 00, 0000</figcaption>
+                                <figcaption className="project-name">Prosperity for ALL</figcaption>
                             </figure>
                             <figure className="project">
                                 <img src={NewsImage} className="project-img" alt="project"/>
-                                <figcaption className="project-name">Description 2</figcaption>
-                                <figcaption className="month">Month 00, 0000</figcaption>
+                                <figcaption className="project-name">ECO District Hampton Roads</figcaption>
                             </figure>
                             <figure className="project">
                                 <img src={NewsImage} className="project-img" alt="project"/>
-                                <figcaption className="project-name">Description 2</figcaption>
-                                <figcaption className="month">Month 00, 0000</figcaption>
+                                <figcaption className="project-name">Energy for ALL</figcaption>
                             </figure>
                         </div>
                     </Carousel.Item>
@@ -62,18 +56,15 @@ const Projects = () => {
                         <div className="item">
                             <figure className="project">
                                 <img src={NewsImage} className="project-img" alt="project"/>
-                                <figcaption className="project-name">Description 3</figcaption>
-                                <figcaption className="month">Month 00, 0000</figcaption>
+                                <figcaption className="project-name">Environmental Justice Academy</figcaption>
                             </figure>
                             <figure className="project">
                                 <img src={NewsImage} className="project-img" alt="project"/>
-                                <figcaption className="project-name">Description 3</figcaption>
-                                <figcaption className="month">Month 00, 0000</figcaption>
+                                <figcaption className="project-name">Advancing to 100</figcaption>
                             </figure>
                             <figure className="project">
                                 <img src={NewsImage} className="project-img" alt="project"/>
-                                <figcaption className="project-name">Description 3</figcaption>
-                                <figcaption className="month">Month 00, 0000</figcaption>
+                                <figcaption className="project-name">Project Success</figcaption>
                             </figure>
                         </div>
                     </Carousel.Item>
@@ -86,18 +77,15 @@ const Projects = () => {
                         <div className="item">
                             <figure className="project">
                                 <img src={NewsImage} className="project-img" alt="project"/>
-                                <figcaption className="project-name">Description 1</figcaption>
-                                <figcaption className="month">Month 00, 0000</figcaption>
+                                <figcaption className="project-name">Inspire and Empower</figcaption>
                             </figure>
                             <figure className="project">
                                 <img src={NewsImage} className="project-img" alt="project"/>
-                                <figcaption className="project-name">Description 1</figcaption>
-                                <figcaption className="month">Month 00, 0000</figcaption>
+                                <figcaption className="project-name">JUST Science</figcaption>
                             </figure>
                             <figure className="project">
                                 <img src={NewsImage} className="project-img" alt="project"/>
-                                <figcaption className="project-name">Description 1</figcaption>
-                                <figcaption className="month">Month 00, 0000</figcaption>
+                                <figcaption className="project-name">SMART Community Initiative</figcaption>
                             </figure>
                         </div>
                     </Carousel.Item>
@@ -105,18 +93,15 @@ const Projects = () => {
                         <div className="item">
                             <figure className="project">
                                 <img src={NewsImage} className="project-img" alt="project"/>
-                                <figcaption className="project-name">Description 2</figcaption>
-                                <figcaption className="month">Month 00, 0000</figcaption>
+                                <figcaption className="project-name">Sustainable Cities and Transportation</figcaption>
                             </figure>
                             <figure className="project">
                                 <img src={NewsImage} className="project-img" alt="project"/>
-                                <figcaption className="project-name">Description 2</figcaption>
-                                <figcaption className="month">Month 00, 0000</figcaption>
+                                <figcaption className="project-name">Just Planning, Growth and Development</figcaption>
                             </figure>
                             <figure className="project">
                                 <img src={NewsImage} className="project-img" alt="project"/>
-                                <figcaption className="project-name">Description 2</figcaption>
-                                <figcaption className="month">Month 00, 0000</figcaption>
+                                <figcaption className="project-name">Project Good Wind</figcaption>
                             </figure>
                         </div>
                     </Carousel.Item>
@@ -124,18 +109,11 @@ const Projects = () => {
                         <div className="item">
                             <figure className="project">
                                 <img src={NewsImage} className="project-img" alt="project"/>
-                                <figcaption className="project-name">Description 3</figcaption>
-                                <figcaption className="month">Month 00, 0000</figcaption>
+                                <figcaption className="project-name">Institute for Energy Efficiency and Renewable Energy</figcaption>
                             </figure>
                             <figure className="project">
                                 <img src={NewsImage} className="project-img" alt="project"/>
-                                <figcaption className="project-name">Description 3</figcaption>
-                                <figcaption className="month">Month 00, 0000</figcaption>
-                            </figure>
-                            <figure className="project">
-                                <img src={NewsImage} className="project-img" alt="project"/>
-                                <figcaption className="project-name">Description 3</figcaption>
-                                <figcaption className="month">Month 00, 0000</figcaption>
+                                <figcaption className="project-name">Sustainable and Equitable Development for ALL</figcaption>
                             </figure>
                         </div>
                     </Carousel.Item>
