@@ -1,6 +1,7 @@
 import React from "react";
 import diagram from "./ssg_diagram.png"
 import garry from "./garry harris.jpg"
+import AboutHeader from "./about us.png"
 import "./About.css";
 import { Container, Col, Row, Carousel } from "react-bootstrap";
 import { FiArrowLeftCircle, FiArrowRightCircle } from 'react-icons/fi';
@@ -13,7 +14,7 @@ function About() {
     <div className="about-page">
       <div className="header-border-about">
         <div className="header-about">
-          <img src='/About/our_mission_header.png' alt='About SSG' />
+          <img src={AboutHeader} alt='About SSG' />
           <h1 class="header-title-about">ABOUT US</h1>
           <div class="header-title-about underline-about"></div>
         </div>
