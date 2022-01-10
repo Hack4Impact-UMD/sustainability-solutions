@@ -73,6 +73,8 @@
     height: 260px;
     box-shadow: -10px -10px #2D758C;
     margin: 20px 0px;
+    vertical-align: top;
+    object-fit: cover;
 }
 
 .news-page-item {
@@ -84,12 +86,21 @@
 
 .news-item {
     margin: 0px 40px;
+    width: 290px;
+    height: 410px
 }
 
 figcaption.news-name {
     font-family: 'Nunito', sans-serif;
     font-size: 18px;
     font-weight: 700;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+figcaption.news-name > a {
+    color: black;
+    text-decoration: none;
 }
 
 figcaption.month {

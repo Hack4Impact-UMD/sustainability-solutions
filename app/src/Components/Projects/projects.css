@@ -68,13 +68,6 @@
     margin: 20px 0px;
 }
 
-.project-img {
-    width: 260px;
-    height: 260px;
-    box-shadow: -10px -10px #D0B285;
-    margin: 20px 0px;
-}
-
 .item {
     display: flex;
     align-items: center;
@@ -84,19 +77,25 @@
 
 .project {
     margin: 0px 40px;
+    width: 290px;
+    height: 410px;
+}
+
+.project-img {
+    width: 260px;
+    height: 260px;
+    box-shadow: -10px -10px #D0B285;
+    margin: 20px 0px;
+    vertical-align: top;
+    object-fit: cover;
 }
 
 figcaption.project-name {
     font-family: 'Nunito', sans-serif;
     font-size: 24px;
     font-weight: 700;
-}
-
-figcaption.month {
-    font-size: 18px;
-    font-weight: 500;
-    margin-bottom: 15px;
-    font-family: 'Lora', serif;
+    text-align: center;
+    vertical-align: bottom;
 }
 
 .projects .carousel.slide .carousel-indicators button {
