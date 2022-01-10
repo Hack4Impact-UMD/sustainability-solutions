@@ -8,18 +8,15 @@ import Jill from "./Images/Jill Gambill.jpg"
 import Karen from "./Images/Karen Campblin.jpg"
 import Sarah from "./Images/Sarah Williams.jpg"
 import William from "./Images/William Harris.jpg"
-
-import headshot from './Images/headshot.jpeg'
 import headerImage from './Images/our team.png';
 
 const team = [
-  {img: Karen, name: "Karen Campblin", position: "Chair"},
-  {img: Eric, name: "Eric Harris", position: "Secretary"},
-  {img: Sarah, name: "Sarah Williams", position: "Board Member"},
-  {img: headshot, name: "Tonya Eddy", position: "Board Member"},
-  {img: Eilleen, name: "Eilleen Woll", position: "Board Member"},
-  {img: Jill, name: "Jill Gambill", position: "Board Member"},
-  {img: William, name: "William Harris", position: "Board Member"},
+  {img: Karen, name: "Karen Campblin", position: "Chair", description: ""},
+  {img: Eric, name: "Eric Harris", position: "Secretary", description: "Senior Project Manager and Program Specificialist Cisco Systems"},
+  {img: Sarah, name: "Sarah Williams", position: "Board Member", description: ""},
+  {img: Eilleen, name: "Eilleen Woll", position: "Board Member", description: "Sierra Club, Director of Off Shore Wind"},
+  {img: Jill, name: "Jill Gambill", position: "Board Member", description: "Public Service faculty at the University of Georgia, serving as the Coastal Community Resilience Specialist for UGA Marine Extension and Georgia Sea Grant"},
+  {img: William, name: "William Harris", position: "Board Member", description: "Project Manager, Computer Systems Specialist"},
 ]
 
 function AboutBoardMembers() {
