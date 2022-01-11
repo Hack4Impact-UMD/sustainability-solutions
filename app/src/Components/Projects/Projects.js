@@ -23,15 +23,15 @@ const Projects = () => {
                     <Carousel.Item>
                         <div className="item">
                             <figure className="project">
-                                <img src="/Projects/ScienceInvestigation.jpg" className="project-img" alt="project"/>
+                                <img src="/Projects/ScienceInvestigation.jpg" className="project-img" alt="Science investigation"/>
                                 <figcaption className="project-name">Advanced Atmospheric Research Monitoring Station</figcaption>
                             </figure>
                             <figure className="project">
-                                <img src="/Projects/ExtremeHeat.jpg" className="project-img" alt="project"/>
+                                <img src="/Projects/ExtremeHeat.jpg" className="project-img" alt="Extreme heat"/>
                                 <figcaption className="project-name">Building a Weather Ready Nation for ALL</figcaption>
                             </figure>
                             <figure className="project">
-                                <img src="/Projects/SolarField.jpg" className="project-img" alt="project"/>
+                                <img src="/Projects/SolarField.jpg" className="project-img" alt="Solar field"/>
                                 <figcaption className="project-name">Center for Energy, Infrastructure and Renewable Technology</figcaption>
                             </figure>
                         </div>
@@ -39,15 +39,15 @@ const Projects = () => {
                     <Carousel.Item>
                         <div className="item">
                             <figure className="project">
-                                <img src="/Projects/NASA.jpg" className="project-img" alt="project"/>
+                                <img src="/Projects/NASA.jpg" className="project-img" alt="NASA"/>
                                 <figcaption className="project-name">Prosperity for ALL</figcaption>
                             </figure>
                             <figure className="project">
-                                <img src="/Projects/ECODistrictFamily.jpg" className="project-img" alt="project"/>
+                                <img src="/Projects/ECODistrictFamily.jpg" className="project-img" alt="ECODistrict"/>
                                 <figcaption className="project-name">ECO District Hampton Roads</figcaption>
                             </figure>
                             <figure className="project">
-                                <img src="/Projects/Turbine.jpg" className="project-img" alt="project"/>
+                                <img src="/Projects/Turbine.jpg" className="project-img" alt="Wind turbine"/>
                                 <figcaption className="project-name">Energy for ALL</figcaption>
                             </figure>
                         </div>
@@ -55,15 +55,15 @@ const Projects = () => {
                     <Carousel.Item>
                         <div className="item">
                             <figure className="project">
-                                <img src="/Projects/InspectingPollutedPond.jpg" className="project-img" alt="project"/>
+                                <img src="/Projects/InspectingPollutedPond.jpg" className="project-img" alt="Inspecting polluted pond"/>
                                 <figcaption className="project-name">Environmental Justice Academy</figcaption>
                             </figure>
                             <figure className="project">
-                                <img src="/Projects/CovidDeaths.jpg" className="project-img" alt="project"/>
+                                <img src="/Projects/CovidDeaths.jpg" className="project-img" alt="Covid deaths"/>
                                 <figcaption className="project-name">Advancing to 100</figcaption>
                             </figure>
                             <figure className="project">
-                                <img src="/Projects/YouthScience.jpg" className="project-img" alt="project"/>
+                                <img src="/Projects/YouthScience.jpg" className="project-img" alt="Youth exploring science"/>
                                 <figcaption className="project-name">Project Success</figcaption>
                             </figure>
                         </div>
@@ -76,15 +76,15 @@ const Projects = () => {
                     <Carousel.Item>
                         <div className="item">
                             <figure className="project">
-                                <img src="/Projects/WomenInScience.jpg" className="project-img" alt="project"/>
+                                <img src="/Projects/WomenInScience.jpg" className="project-img" alt="Women in science"/>
                                 <figcaption className="project-name">Inspire and Empower</figcaption>
                             </figure>
                             <figure className="project">
-                                <img src="/Projects/StemEducation.jpg" className="project-img" alt="project"/>
+                                <img src="/Projects/StemEducation.jpg" className="project-img" alt="Students learning STEM"/>
                                 <figcaption className="project-name">JUST Science</figcaption>
                             </figure>
                             <figure className="project">
-                                <img src="/Projects/WomenEngineering.jpg" className="project-img" alt="project"/>
+                                <img src="/Projects/WomenEngineering.jpg" className="project-img" alt="Women engineering"/>
                                 <figcaption className="project-name">SMART Community Initiative</figcaption>
                             </figure>
                         </div>
@@ -92,15 +92,15 @@ const Projects = () => {
                     <Carousel.Item>
                         <div className="item">
                             <figure className="project">
-                                <img src="/Projects/SolarField.jpg" className="project-img" alt="project"/>
+                                <img src="/Projects/SolarField.jpg" className="project-img" alt="Solar field"/>
                                 <figcaption className="project-name">Sustainable Cities and Transportation</figcaption>
                             </figure>
                             <figure className="project">
-                                <img src="/Projects/ElizabethRiverProject.jpg" className="project-img" alt="project"/>
+                                <img src="/Projects/ElizabethRiverProject.jpg" className="project-img" alt="Elizabeth river"/>
                                 <figcaption className="project-name">Just Planning, Growth and Development</figcaption>
                             </figure>
                             <figure className="project">
-                                <img src="/Projects/Turbine.jpg" className="project-img" alt="project"/>
+                                <img src="/Projects/Turbine.jpg" className="project-img" alt="Wind turbine"/>
                                 <figcaption className="project-name">Project Good Wind</figcaption>
                             </figure>
                         </div>
@@ -108,11 +108,11 @@ const Projects = () => {
                     <Carousel.Item>
                         <div className="item">
                             <figure className="project">
-                                <img src="/Projects/OilRidge.jpg" className="project-img" alt="project"/>
+                                <img src="/Projects/OilRidge.jpg" className="project-img" alt="Oil ridge"/>
                                 <figcaption className="project-name">Institute for Energy Efficiency and Renewable Energy</figcaption>
                             </figure>
                             <figure className="project">
-                                <img src="/Projects/FaithLeaders.jpg" className="project-img" alt="project"/>
+                                <img src="/Projects/FaithLeaders.jpg" className="project-img" alt="Faith leaders"/>
                                 <figcaption className="project-name">Sustainable and Equitable Development for ALL</figcaption>
                             </figure>
                         </div>

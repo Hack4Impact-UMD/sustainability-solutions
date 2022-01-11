@@ -108,7 +108,8 @@ figcaption.position {
     position: absolute;
     right: 30px;
     top: 0;
-    cursor: pointer;
+    border: none;
+    outline: none;
 }
 
 .close:hover{

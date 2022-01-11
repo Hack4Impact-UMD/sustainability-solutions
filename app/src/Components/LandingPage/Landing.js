@@ -23,13 +23,13 @@ function Landing () {
             </div>
             <div className="section2">
                 <Link to="/mission">
-                    <img src={MissionBtn} />
+                    <img src={MissionBtn} alt="Mission"/>
                 </Link>
                 <Link to="/about">
-                    <img src={TeamBtn} />
+                    <img src={TeamBtn}  alt="Team"/>
                 </Link>
                 <Link to="/news">
-                    <img src={NewsBtn} />
+                    <img src={NewsBtn}  alt="News"/>
                 </Link>
             </div>
             <div className="news-sec">
@@ -37,7 +37,7 @@ function Landing () {
                 <Carousel prevLabel={null} nextLabel={null} prevIcon={prev} nextIcon={next}>
                     <Carousel.Item>
                         <div className="landing-item">
-                            <img src="/News/Offshore Wind.jpg"/>
+                            <img src="/News/Offshore Wind.jpg" alt="Offshore wind turbines" />
                             <p className="news-caption">
                                 US energy company Dominion Energy is filing plans with the Virginia State Corporation Commission for approval to construct the 2.6 GW Coastal Virginia Offshore Wind (CVOW) commercial project.
                             </p>
@@ -45,7 +45,7 @@ function Landing () {
                     </Carousel.Item>
                     <Carousel.Item>
                         <div className="landing-item">
-                            <img src="/News/CovidDoctor.jpg"/>
+                            <img src="/News/CovidDoctor.jpg" alt="Doctor" />
                             <p className="news-caption">
                                 New Omicron variant has the world on edge. Travel restrictions are imposed over new Covid-19 variant. 
                             </p>
@@ -53,7 +53,7 @@ function Landing () {
                     </Carousel.Item>
                     <Carousel.Item>
                         <div className="landing-item">
-                            <img src="/News/Turbines.jpg"/>
+                            <img src="/News/Turbines.jpg" alt="Wind turbines"/>
                             <p className="news-caption">
                                 Department of Energy (DOE) announces $13.5 Million for sustainable development of offshore wind.
                             </p>

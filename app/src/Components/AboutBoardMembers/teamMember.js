@@ -15,7 +15,7 @@ function TeamMember(props) {
                 <p className="learn-more" onClick={() => setOpen(o => !o)}>Learn more</p>
                 <Popup modal open={open} onClose={closeModal}>
                     <div className="popup">
-                    <a className="close" onClick={closeModal}>&times;</a>
+                    <button className="close" onClick={closeModal}>&times;</button>
                     <img className="popup-headshot" src={member.img} alt='headshot'/>
                     <h1 className="name-popup">{member.name}</h1>
                     <div class="underline-popup"></div>

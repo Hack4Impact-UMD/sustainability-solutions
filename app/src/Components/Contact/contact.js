@@ -4,7 +4,6 @@ import {
   Form,
   Row,
   Col,
-  FloatingLabel,
   Button,
 } from "react-bootstrap";
 import React, { useRef } from "react";
@@ -44,7 +43,7 @@ const Contact = (props) => {
     <div className={styles.main}>
       <div className={styles.headerBorder}>
         <div className={styles.contactHeader}>
-          <img src={HeaderImage} alt="contact image" />
+          <img src={HeaderImage} alt="contact page header"/>
           <h1 class={styles.headerTitle}>CONTACT US</h1>
           <div class={styles.contactUnderline}>
           </div>

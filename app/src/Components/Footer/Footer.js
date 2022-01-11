@@ -1,9 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
-import InstagramIcon from './instagram-brands.svg';
-import FacebookIcon from './facebook-square-brands.svg';
-import TwitterIcon from './twitter-brands.svg';
+// import InstagramIcon from './instagram-brands.svg';
+// import FacebookIcon from './facebook-square-brands.svg';
+// import TwitterIcon from './twitter-brands.svg';
 import logo from './logo.png';
 
 import './Footer.css';
@@ -12,7 +11,7 @@ function Footer() {
     return (
         <div className="footer-container">
             <div className="logo-col">
-                <img src={logo} /> <br/>
+                <img src={logo} alt="SSG logo"/> <br/>
                 <Link to="/contactus">
                     <button>CONTACT US</button>
                 </Link>
