@@ -20,15 +20,7 @@ function TeamMember(props) {
                     <h1 className="name-popup">{member.name}</h1>
                     <div class="underline-popup"></div>
                     <h2 className="position-popup">{member.position}</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut sem nulla pharetra diam sit amet nisl.
-                        In ornare quam viverra orci. Lacus sed viverra tellus in. Imperdiet proin fermentum
-                        leo vel orci porta non pulvinar neque. Habitant morbi tristique senectus et netus.
-                        Tellus integer feugiat scelerisque varius morbi enim nunc faucibus a. Molestie nunc
-                        non blandit massa enim nec dui. Urna porttitor rhoncus dolor purus non enim praesent
-                        elementum. In nibh mauris cursus mattis molestie a iaculis at.
-                    </p>
+                    <p>{member.description}</p>
                     </div>
                 </Popup>
                 </div>
