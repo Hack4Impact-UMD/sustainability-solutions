@@ -161,33 +161,53 @@ const Projects = () => {
                                 <figcaption className="month">November 29, 2021</figcaption>
                             </figure>
                             <figure className="news-item">
-                                <img src={NewsImage} className="news-img" alt="project"/>
-                                <figcaption className="news-name">Description 1</figcaption>
-                                <figcaption className="month">Month 00, 0000</figcaption>
+                                <img src="/News/Student Interns Travel.jpeg" className="news-img" alt="project"/>
+                                <figcaption className="news-name">
+                                    <a href="https://sls.gatech.edu/excursion-justice-student-interns-travel-through-south-seeking-truths-civil-rights-climate-and" target="_blank">
+                                        Student Interns Travel Through the South Exploring Civil Rights and Environmental Justice
+                                    </a>
+                                </figcaption>
+                                <figcaption className="month">February 3, 2020</figcaption>
                             </figure>
                             <figure className="news-item">
-                                <img src={NewsImage} className="news-img" alt="project"/>
-                                <figcaption className="news-name">Description 1</figcaption>
-                                <figcaption className="month">Month 00, 0000</figcaption>
+                                <img src="/News/Environmental Justice Debates.jpeg" className="news-img" alt="project"/>
+                                <figcaption className="news-name">
+                                    <a href="https://www.virginiamercury.com/2021/06/16/new-mapping-tool-aims-to-clarify-virginia-environmental-justice-debates/" target="_blank">
+                                        New mapping tool aims to clarify Virginia environmental justice debates
+                                    </a>
+                                </figcaption>
+                                <figcaption className="month">June 16, 2020</figcaption>
                             </figure>
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
                         <div className="news-page-item">
                             <figure className="news-item">
-                                <img src={NewsImage} className="news-img" alt="project"/>
-                                <figcaption className="news-name">Description 2</figcaption>
-                                <figcaption className="month">Month 00, 0000</figcaption>
+                                <img src="/News/CenterForSustainableCommunities.jpeg" className="news-img" alt="project"/>
+                                <figcaption className="news-name">
+                                    <a href="https://www.virginiaenergysense.org/2018/11/29/partner-spotlight-center-sustainable-communities/" target="_blank">
+                                        Partner Spotlight: Center for Sustainable Communities
+                                    </a>
+                                </figcaption>
+                                <figcaption className="month">November 29, 2018</figcaption>
                             </figure>
                             <figure className="news-item">
-                                <img src={NewsImage} className="news-img" alt="project"/>
-                                <figcaption className="news-name">Description 2</figcaption>
-                                <figcaption className="month">Month 00, 0000</figcaption>
+                                <img src="/News/MappingTool.jpeg" className="news-img" alt="project"/>
+                                <figcaption className="news-name">
+                                    <a href="https://www.vims.edu/newsandevents/topstories/2021/erp_ejtool.php" target="_blank">
+                                        New online tool helps better serve environmental justice
+                                    </a>
+                                </figcaption>
+                                <figcaption className="month">July 19, 2021</figcaption>
                             </figure>
                             <figure className="news-item">
-                                <img src={NewsImage} className="news-img" alt="project"/>
-                                <figcaption className="news-name">Description 2</figcaption>
-                                <figcaption className="month">Month 00, 0000</figcaption>
+                                <img src="/News/GoingGreen.jpg" className="news-img" alt="project"/>
+                                <figcaption className="news-name">
+                                    <a href="https://www.npr.org/templates/story/story.php?storyId=126193000" target="_blank">
+                                        Atlanta Environmentalist Helps Black Churches Go Green
+                                    </a>
+                                </figcaption>
+                                <figcaption className="month">April 22, 2010</figcaption>
                             </figure>
                         </div>
                     </Carousel.Item>
