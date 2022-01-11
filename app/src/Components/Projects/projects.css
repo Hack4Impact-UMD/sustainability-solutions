@@ -75,7 +75,7 @@
     flex-wrap: wrap;
 }
 
-.project {
+/* .project {
     margin: 0px 40px;
     width: 290px;
     height: 410px;
@@ -96,7 +96,7 @@ figcaption.project-name {
     font-weight: 700;
     text-align: center;
     vertical-align: bottom;
-}
+} */
 
 .projects .carousel.slide .carousel-indicators button {
     background-color: #2D758C;

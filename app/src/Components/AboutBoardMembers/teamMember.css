@@ -59,11 +59,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 40px 50px;
+    padding: 20px 45px;
 }
 
 .popup-headshot {
-    margin-top: 40px;
+    margin-top: 30px;
     border-radius: 50%;
     height: 200px;
     width: 200px;
@@ -104,10 +104,10 @@ figcaption.position {
 
 .close {
     color: #CF4917;
-    font-size: 70px;
+    font-size: 60px;
     position: absolute;
-    right: 30px;
-    top: 0;
+    right: 20px;
+    top: 5px;
     border: none;
     outline: none;
 }

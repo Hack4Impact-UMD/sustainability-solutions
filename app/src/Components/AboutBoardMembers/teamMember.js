@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import Popup from 'reactjs-popup';
 import "./teamMember.css";
+import {IoClose} from 'react-icons/io5';
 
 function TeamMember(props) {
     const [open, setOpen] = useState(false);
@@ -15,7 +16,7 @@ function TeamMember(props) {
                 <p className="learn-more" onClick={() => setOpen(o => !o)}>Learn more</p>
                 <Popup modal open={open} onClose={closeModal}>
                     <div className="popup">
-                    <button className="close" onClick={closeModal}>&times;</button>
+                    <button className="close" onClick={closeModal}><IoClose/></button>
                     <img className="popup-headshot" src={member.img} alt='headshot'/>
                     <h1 className="name-popup">{member.name}</h1>
                     <div class="underline-popup"></div>

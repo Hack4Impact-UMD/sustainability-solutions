@@ -1,0 +1,73 @@
+.project {
+    margin: 0px 40px;
+    width: 290px;
+    height: 410px;
+}
+
+.project-img {
+    width: 260px;
+    height: 260px;
+    box-shadow: -10px -10px #D0B285;
+    margin: 20px 0px;
+    vertical-align: top;
+    object-fit: cover;
+}
+
+figure:hover{
+    cursor: pointer;
+}
+
+figcaption.project-name {
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.project-popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 50px;
+}
+
+.project-popup p {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    color: #333333;
+}
+
+.project-name-popup {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    text-align: center;
+    width: 85%;
+    margin-top: 25px;
+}
+
+.project-close {
+    color: #2D758C;
+    font-size: 60px;
+    position: absolute;
+    right: 10px;
+    top: -10px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.project-close:hover{
+    color: #2D758C;
+}
+
+.project-underline-popup {
+    width: 200px;
+    height: 7px;
+    background-color: #2D758C;
+    top: 75%;
+    border-radius: 10px;
+    margin: 10px 0px 18px 0px;
+}
