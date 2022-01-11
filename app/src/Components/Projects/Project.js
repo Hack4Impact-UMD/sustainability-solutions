@@ -8,7 +8,7 @@ function Project(props) {
     const closeModal = () => setOpen(false);
 
     return (
-        <div>
+        <div className="project-item">
              <figure className="project" onClick={() => setOpen(o => !o)}>
                 <img src={props.img} className="project-img" alt={props.alt}/>
                 <figcaption className="project-name">{props.title}</figcaption>
