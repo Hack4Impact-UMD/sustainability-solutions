@@ -2,6 +2,7 @@
     margin: 0px 40px;
     width: 290px;
     height: 410px;
+    cursor: pointer;
 }
 
 .project-img {
@@ -11,10 +12,6 @@
     margin: 20px 0px;
     vertical-align: top;
     object-fit: cover;
-}
-
-figure:hover{
-    cursor: pointer;
 }
 
 figcaption.project-name {
