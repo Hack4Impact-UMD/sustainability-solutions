@@ -84,6 +84,7 @@ section.carousel {
     border: none;
     width: 15px !important;
     height: 15px !important;
+    opacity: 1;
 }
 
 .carousel-indicators button.active {

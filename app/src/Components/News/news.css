@@ -118,6 +118,7 @@ figcaption.month {
     border-radius: 50%;
     transition: all .3s ease-in-out; 
     margin: 10px 20px;
+    opacity: 1;
 }
 
 .news .carousel.slide .carousel-indicators button:hover {

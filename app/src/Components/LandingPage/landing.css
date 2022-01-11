@@ -88,6 +88,7 @@
     border-radius: 50%;
     transition: all .3s ease-in-out; 
     margin: 25px 20px;
+    opacity: 1;
 }
 
 .news-sec .carousel.slide .carousel-indicators button:hover {

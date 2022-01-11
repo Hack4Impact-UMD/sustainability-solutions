@@ -106,6 +106,7 @@ figcaption.project-name {
     border-radius: 50%;
     transition: all .3s ease-in-out; 
     margin: 10px 20px;
+    opacity: 1;
 }
 
 .projects .carousel.slide .carousel-indicators button:hover {
