@@ -29,6 +29,10 @@
     font-size: 34px;
 }
 
+.about-description {
+    padding: 0% 10%;
+}
+
 .our-mission {
     padding: 0 0 60px 0;
     margin-bottom: 40px;
