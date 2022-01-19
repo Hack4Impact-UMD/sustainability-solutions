@@ -110,6 +110,7 @@ figcaption.position {
     top: 5px;
     border: none;
     outline: none;
+    background: transparent;
 }
 
 .close:hover{
@@ -127,4 +128,12 @@ figcaption.position {
 
 .team-member {
     margin: 30px;
+}
+
+@media screen and (max-width: 521px) {
+    .close {
+        top: 5px;
+        right: 5px;
+        font-size: 40px;
+    }
 }

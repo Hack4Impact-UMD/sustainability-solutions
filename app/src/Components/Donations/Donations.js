@@ -32,8 +32,8 @@ function Donations() {
                     To deduct a charitable contribution, you must file Form 1040 and itemize deductions on Schedule A. Here are some resources from the IRS to help:
                 </p>
                 <ul className="irs-resources">
-                    <li>Publication 526</li>
-                    <li>How to report on lines 16 through 19 of Schedule A (Form 1040)</li>
+                    <li><a href="https://www.irs.gov/taxtopics/tc506" target="_blank" rel="noreferrer">Publication 526</a></li>
+                    <li><a href="https://www.irs.gov/publications/p526#en_US_2015_publink1000229849" target="_blank" rel="noreferrer">How to report on lines 16 through 19 of Schedule A (Form 1040)</a></li>
                 </ul>
             </div>
         </div>

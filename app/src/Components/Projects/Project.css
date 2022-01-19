@@ -68,3 +68,19 @@ figcaption.project-name {
     border-radius: 10px;
     margin: 10px 0px 18px 0px;
 }
+
+@media screen and (max-width: 521px) {
+    .project-close {
+        top: 5px;
+        right: 5px;
+        font-size: 40px;
+    }
+
+    .project-name-popup {
+        font-size: 26px;
+    }
+
+    .project-popup > p {
+        font-size: 14px;
+    }
+}
