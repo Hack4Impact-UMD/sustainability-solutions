@@ -25,20 +25,12 @@ function About() {
           <h1 className="about-titles">Who Are We?</h1>
           <h2>Creating a more just, sustainable, resilient and equitable world for all.</h2>
           <Row>
-            <Col>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque blandit pretium posuere. Ut ligula purus, dignissim at ipsum iaculis, laoreet ornare felis. Fusce elit lorem, malesuada vel orci nec, congue accumsan odio. Nulla facilisi. Fusce placerat, felis in suscipit sollicitudin, purus augue porta ex, id mollis metus nisl sed lacus. Suspendisse dictum vitae lorem eget condimentum. Sed a nisl iaculis, sodales sapien vitae, placerat lectus. Sed rutrum lacus magna. Ut ut mi vel elit cursus lobortis. Nulla lacus est, auctor et suscipit ut, luctus id dolor.
+              <p className="about-description">
+                We are a team of engineers, scientists, community planners, educators, and policy advocates who work collectively to provide high quality, viable and credible solutions to ensure the delivery of a broad range of sustainable development approaches to customers worldwide.
               </p>
-            </Col>
-            <Col>
-              <p>
-                Proin diam purus, auctor quis urna quis, porta laoreet sem. In nec aliquam sem. Quisque sed velit nec mi luctus elementum in nec quam. Praesent volutpat neque sem, sed iaculis nibh accumsan ullamcorper. Sed orci felis, gravida dapibus urna non, faucibus vehicula elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer efficitur, ex vitae sagittis hendrerit, nibh elit semper ligula, non molestie ante lacus eu arcu. Vestibulum ornare suscipit nisl a varius. Etiam congue suscipit tellus, a aliquet ante aliquam id.
-              </p>
-            </Col>
           </Row>
         </Container>
       </section>
-
 
       <section className="founder">
         <Container>
@@ -48,12 +40,12 @@ function About() {
           <Row>
             <Col>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque blandit pretium posuere. Ut ligula purus, dignissim at ipsum iaculis, laoreet ornare felis. Fusce elit lorem, malesuada vel orci nec, congue accumsan odio. Nulla facilisi. Fusce placerat, felis in suscipit sollicitudin, purus augue porta ex, id mollis metus nisl sed lacus. Suspendisse dictum vitae lorem eget condimentum. Sed a nisl iaculis, sodales sapien vitae, placerat lectus. Sed rutrum lacus magna. Ut ut mi vel elit cursus lobortis. Nulla lacus est, auctor et suscipit ut, luctus id dolor.
+                As President and CEO, Garry Harris envisions a world based on outcomes that create vibrant cities, communities, neighborhoods that are just, sustainable, equitable, and resilient for all of its citizens and residents.  With more than three and a half decades of experience in the energy and environmental and sustainability field Mr. Harris' leadership has resulted in the design, development and deployment of a broad
               </p>
             </Col>
             <Col>
               <p>
-                Proin diam purus, auctor quis urna quis, porta laoreet sem. In nec aliquam sem. Quisque sed velit nec mi luctus elementum in nec quam. Praesent volutpat neque sem, sed iaculis nibh accumsan ullamcorper. Sed orci felis, gravida dapibus urna non, faucibus vehicula elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer efficitur, ex vitae sagittis hendrerit, nibh elit semper ligula, non molestie ante lacus eu arcu. Vestibulum ornare suscipit nisl a varius. Etiam congue suscipit tellus, a aliquet ante aliquam id.
+                range of effective project management and program development, policy, engineering, scientific and technology solutions that work for all residents and citizens. Armed with a strong academic background, and a rare combination of experience and a performance track record Mr. Harris is ready and prepared to lead his organization in a manner that stresses high quality delivery, innovation and a customer first approach.
               </p>
             </Col>
           </Row>
