@@ -1,5 +1,4 @@
 .main {
-  background-color: #E5E5E5;
   font-family: 'Nunito', sans-serif;
 }
 
@@ -33,7 +32,7 @@
 .form {
   background-color: #758C33;
   padding: 50px 75px 50px 75px;
-  margin: 0% 18% 20% 18%; /*  */
+  margin: 0% 18% 3% 18%;
   text-align: left;
   color: white;
   border-radius: 5px;
@@ -51,7 +50,6 @@
 
 .formLabels {
   padding-top: 10px;
-  /* font-size: 24px; */
   font-weight: 60000;
 }
 
@@ -144,11 +142,6 @@
   justify-content: center;
   flex-direction: column;
 }
-/* .buttonTeam{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-} */
 
 @media screen and (max-width: 693px) {
   .contactUnderline {
