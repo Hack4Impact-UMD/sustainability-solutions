@@ -1,38 +1,8 @@
-import React, { useRef } from 'react';
-import {
-    Container,
-    Form,
-    Row,
-    Col,
-    Button,
-} from "react-bootstrap";
-import emailjs from "emailjs-com";
+import React from 'react';
 import HeadingImg from './HeadingImg.png';
 import './Donations.css';
 
 function Donations() {
-    const form = useRef();
-
-    const sendEmail = (e) => {
-        e.preventDefault();
-    
-        emailjs
-            .sendForm(
-                "service_b8ilepj",
-                "template_xahswbk",
-                form.current,
-                "user_XLX5JMzzhYyKVNxgIesYU"
-            )
-            .then(
-                (result) => {
-                console.log(result.text);
-                },
-                (error) => {
-                console.log(error.text);
-                }
-            );
-    };
-
     return (
         <div className="donations-page">
             <div className="header-border-donate">
@@ -42,161 +12,30 @@ function Donations() {
                     <div class="header-title-donate underline-donate"></div>
                 </div>
             </div>
-            <p className="form-titles"> Select an Amount </p>
-            <Container fluid>
-                <Row> 
-                    <Col className="amount-select"> 
-                        <button>$10</button>
-                        <button>$20</button>
-                        <button>$50</button>
-                        <button>$100</button>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col className="amount-enter">
-                        <Form>
-                            <Row>
-                                <Form.Group as={Row} controlId="formGridAmount">
-                                    <Form.Label column sm="4" className="other">Other: $</Form.Label>
-                                    <Col>
-                                        <Form.Control
-                                            className="amount-field"
-                                            type="amount"
-                                            placeholder="0.00"
-                                        />
-                                    </Col>
-                                </Form.Group>
-                            </Row>
-                        </Form>
-                    </Col>
-                </Row>
-            </Container>
-            <p className="form-titles"> Personal Information </p>
-            <Container fluid>
-                <Row>
-                    <Col className="donation-form">
-                        <Form ref={form} onSubmit={sendEmail}>
-                        <Row className="formName">
-                            <Form.Group as={Col} controlId="formGridFirstName">
-                            <Form.Label>First Name*</Form.Label>
-                            <Form.Control
-                                className="form-fields"
-                                type="fname"
-                                placeholder="John"
-                            />
-                            </Form.Group>
-
-                            <Form.Group as={Col} controlId="formGridLastName">
-                            <Form.Label>Last Name*</Form.Label>
-                            <Form.Control
-                                className="form-fields"
-                                type="lname"
-                                placeholder="Smith"
-                            />
-                            </Form.Group>
-                        </Row>
-
-                        <Row className="form-labels">
-                            <Form.Group as={Col} controlId="formGridEmail">
-                            <Form.Label className="heading">Email*</Form.Label>
-                            <Form.Control
-                                className="form-fields"
-                                type="email"
-                                placeholder="Enter email"
-                            />
-                            </Form.Group>
-                        </Row>
-
-                        <Row className="form-labels">
-                            <Form.Group as={Col} controlId="formGridNumber">
-                            <Form.Label className="heading">Phone Number</Form.Label>
-                            <Form.Control
-                                className="form-fields"
-                                type="phonenumber"
-                                placeholder="(###)-(###)-(####)"
-                            />
-                            </Form.Group>
-                        </Row>
-
-                        <Row className="form-labels">
-                            <Form.Group as={Col} controlId="formGridCard">
-                            <Form.Label className="heading">Credit Card*</Form.Label>
-                            <Form.Control
-                                className="form-fields"
-                                type="cardnumber"
-                                placeholder="Card Number"
-                            />
-                            </Form.Group>
-                        </Row>
-
-                        <Row className="form-labels">
-                            <Form.Group as={Col} controlId="formGridAddress1">
-                            <Form.Label className="heading">Billing Address*</Form.Label>
-                            <Form.Control
-                                className="form-fields"
-                                type="addressline1"
-                                placeholder="Address 1*"
-                            />
-                            </Form.Group>
-                        </Row>
-
-                        <Row className="form-labels">
-                            <Form.Group as={Col} controlId="formGridAddress2">
-                            <Form.Control
-                                className="form-fields"
-                                type="addressline2"
-                                placeholder="Address 2(Apt #, Suite, Floor, Etc.)"
-                            />
-                            </Form.Group>
-                        </Row>
-
-                        <Row className="form-labels">
-                            <Form.Group as={Col} controlId="formGridCity">
-                            <Form.Control
-                                className="form-fields"
-                                type="city"
-                                placeholder="City*"
-                            />
-                            </Form.Group>
-
-                            <Form.Group as={Col} controlId="formGridState">
-                            <Form.Control
-                                className="form-fields"
-                                type="state"
-                                placeholder="State/Province/Region*"
-                            />
-                            </Form.Group>
-                        </Row>
-
-                        <Row className="form-labels">
-                            <Form.Group as={Col} controlId="formGridZipCode">
-                            <Form.Control
-                                className="form-fields"
-                                type="zipcode"
-                                placeholder="Zip Code*"
-                            />
-                            </Form.Group>
-
-                            <Form.Group as={Col} controlId="formGridCountry">
-                            <Form.Control
-                                className="form-fields"
-                                type="country"
-                                placeholder="Country*"
-                            />
-                            </Form.Group>
-                        </Row>
-
-                        <Button
-                            className="donate-button"
-                            variant="primary"
-                            type="submit"
-                        >
-                            DONATE
-                        </Button>
-                        </Form>
-                    </Col>
-                </Row>
-            </Container>
+            <div className="text">
+                <em className="thanks">We thank you, in advance, for your generosity in helping us make our area a more sustainable environment in which to live, work and play.</em>
+                <h1 className="support">Support Us</h1>
+                <p className="donation-description">
+                    Give your tax-deductible donation securely via our Joint Plan of Work partner, <b>Virginia Organizing</b>. Select Center for Sustainable Communities when donating.
+                    <br></br><br></br>
+                    Virginia Organizing is officially registered with the Department of Agriculture and Consumer Services, P.O. Box 1163, Richmond, VA 23209.  You can write to this Department for all relevant financial statements and procedures regarding the solicitation of contributions.  Your donation is tax-deductible to the extent allowed by law.
+                </p>
+                <a href="https://donatenow.networkforgood.org/1388125" target="_blank" rel="noreferrer" className="donate-btn">DONATE</a>
+                <h2>Tax Deduction Instructions</h2>
+                <p className="donation-description">
+                    Looking to donate to <b>Sustainability Solutions Institute</b>? Did you know that charitable gifts to SSG are tax deductible under section 501(c)(3) of the Internal Revenue Code?
+                    <br></br><br></br>
+                    Organization Name:  <b>Virginia Organizing</b>
+                    <br></br>
+                    Tax ID: <b>54-1674992</b>
+                    <br></br><br></br>
+                    To deduct a charitable contribution, you must file Form 1040 and itemize deductions on Schedule A. Here are some resources from the IRS to help:
+                </p>
+                <ul className="irs-resources">
+                    <li>Publication 526</li>
+                    <li>How to report on lines 16 through 19 of Schedule A (Form 1040)</li>
+                </ul>
+            </div>
         </div>
     );
 }
