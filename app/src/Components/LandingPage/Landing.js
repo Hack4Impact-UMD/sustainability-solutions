@@ -22,10 +22,10 @@ function Landing () {
                 <p className="intro-cap">embrace pathways of sustainability</p>
             </div>
             <div className="section2">
-                <Link to="/mission">
+                <Link to="/about">
                     <img src={MissionBtn} alt="Mission"/>
                 </Link>
-                <Link to="/about">
+                <Link to="/ourteam">
                     <img src={TeamBtn}  alt="Team"/>
                 </Link>
                 <Link to="/news">

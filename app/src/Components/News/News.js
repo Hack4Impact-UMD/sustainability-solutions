@@ -18,80 +18,18 @@ const Projects = () => {
                 </div>
             </div>
             <div className="news">
-                <h1 className="carousel-title">Latest</h1>
+                <h1 className="carousel-title">Latest News</h1>
                 <Carousel prevLabel={null} nextLabel={null} prevIcon={prev} nextIcon={next}>
                     <Carousel.Item>
                         <div className="news-page-item">
                             <figure className="news-item">
-                                <img src={NewsImage} className="news-img" alt="project"/>
-                                <figcaption className="news-name">Description 1</figcaption>
-                                <figcaption className="month">Month 00, 0000</figcaption>
-                            </figure>
-                            <figure className="news-item">
-                                <img src={NewsImage} className="news-img" alt="project"/>
-                                <figcaption className="news-name">Description 1</figcaption>
-                                <figcaption className="month">Month 00, 0000</figcaption>
-                            </figure>
-                            <figure className="news-item">
-                                <img src={NewsImage} className="news-img" alt="project"/>
-                                <figcaption className="news-name">Description 1</figcaption>
-                                <figcaption className="month">Month 00, 0000</figcaption>
-                            </figure>
-                        </div>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <div className="news-page-item">
-                            <figure className="news-item">
-                                <img src={NewsImage} className="news-img" alt="project"/>
-                                <figcaption className="news-name">Description 2</figcaption>
-                                <figcaption className="month">Month 00, 0000</figcaption>
-                            </figure>
-                            <figure className="news-item">
-                                <img src={NewsImage} className="news-img" alt="project"/>
-                                <figcaption className="news-name">Description 2</figcaption>
-                                <figcaption className="month">Month 00, 0000</figcaption>
-                            </figure>
-                            <figure className="news-item">
-                                <img src={NewsImage} className="news-img" alt="project"/>
-                                <figcaption className="news-name">Description 2</figcaption>
-                                <figcaption className="month">Month 00, 0000</figcaption>
-                            </figure>
-                        </div>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <div className="news-page-item">
-                            <figure className="news-item">
-                                <img src={NewsImage} className="news-img" alt="project"/>
-                                <figcaption className="news-name">Description 3</figcaption>
-                                <figcaption className="month">Month 00, 0000</figcaption>
-                            </figure>
-                            <figure className="news-item">
-                                <img src={NewsImage} className="news-img" alt="project"/>
-                                <figcaption className="news-name">Description 3</figcaption>
-                                <figcaption className="month">Month 00, 0000</figcaption>
-                            </figure>
-                            <figure className="news-item">
-                                <img src={NewsImage} className="news-img" alt="project"/>
-                                <figcaption className="news-name">Description 3</figcaption>
-                                <figcaption className="month">Month 00, 0000</figcaption>
-                            </figure>
-                        </div>
-                    </Carousel.Item>
-                </Carousel>
-            </div>
-            <div className="news category1">
-                <h1 className="carousel-title">Category 1</h1>
-                <Carousel prevLabel={null} nextLabel={null} prevIcon={prev} nextIcon={next}>
-                    <Carousel.Item>
-                        <div className="news-page-item">
-                            <figure className="news-item">
-                                <img src="/News/Turbines.jpg" className="news-img" alt="Offshore wind turbine"/>
+                                <img src="/News/CovidDoctor.jpg" className="news-img" alt="Doctor"/>
                                 <figcaption className="news-name">
-                                    <a href="https://www.energy.gov/articles/doe-announces-135-million-sustainable-development-offshore-wind?fbclid=IwAR2MUbl2ju84A034uRApqr3K1cLL_O4YpL_6V6DLw5wV4bXB4MRH8s29qXQ" target="_blank" rel="noreferrer">
-                                        DOE Announces $13.5 Million for Sustainable Development of Offshore Wind
+                                    <a href="https://www.cnn.com/world/live-news/new-covid-variant-south-africa-11-28-21/index.html" target="_blank" rel="noreferrer">
+                                        New Covid-19 variant Omicron cases, travel updates from around the world
                                     </a>
                                 </figcaption>
-                                <figcaption className="month">October 13, 2021</figcaption>
+                                <figcaption className="month">November 29, 2021</figcaption>
                             </figure>
                             <figure className="news-item">
                                 <img src="/News/Offshore Wind.jpg" className="news-img" alt="Wind turbine"/>
@@ -146,19 +84,19 @@ const Projects = () => {
                     </Carousel.Item>
                 </Carousel>
             </div>
-            <div className="news">
-                <h1 className="carousel-title">Category 2</h1>
+            <div className="news other">
+                <h1 className="carousel-title">Other News</h1>
                 <Carousel prevLabel={null} nextLabel={null} prevIcon={prev} nextIcon={next}>
                     <Carousel.Item>
                         <div className="news-page-item">
                             <figure className="news-item">
-                                <img src="/News/CovidDoctor.jpg" className="news-img" alt="Doctor"/>
+                                <img src="/News/Turbines.jpg" className="news-img" alt="Offshore wind turbine"/>
                                 <figcaption className="news-name">
-                                    <a href="https://www.cnn.com/world/live-news/new-covid-variant-south-africa-11-28-21/index.html" target="_blank" rel="noreferrer">
-                                        New Covid-19 variant Omicron cases, travel updates from around the world
+                                    <a href="https://www.energy.gov/articles/doe-announces-135-million-sustainable-development-offshore-wind?fbclid=IwAR2MUbl2ju84A034uRApqr3K1cLL_O4YpL_6V6DLw5wV4bXB4MRH8s29qXQ" target="_blank" rel="noreferrer">
+                                        DOE Announces $13.5 Million for Sustainable Development of Offshore Wind
                                     </a>
                                 </figcaption>
-                                <figcaption className="month">November 29, 2021</figcaption>
+                                <figcaption className="month">October 13, 2021</figcaption>
                             </figure>
                             <figure className="news-item">
                                 <img src="/News/Student Interns Travel.jpeg" className="news-img" alt="Student interns traveling through the South"/>
