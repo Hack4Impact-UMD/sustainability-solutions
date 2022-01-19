@@ -110,3 +110,9 @@
 .news-sec .carousel.slide .carousel-control-prev {
     color: white;
 }
+
+@media screen and (max-width: 550px){
+    .news-caption {
+        padding: 20px 50px 10px 50px;
+    }
+}
