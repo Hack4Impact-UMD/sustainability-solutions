@@ -31,12 +31,6 @@ function Footer() {
             <div className="second-col">
                 <div className="white-bar" />
                 <div className="links-col">
-                    {/* <Link to="/"><p>Home</p></Link>
-                    <Link to="/ourteam"><p>Our Team</p></Link>
-                    <Link to="/about"><p>About</p></Link>
-                    <Link to="/projects"><p>Projects</p></Link>
-                    <Link to="/news"><p>News</p></Link>
-                    <Link to="/donations"><p>Donate</p></Link> */}
                     {links.map(link =>
                         <Link to={link.path} className="footer-links" style={path === link.path ? { color: link.color } : {}}>{link.name}</Link>
                     )}

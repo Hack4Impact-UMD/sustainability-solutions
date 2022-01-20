@@ -86,7 +86,16 @@
 .news-item {
     margin: 0px 40px;
     width: 290px;
-    height: 410px
+    height: 410px;
+    color: black;
+}
+
+.article {
+    text-decoration: none;
+}
+
+.article:hover {
+    text-decoration: none;
 }
 
 figcaption.news-name {
@@ -95,11 +104,6 @@ figcaption.news-name {
     font-weight: 700;
     text-align: center;
     vertical-align: bottom;
-}
-
-figcaption.news-name > a {
-    color: black;
-    text-decoration: none;
 }
 
 figcaption.month {
