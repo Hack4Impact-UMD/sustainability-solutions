@@ -81,7 +81,7 @@
 }
 
 .news-sec .carousel.slide .carousel-indicators button {
-    background-color: #2D758C;
+    background-color: #174950;
     border: none;
     width: 15px !important;
     height: 15px !important;
@@ -96,15 +96,23 @@
 }
 
 .news-sec .carousel.slide .carousel-indicators .active {
-    background-color: #F9AC3D;
+    background-color: #D0B285;
 }
 
 .news-sec .carousel.slide .carousel-control-prev {
     opacity: 1;
 }
 
+.news-sec .carousel.slide .carousel-control-prev:hover {
+    color: #D0B285;
+}
+
 .news-sec .carousel.slide .carousel-control-next {
     opacity: 1;
+}
+
+.news-sec .carousel.slide .carousel-control-next:hover {
+    color: #D0B285;
 }
 
 .news-sec .carousel.slide .carousel-control-prev {
