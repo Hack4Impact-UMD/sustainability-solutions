@@ -23,7 +23,7 @@ function About() {
       <section className="our-mission">
         <Container >
           <h1 className="about-titles">Who Are We?</h1>
-          <h2>Creating a more just, sustainable, resilient and equitable world for all.</h2>
+          <h2><em>Creating a more just, sustainable, resilient and equitable world for all.</em></h2>
           <Row>
               <p className="about-description">
                 We are a team of engineers, scientists, community planners, educators, and policy advocates who work collectively to provide high quality, viable and credible solutions to ensure the delivery of a broad range of sustainable development approaches to customers worldwide.
@@ -112,7 +112,7 @@ function About() {
 
       <section className="organization">
         <Container>
-          <h1 className="about-titles">Organization of SSG</h1>
+          <h1 className="about-titles">The Organization of SSG</h1>
           <img src={diagram} alt="SSG Organization Diagram" className="diagram" />
         </Container>
       </section>

@@ -10,6 +10,7 @@
     width: 220px;
     object-fit: cover;
     object-position: 50% 0%;
+    margin: 15px 0px;
 }
 
 .diagram {
