@@ -148,17 +148,20 @@ const Contact = (props) => {
                   <div className={styles.buttonTeam}>
                     <div className={styles.recap}>
                       <ReCAPTCHA
+                        className={styles.recapBtn}
                         sitekey="6LfBBkodAAAAAMbquiTN34opmljr5vUbnKqwHsdc"
                         onChange={onChange}
                       />
                     </div>
-                    <Button
-                      className={styles.button}
-                      variant="primary"
-                      type="submit"
-                    >
-                      SUBMIT
-                  </Button>
+                    <div className={styles.submitContainer}>
+                      <Button
+                          className={styles.button}
+                          variant="primary"
+                          type="submit"
+                        >
+                          SUBMIT
+                      </Button>
+                    </div>
                   </div>
                 </Form>
               </div>

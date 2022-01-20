@@ -40,9 +40,14 @@
   box-shadow: 0px 4px 5px rgba(0,0,0,.2);
 }
 
- .recap {
-  margin: 3% 3% 1% 31.5%; 
-} 
+.recap {
+  display: flex;
+  justify-content: center;
+}
+
+.recapBtn {
+  padding: 25px 0px;
+}
 
 .fields {
   box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.2);
@@ -58,10 +63,14 @@
   display: flex;
 }
 
+.submitContainer {
+  display: flex;
+  justify-content: center;
+}
+
 .button {  
   background-color: #D0B285;
   border: 3px solid #D0B285;
-  margin: 2% 0% 0% 39%;
   width: 184px;
   height: 44px;
   font-size: 24px;
@@ -147,22 +156,64 @@
   .contactUnderline {
     margin-top: 25px;
   }
-  .button{
-    margin-left: 0%;
-  }
-   .recap {
-    margin-left: 0%; 
-  }
 }
 
 @media screen and (max-width: 900px) and (min-width: 693px){
   .contactUnderline {
       margin-top: 25px;
   }
-  .button{
-    margin-left: 15%;
+}
+
+@media screen and (max-width: 850px) {
+  .recapBtn {
+    padding: 18px 0px;
+    transform:scale(0.8);
   }
-   .recap {
-    margin-left: 10%; 
+  
+  .button {
+    transform:scale(0.8);
+  }
+
+  .form {
+    padding: 40px 65px 40px 65px;
+    margin: 0% 10% 3% 10%;
+  }
+
+  .welcometext {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .recapBtn {
+    padding: 10px 0px;
+    transform:scale(0.7);
+  }
+  
+  .button {
+    transform:scale(0.7);
+    margin: -10px 0px;
+  }
+
+  .form {
+    padding: 30px 50px 30px 50px;
+    margin: 0% 8% 3% 8%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .recapBtn {
+    padding: 5px 0px;
+    transform:scale(0.6);
+  }
+  
+  .button {
+    transform:scale(0.6);
+    margin: -10px 0px;
+  }
+
+  .form {
+    padding: 20px 40px 20px 40px;
+    margin: 0% 5% 3% 5%;
   }
 }
