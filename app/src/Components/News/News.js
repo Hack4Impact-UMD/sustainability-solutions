@@ -2,11 +2,11 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import "./news.css";
 import NewsImage from "./news.png"
-import { GrFormNext, GrFormPrevious } from 'react-icons/gr';
+import { FiArrowLeftCircle, FiArrowRightCircle } from 'react-icons/fi';
 
 const Projects = () => {
-    const prev = <GrFormPrevious size={70}/>
-    const next = <GrFormNext size={70}/>
+    const prev = <FiArrowLeftCircle size={42}/>
+    const next = <FiArrowRightCircle size={42}/>
 
     return (
         <div className="news-page">

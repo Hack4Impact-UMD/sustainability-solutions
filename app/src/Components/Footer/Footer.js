@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 // import InstagramIcon from './instagram-brands.svg';
 // import FacebookIcon from './facebook-square-brands.svg';
 // import TwitterIcon from './twitter-brands.svg';
@@ -8,6 +8,18 @@ import logo from './logo.png';
 import './Footer.css';
 
 function Footer() {
+    // Array of links to be displayed in navbar
+    const links = [
+        { name: "Home", path: '/', color: '#2D758C'},
+        { name: 'Our Team', path: '/ourteam', color: '#CF4917' }, 
+        { name: 'About', path: '/about', color: '#985914' }, 
+        { name: 'Projects', path: '/projects', color: '#D0B285' }, 
+        { name: 'News', path: '/news', color: '#2D758C' }, 
+        { name: 'Contact Us', path: '/contactus', color: '#758C33' }, 
+        { name: 'Donate', path: '/donations', color: '#F9AC3D' },
+    ];
+    const path = useLocation().pathname;
+
     return (
         <div className="footer-container">
             <div className="logo-col">
@@ -19,12 +31,15 @@ function Footer() {
             <div className="second-col">
                 <div className="white-bar" />
                 <div className="links-col">
-                    <Link to="/"><p>Home</p></Link>
+                    {/* <Link to="/"><p>Home</p></Link>
                     <Link to="/ourteam"><p>Our Team</p></Link>
                     <Link to="/about"><p>About</p></Link>
                     <Link to="/projects"><p>Projects</p></Link>
                     <Link to="/news"><p>News</p></Link>
-                    <Link to="/donations"><p>Donations</p></Link>
+                    <Link to="/donations"><p>Donate</p></Link> */}
+                    {links.map(link =>
+                        <Link to={link.path} className="footer-links" style={path === link.path ? { color: link.color } : {}}>{link.name}</Link>
+                    )}
                 </div>
                 {/* <div className="white-bar" />
                 <div className="icon-col">

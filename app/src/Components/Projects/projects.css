@@ -94,11 +94,21 @@
 }
 
 .projects .carousel.slide .carousel-control-prev {
+    color: #2D758C;
     opacity: 1;
 }
 
+.projects .carousel.slide .carousel-control-prev:hover {
+    color: #D0B285;
+}
+
 .projects .carousel.slide .carousel-control-next {
+    color: #2D758C;
     opacity: 1;
+}
+
+.projects .carousel.slide .carousel-control-next:hover {
+    color: #D0B285;
 }
 
 .carousel-title {
