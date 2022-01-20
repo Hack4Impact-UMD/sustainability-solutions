@@ -5,7 +5,7 @@
 
 .news-header-border {
     background-color: #2D758C;
-    height: 420px;
+    height: 575px;
     margin-bottom: 50px;
     clip-path: 
         polygon(
@@ -25,11 +25,11 @@
     text-align: center;
     color: white;
     font-size: 22px;
-    height: 300px;
+    height: 450px;
 }
 
 .news-header > img {
-    height: 400px;
+    height: 550px;
     width: 100%;
     object-fit: cover;
     clip-path: 
@@ -58,7 +58,7 @@
     width: 300px;
     height: 7px;
     background-color: #2D758C;
-    top: 75%;
+    top: 72%;
     border-radius: 10px;
 }
 

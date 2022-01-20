@@ -16,7 +16,7 @@
 
 .about-team-header-border {
     background-color: #CF4917;
-    height: 420px;
+    height: 575px;
     margin-bottom: 50px;
     clip-path: 
         polygon(
@@ -36,11 +36,11 @@
     text-align: center;
     color: white;
     font-size: 22px;
-    height: 300px;
+    height: 450px;
 }
 
 .header > img {
-    height: 400px;
+    height: 550px;
     width: 100%;
     object-fit: cover;
     clip-path: 
@@ -69,7 +69,7 @@
     width: 350px;
     height: 7px;
     background-color: #CF4917;
-    top: 75%;
+    top: 72%;
     border-radius: 10px;
 }
 
