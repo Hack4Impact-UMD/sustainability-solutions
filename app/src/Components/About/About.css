@@ -105,7 +105,7 @@ section.carousel {
 
 .header-border-about {
     background-color: #d0b285;
-    height: 420px;
+    height: 575px;
     margin-bottom: 50px;
     clip-path: polygon(
         0% 0%,
@@ -124,11 +124,11 @@ section.carousel {
     text-align: center;
     color: white;
     font-size: 22px;
-    height: 300px;
+    height: 450px;
 }
 
 .header-about > img {
-    height: 400px;
+    height: 550px;
     width: 100%;
     object-fit: cover;
     clip-path: polygon(
@@ -156,7 +156,7 @@ section.carousel {
     width: 300px;
     height: 7px;
     background-color: #d0b285;
-    top: 75%;
+    top: 72%;
     border-radius: 10px;
 }
 

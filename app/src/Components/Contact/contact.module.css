@@ -85,7 +85,7 @@
 
 .headerBorder {
   background-color: #758C33;
-  height: 420px;
+  height: 575px;
   margin-bottom: 50px;
   clip-path: 
       polygon(
@@ -106,11 +106,11 @@
   text-align: center;
   color: white;
   font-size: 22px;
-  height: 300px;
+  height: 450px;
 }
 
 .contactHeader > img {
-  height: 400px;
+  height: 550px;
   width: 100%;
   object-fit: cover;
   clip-path: polygon(
@@ -142,7 +142,7 @@
   width: 300px;
   height: 7px;
   background-color: #758c33;
-  top: 75%;
+  top: 72%;
   border-radius: 10px;
 }
 
