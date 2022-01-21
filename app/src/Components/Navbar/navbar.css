@@ -49,6 +49,7 @@ nav.navbar .fas {
 
 nav.navbar .fas:hover {
   color: #00161D;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 991px) {

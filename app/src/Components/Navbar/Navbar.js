@@ -29,7 +29,7 @@ function Navbar() {
             <Navigation expand="lg" expanded={navActive}>
                 <Container>
                     <Navigation.Brand>
-                        <Link className="nav-brand" to="/" onClick={toggleNav}>
+                        <Link className="nav-brand" to="/">
                             <img src={logo} alt="logo"></img>
                             <div>SSG</div>
                         </Link>
