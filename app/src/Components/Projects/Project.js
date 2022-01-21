@@ -13,8 +13,10 @@ function Project(props) {
                 <img src={props.img} className="project-img" alt={props.alt}/>
                 <figcaption className="project-name">{props.title}</figcaption>
                 <Popup modal open={open} onClose={closeModal}>
-                    <div className="project-popup">
+                    <div className="project-close-box">
                         <button className="project-close" onClick={closeModal}><IoClose/></button>
+                    </div>
+                    <div className="project-popup">
                         <h1 className="project-name-popup">{props.title}</h1>
                         <div class="project-underline-popup"></div>
                         <p>{props.description}</p>
