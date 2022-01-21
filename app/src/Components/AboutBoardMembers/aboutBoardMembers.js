@@ -27,8 +27,8 @@ function AboutBoardMembers() {
       <div className="about-team-header-border">
         <div className="header">
           <img src={headerImage} alt='our team'/>
-          <h1 class="about-team-header-title">MEET THE ADVISORY BOARD</h1>
-          <div class="about-team-header-title about-team-underline"></div>
+          <h1 className="about-team-header-title">MEET THE ADVISORY BOARD</h1>
+          <div className="about-team-header-title about-team-underline"></div>
         </div>
       </div>
       <div className="members-box">

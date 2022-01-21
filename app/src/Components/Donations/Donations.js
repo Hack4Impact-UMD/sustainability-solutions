@@ -8,8 +8,8 @@ function Donations() {
             <div className="header-border-donate">
                 <div className="header-donate">
                     <img src={HeadingImg} alt='donate'/>
-                    <p class="header-title-donate">DONATE</p>
-                    <div class="header-title-donate underline-donate"></div>
+                    <p className="header-title-donate">DONATE</p>
+                    <div className="header-title-donate underline-donate"></div>
                 </div>
             </div>
             <div className="text">

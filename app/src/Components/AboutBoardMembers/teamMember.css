@@ -133,7 +133,7 @@ figcaption.position {
 @media screen and (max-width: 521px) {
     .close {
         top: 5px;
-        right: -10px;
+        right: -15px;
         font-size: 50px;
     }
 

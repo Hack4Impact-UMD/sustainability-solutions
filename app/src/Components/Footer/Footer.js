@@ -16,7 +16,7 @@ function Footer() {
         { name: 'Projects', path: '/projects', color: '#D0B285' }, 
         { name: 'News', path: '/news', color: '#2D758C' }, 
         { name: 'Contact Us', path: '/contactus', color: '#758C33' }, 
-        { name: 'Donate', path: '/donations', color: '#F9AC3D' },
+        { name: 'Donate', path: '/donate', color: '#F9AC3D' },
     ];
     const path = useLocation().pathname;
 
@@ -32,7 +32,7 @@ function Footer() {
                 <div className="white-bar" />
                 <div className="links-col">
                     {links.map(link =>
-                        <Link to={link.path} className="footer-links" style={path === link.path ? { color: link.color } : {}}>{link.name}</Link>
+                        <Link key={link.name} to={link.path} className="footer-links" style={path === link.path ? { color: link.color } : {}}>{link.name}</Link>
                     )}
                 </div>
                 {/* <div className="white-bar" />

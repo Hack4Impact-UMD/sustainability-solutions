@@ -20,7 +20,7 @@ function Navbar() {
         { name: 'Projects', path: '/projects', color: '#D0B285' }, 
         { name: 'News', path: '/news', color: '#2D758C' }, 
         { name: 'Contact Us', path: '/contactus', color: '#758C33' }, 
-        { name: 'Donations', path: '/donations', color: '#F9AC3D' },
+        { name: 'Donate', path: '/donate', color: '#F9AC3D' },
     ];
     const path = useLocation().pathname;
 
@@ -40,7 +40,7 @@ function Navbar() {
                     <Navigation.Collapse id="basic-navbar-nav" className="justify-content-end" onClick={toggleNav}>
                         <Nav className="">
                             {links.map(link =>
-                                <Link to={link.path} className="nav-link" style={path === link.path ? { color: link.color } : {}}>{link.name}</Link>
+                                <Link key={link.name} to={link.path} className="nav-link" style={path === link.path ? { color: link.color } : {}}>{link.name}</Link>
                             )}
                         </Nav>
                     </Navigation.Collapse>
