@@ -72,7 +72,7 @@ figcaption.project-name {
 @media screen and (max-width: 521px) {
     .project-close {
         top: 0px;
-        right: -5px;
+        right: -15px;
         font-size: 40px;
     }
 
