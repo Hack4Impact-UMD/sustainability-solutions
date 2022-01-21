@@ -217,3 +217,33 @@
     margin: 0% 5% 3% 5%;
   }
 }
+
+@media screen and (max-width: 521px) {
+  .headerBorder {
+      clip-path:
+          polygon(
+              0% 0%,     /* top left */
+              0% 0%,     /* top left */
+              100% 0%,    /* top right */
+              100% 0%,   /* top right */
+              100% 85%,  /* bottom right */
+              50% 100%,  /* bottom right */
+              50% 100%,   /* bottom left */
+              0 85%      /* bottom left */
+      );
+  }
+
+  .contactHeader > img {
+      clip-path: 
+          polygon(
+              0% 0%,     /* top left */
+              0% 0%,     /* top left */
+              100% 0%,    /* top right */
+              100% 0%,   /* top right */
+              100% 85%,  /* bottom right */
+              50% 100%,  /* bottom right */
+              50% 100%,   /* bottom left */
+              0 85%      /* bottom left */
+          );
+  }
+}

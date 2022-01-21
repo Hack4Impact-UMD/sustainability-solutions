@@ -71,13 +71,17 @@ figcaption.project-name {
 
 @media screen and (max-width: 521px) {
     .project-close {
-        top: 5px;
+        top: 0px;
         right: -5px;
         font-size: 40px;
     }
 
     .project-name-popup {
         font-size: 26px;
+    }
+
+    .project-popup {
+        padding: 10px 30px;
     }
 
     .project-popup > p {

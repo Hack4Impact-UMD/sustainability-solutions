@@ -160,3 +160,33 @@ figcaption.month {
 .other {
     background-color: #C2CF9B;
 }
+
+@media screen and (max-width: 521px) {
+    .news-header-border {
+        clip-path:
+            polygon(
+                0% 0%,     /* top left */
+                0% 0%,     /* top left */
+                100% 0%,    /* top right */
+                100% 0%,   /* top right */
+                100% 85%,  /* bottom right */
+                50% 100%,  /* bottom right */
+                50% 100%,   /* bottom left */
+                0 85%      /* bottom left */
+        );
+    }
+
+    .news-header > img {
+        clip-path: 
+            polygon(
+                0% 0%,     /* top left */
+                0% 0%,     /* top left */
+                100% 0%,    /* top right */
+                100% 0%,   /* top right */
+                100% 85%,  /* bottom right */
+                50% 100%,  /* bottom right */
+                50% 100%,   /* bottom left */
+                0 85%      /* bottom left */
+            );
+    }
+}

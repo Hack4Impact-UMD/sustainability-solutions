@@ -117,3 +117,33 @@
     color: #174950;
     font-size: 34px;
 }
+
+@media screen and (max-width: 521px) {
+    .project-header-border {
+        clip-path:
+            polygon(
+                0% 0%,     /* top left */
+                0% 0%,     /* top left */
+                100% 0%,    /* top right */
+                100% 0%,   /* top right */
+                100% 85%,  /* bottom right */
+                50% 100%,  /* bottom right */
+                50% 100%,   /* bottom left */
+                0 85%      /* bottom left */
+        );
+    }
+
+    .project-header > img {
+        clip-path: 
+            polygon(
+                0% 0%,     /* top left */
+                0% 0%,     /* top left */
+                100% 0%,    /* top right */
+                100% 0%,   /* top right */
+                100% 85%,  /* bottom right */
+                50% 100%,  /* bottom right */
+                50% 100%,   /* bottom left */
+                0 85%      /* bottom left */
+            );
+    }
+}

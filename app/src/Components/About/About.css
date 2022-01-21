@@ -99,24 +99,33 @@ section.carousel {
     opacity: 1;
 }
 
+.carousel .carousel.slide .carousel-control-prev:hover {
+    color: #D0B285;
+}
+
 .carousel .carousel.slide .carousel-control-next {
     opacity: 1;
+}
+
+.carousel .carousel.slide .carousel-control-next:hover {
+    color: #D0B285;
 }
 
 .header-border-about {
     background-color: #d0b285;
     height: 575px;
     margin-bottom: 50px;
-    clip-path: polygon(
-        0% 0%,
-        /* top left */ 0% 0%,
-        /* top left */ 100% 0%,
-        /* top right */ 100% 0%,
-        /* top right */ 100% 75%,
-        /* bottom right */ 50% 100%,
-        /* bottom right */ 50% 100%,
-        /* bottom left */ 0 75% /* bottom left */
-    );
+    clip-path: 
+        polygon(
+            0% 0%,     /* top left */
+            0% 0%,     /* top left */
+            100% 0%,    /* top right */
+            100% 0%,   /* top right */
+            100% 75%,  /* bottom right */
+            50% 100%,  /* bottom right */
+            50% 100%,   /* bottom left */
+            0 75%      /* bottom left */
+        );
 }
 
 .header-about {
@@ -131,16 +140,17 @@ section.carousel {
     height: 550px;
     width: 100%;
     object-fit: cover;
-    clip-path: polygon(
-        0% 0%,
-        /* top left */ 0% 0%,
-        /* top left */ 100% 0%,
-        /* top right */ 100% 0%,
-        /* top right */ 100% 75%,
-        /* bottom right */ 50% 100%,
-        /* bottom right */ 50% 100%,
-        /* bottom left */ 0 75% /* bottom left */
-    );
+    clip-path: 
+        polygon(
+            0% 0%,     /* top left */
+            0% 0%,     /* top left */
+            100% 0%,    /* top right */
+            100% 0%,   /* top right */
+            100% 75%,  /* bottom right */
+            50% 100%,  /* bottom right */
+            50% 100%,   /* bottom left */
+            0 75%      /* bottom left */
+        );
 }
 
 .header-title-about {
@@ -163,5 +173,33 @@ section.carousel {
 @media screen and (max-width: 521px) {
     .underline-about {
         margin-top: 25px;
+    }
+
+    .header-border-about {
+        clip-path:
+            polygon(
+                0% 0%,     /* top left */
+                0% 0%,     /* top left */
+                100% 0%,    /* top right */
+                100% 0%,   /* top right */
+                100% 85%,  /* bottom right */
+                50% 100%,  /* bottom right */
+                50% 100%,   /* bottom left */
+                0 85%      /* bottom left */
+        );
+    }
+
+    .header-about > img {
+        clip-path: 
+            polygon(
+                0% 0%,     /* top left */
+                0% 0%,     /* top left */
+                100% 0%,    /* top right */
+                100% 0%,   /* top right */
+                100% 85%,  /* bottom right */
+                50% 100%,  /* bottom right */
+                50% 100%,   /* bottom left */
+                0 85%      /* bottom left */
+            );
     }
 }
