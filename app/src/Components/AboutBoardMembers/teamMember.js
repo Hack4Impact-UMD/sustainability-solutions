@@ -15,8 +15,10 @@ function TeamMember(props) {
                 <img className="headshot" src={member.img} alt='headshot'/>
                 <p className="learn-more" onClick={() => setOpen(o => !o)}>Learn more</p>
                 <Popup modal open={open} onClose={closeModal}>
+                    <div className="close-box">
+                        <button className="member-close" onClick={closeModal}><IoClose/></button>
+                    </div>
                     <div className="popup">
-                        <button className="close" onClick={closeModal}><IoClose/></button>
                         <img className="popup-headshot" src={member.img} alt='headshot'/>
                         <h1 className="name-popup">{member.name}</h1>
                         <div class="underline-popup"></div>

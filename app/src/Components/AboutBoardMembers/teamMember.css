@@ -59,11 +59,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 20px 45px;
+    padding: 0px 45px 20px 45px;
 }
 
 .popup-headshot {
-    margin-top: 30px;
     border-radius: 50%;
     height: 200px;
     width: 200px;
@@ -102,18 +101,25 @@ figcaption.position {
     font-weight: 400;
 }
 
-.close {
+.close-box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+}
+
+.member-close {
     color: #CF4917;
     font-size: 60px;
-    position: absolute;
-    right: 20px;
-    top: 5px;
+    /* position: absolute; */
+    /* right: 20px; */
+    /* top: 5px; */
     border: none;
     outline: none;
     background: transparent;
 }
 
-.close:hover{
+.member-close:hover{
     color: #CF4917;
 }
 
@@ -131,12 +137,6 @@ figcaption.position {
 }
 
 @media screen and (max-width: 521px) {
-    .close {
-        top: 5px;
-        right: -15px;
-        font-size: 50px;
-    }
-
     .name-popup {
         font-size: 22px;
     }

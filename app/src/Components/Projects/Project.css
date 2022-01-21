@@ -72,7 +72,7 @@ figcaption.project-name {
 @media screen and (max-width: 521px) {
     .project-close {
         top: 0px;
-        right: -20px;
+        right: -10px;
         font-size: 40px;
     }
 
@@ -86,5 +86,11 @@ figcaption.project-name {
 
     .project-popup > p {
         font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .project-close {
+        right: -20px;
     }
 }
