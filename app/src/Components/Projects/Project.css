@@ -42,7 +42,7 @@ figcaption.project-name {
     font-size: 34px;
     text-align: center;
     width: 85%;
-    margin-top: -30px;
+    margin-top: -12px;
 }
 
 .project-close-box {
@@ -65,7 +65,7 @@ figcaption.project-name {
 }
 
 .project-underline-popup {
-    width: 200px;
+    width: 210px;
     height: 7px;
     background-color: #2D758C;
     top: 75%;
@@ -73,7 +73,7 @@ figcaption.project-name {
     margin: 10px 0px 18px 0px;
 }
 
-@media screen and (max-width: 521px) {
+@media screen and (max-width: 550px) {
     .project-close-box {
         height: 45px;
     }
@@ -92,6 +92,12 @@ figcaption.project-name {
 
     .project-popup > p {
         font-size: 14px;
+    }
+
+    .project-underline-popup {
+        width: 160px;
+        height: 6px;
+        margin: 5px 0px 9px 0px;
     }
 }
 
